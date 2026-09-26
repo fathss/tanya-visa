@@ -5,13 +5,31 @@
   "document_template": "title: {title} | text: {text}",
   "chunk_size": 500,
   "chunk_overlap": 50,
-  "chunk_count": 28,
-  "built_at": "2026-09-26T06:13:54+00:00",
+  "chunk_count": 198,
+  "built_at": "2026-09-26T08:31:04+00:00",
   "sources": [
+    "A1 Bebas Visa Wisata",
     "B1 Visa Kunjungan Wisata",
+    "Biaya Keimigrasian",
+    "C1 Visa Kunjungan Wisata",
+    "C2 Visa Kunjungan Bisnis",
+    "Check if You Need an Entry Visa",
+    "D1 Visa Kunjungan Wisata",
+    "Daftar Subjek VoA, BVK & Calling Visa",
+    "Daftar Visa Indonesia",
+    "E31A Visa Keluarga Suami/Istri WNI",
+    "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+    "F1 Visa Kunjungan Wisata",
     "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+    "Pas Lawatan Sosial Jangka Panjang",
     "Paspor Baru",
-    "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026"
+    "Paspor Republik Indonesia",
+    "Pertanyaan Paling Sering Diajukan",
+    "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+    "Tata Cara Penggunaan M-Paspor",
+    "The Official eVisa website for Indonesia",
+    "UU Keimigrasian",
+    "Visa Free Transit Facility"
   ],
   "chunks": [
     {
@@ -48,6 +66,272 @@
       "locator_type": "section",
       "locator_value": "Biaya",
       "title": "Paspor Baru — Biaya"
+    },
+    {
+      "text": "M-Paspor adalah bentuk baru dari Aplikasi Pendaftaran Antrean Paspor Online (APAPO) yang diterapkan agar pelayanan paspor lebih transparan, akuntabel dan cepat. M-Paspor ini merupakan inovasi terbaru dari Direktorat Jenderal Imigrasi Kementerian Hukum dan HAM untuk mempermudah proses pembuatan paspor. Dengan menggunakan M-Paspor, masyarakat dapat mengajukan permohonan paspor dengan mengunggah scan berkas ke aplikasi. Jadi, tidak perlu menunggu petugas mengunggah dan memasukkan data permohonan. Aplikasi ini siap diakses masyarakat di seluruh Indonesia pada acara puncak Hari Bhakti Imigrasi (HBI) Ke-72, Kamis (27/01/2022).\nAgenda Kegiatan\nDaftar Isian Pelaksanaan Anggaran (DIPA)\nDownload Area\nGaleri Foto\nHasil Survey IIP\nHail Survey SKM dan SPAK\nLaporan Tahunan\nLaporan Bulanan\nLaporan Kinerja Instansi Pemerintah (LKIP)\nRencana Strategis\nPerjanjian Kinerja\nLaporan Realisasi Anggaran\nPedoman Pengelolaan Sistem Informasi Pelayanan Publik (SIPP)\nStandar Pelayanan Kantor Imigrasi Batam\nTata Cara Menggunakan Aplikasi M-Paspor\nTarif PNBP Layanan Keimigrasian\nBiaya dan Cara Pembayaran Paspor\nTata Cara Berpakaian ke Kantor Imigrasi\nIMIGRASI.GO.ID\nCARA MENGGUNAKAN APLIKASI M-PASPOR\nTATA CARA PENGECEKAN STATUS PERMOHONAN PASPOR SECARA MANDIRI\nMEDIA SOSIAL IMIGRASI BATAM",
+      "source": "Tata Cara Penggunaan M-Paspor",
+      "locator_type": "document",
+      "locator_value": "Tata Cara Penggunaan M-Paspor",
+      "title": "Tata Cara Penggunaan M-Paspor"
+    },
+    {
+      "text": "A. Dokumen Perjalanan Republik Indonesia\n1\nLayanan Percepatan Paspor Selesai Pada Hari yang Sama\nper Permohonan\nRp 1.000.000,-\n2\nPaspor Biasa Non Elektronik (Masa Berlaku 5 Tahun)\nper Permohonan\nRp 350.000,-\n3\nPaspor biasa Non Elektronik (Masa Berlaku 10 Tahun)\nper Permohonan\nRp 650.000,-\n4\nPaspor biasa Elektronik (Masa Berlaku 5 Tahun)\nper Permohonan\nRp 650.000,-\n5\nPaspor biasa Elektronik (Masa Berlaku 10 Tahun)\nper Permohonan\nRp 950.000,-\n6\nSurat Perjalanan Laksana Paspor (SPLP) untuk Orang Asing\nper Permohonan\nRp 150.000,-\n7\nSurat Perjalanan Laksana Paspor (SPLP) untuk WNI\nper Permohonan\nRp 100.000,-\nB. Izin Keimigrasian\n1\nIzin Kunjungan\na\nIzin Tinggal Kunjungan Masa Berlaku Paling lama 14 Hari\nper Permohonan\nRp 350.000,-\nb\nIzin Tinggal Kunjungan Masa Berlaku Paling lama 180 Hari\nper Permohonan\nRp 2.000.000,-\nc\nIzin Tinggal Kunjungan Masa Berlaku Paling lama 30 Hari\nper Permohonan\nRp 500.000,-\nd\nIzin Tinggal Kunjungan Masa Berlaku Paling Lama 60 Hari\nper Permohonan\nRp 1.000.000,-\ne\nIzin Tinggal Kunjungan Masa Berlaku Paling lama 7 Hari\nper Permohonan\nRp 250.000\nf\nIzin Tinggal Kunjungan Masa Berlaku Paling lama 90 Hari\nper Permohonan\nRp 1.500.000,-\n2\nIzin Masuk Kembali (Re-Entry Permit)\na",
+      "source": "Biaya Keimigrasian",
+      "locator_type": "document",
+      "locator_value": "Biaya Keimigrasian",
+      "title": "Biaya Keimigrasian"
+    },
+    {
+      "text": "per Permohonan\nRp 1.500.000,-\n2\nIzin Masuk Kembali (Re-Entry Permit)\na\nlzin Masuk Kembali Berlaku Paling Lama 30 Hari\nper Permohonan\nRp 300.000,-\nb\nlzin Masuk Kembali Berlaku Paling Lama 1 Tahun\nper Permohonan\nRp 1.500.000,-\nc\nlzin Masuk Kembali Berlaku Paling Lama 10 Tahun\nper Permohonan\nRp 5.000.000,-\nd\nlzin Masuk Kembali Berlaku Paling Lama 2 Tahun\nper Permohonan\nRp 2.000.000,-\ne\nlzin Masuk Kembali Berlaku Paling Lama 5 Tahun\nper Permohonan\nRp 3.500.000,-\nf\nlzin Masuk Kembali Berlaku Paling Lama 6 Bulan\nper Permohonan\nRp 750.000,-\ng\nlzin Masuk Kembali Berlaku Paling Lama 60 Hari\nper Permohonan\nRp 400.000,-\nh\nlzin Masuk Kembali Berlaku Paling Lama 90 Hari\nper Permohonan\nRp 500.000,-\ni\nlzin Masuk Kembali Berlaku Tidak Terbatas\nper Orang\nRp 8.000.000,-\n3\nIzin Tinggal Terbatas\na\nlzin Tinggal Terbatas Masa Berlaku Paling Lama 30 Hari\nper Permohonan\nRp 500.000,-\nb\nlzin Tinggal Terbatas Berlaku Paling Lama 1 Tahun\nper Permohonan\nRp 3.000.000,-\nc\nlzin Tinggal Terbatas Berlaku Paling Lama 10 Tahun\nper Permohonan\nRp 7.000.000,-\nd\nlzin Tinggal Terbatas Berlaku Paling Lama 2 Tahun\nper Permohonan\nRp 5.000.000,-\ne\nlzin Tinggal Terbatas Berlaku Paling Lama 5 Tahun\nper Permohonan\nRp 7.000.000,-\nf",
+      "source": "Biaya Keimigrasian",
+      "locator_type": "document",
+      "locator_value": "Biaya Keimigrasian",
+      "title": "Biaya Keimigrasian"
+    },
+    {
+      "text": "per Permohonan\nRp 5.000.000,-\ne\nlzin Tinggal Terbatas Berlaku Paling Lama 5 Tahun\nper Permohonan\nRp 7.000.000,-\nf\nlzin Tinggal Terbatas Berlaku Paling Lama 6 Bulan\nper Permohonan\nRp 2.000.000,-\ng\nlzin Tinggal Terbatas Masa Berlaku Paling Lama 60 Hari\nper Permohonan\nRp 1.000.000,-\nh\nlzin Tinggal Terbatas Masa Berlaku Paling Lama 90 Hari\nper Orang\nRp 1.500.000,-\n4\nIzin Tinggal Tetap\na\nlzin Tinggal Tetap Berlaku Paling Lama 10 Tahun\nper Permohonan\nRp 12.000.000,-\nb\nlzin Tinggal Tetap untuk Jangka Waktu yang Tidak Terbatas\nper Permohonan\nRp 15.000.000,-\nc\nlzin Tinggal Tetap Berlaku Paling Lama 5 Tahun\nper Permohonan\nRp 7.000.000,-\n5\nIzin Meninggalkan Wilayah Indonesia untuk Tidak Kembali (Exit Permit Only)\na\nIzin Meninggalkan Wilayah Indonesia untuk Tidak Kembali (Exit Permit Only)\nper Orang\nRp 100.000,-\nC. PNBP Keimigrasian Lainnya\n1\nKartu Perjalanan Pebisnis Asia Pacific Economic Cooperation (KPP APEC)/APEC Business Travel Card (ABTC)\na\nPenggantian KPP APEC\nper Permohonan\nRp 2.500.000,-\nb\nPermohonan Baru KPP APEC\nper Permohonan\nRp 2.500.000,-\n2\nPNBP Keimigrasian Lainnya\na\nFasilitas Keimigrasian (Afidavit) Bagi Anak Berkewarganegaraan Ganda\nper Permohonan\nRp 500.000,-\nb\nPelaporan Perubahan Status Sipil dan Status Keimigrasian\nper Permohonan\nRp 500.000,-",
+      "source": "Biaya Keimigrasian",
+      "locator_type": "document",
+      "locator_value": "Biaya Keimigrasian",
+      "title": "Biaya Keimigrasian"
+    },
+    {
+      "text": "per Permohonan\nRp 500.000,-\nb\nPelaporan Perubahan Status Sipil dan Status Keimigrasian\nper Permohonan\nRp 500.000,-\nc\nPenerbitan/Perpanjangan Penerbitan Surat Keputusan Penetapan Tempat Lain yang Difungsikan Sebagai Tempat Pemeriksaan Keimigrasian\nper Permohonan\nRp 1.200.000,-\nd\nPenggantian Kartu Izin Tinggal Rusak/Hilang\nper kartu\nRp 500.000,-\ne\nPersetujuan Pemeriksaan Keimigrasian di Luar Tempat Pemeriksaan Imigrasi (TPI)\nper Permohonan\nRp 500.000,-\nf\nSmart Card\nper Permohonan\nRp 1.500.000,-\ng\nSurat Izin Berada di Darat Bagi Orang Asing Pemegang Izin Tinggal Terbatas Perairan atau Awak Kapal\nper Orang\nRp 100.000,-\n3\nSurat Keterangan Keimigrasian\na\nSurat Keterangan Keimigrasian dalam Rangka Menyampaikan Pernyataan Menjadi Warga Negara Indonesia\nper Permohonan\nRp 3.000.000,-\nb\nSurat Keterangan Keimigrasian dalam Rangka Pewarganegaraan\nper Permohonan\nRp 4.500.000,-",
+      "source": "Biaya Keimigrasian",
+      "locator_type": "document",
+      "locator_value": "Biaya Keimigrasian",
+      "title": "Biaya Keimigrasian"
+    },
+    {
+      "text": "Afrika Selatan\nAlbania\nAmerika Serikat\nAndorra\nArab Saudi\nArgentina\nArmenia\nAustralia\nAustria\nAzerbaijan\nBahrain\nBelanda\nBelarus\nBelgia\nBrazil\nBrunei Darussalam\nBosnia Herzegovina\nBulgaria\nCeko\nChile\nDenmark\nEkuador\nEstonia\nFilipina\nFinlandia\nGuatemala\nHongkong\nHungaria\nIndia\nInggris\nIrlandia\nItalia\nIslandia\nJepang\nJerman\nKamboja\nKanada\nKazakhstan\nKenya\nKolombia\nKorea Selatan\nKroasia\nKuwait\nLaos\nLatvia\nLiechtenstein\nLithuania\nLuksemburg\nMaladewa\nMalaysia\nMalta\nMaroko\nMauritius\nMeksiko\nMesir\nMonako\nMongolia\nMozambik\nMyanmar\nNorwegia\nOman\nPalestina\nPapua Nugini\nPerancis\nPeru\nPolandia\nPortugal\nQatar\nRumania\nRusia\nRwanda\nSelandia Baru\nSerbia\nSeychelles\nSingapura\nSiprus\nSlovakia\nSlovenia\nSpanyol\nSuriname\nSwedia\nSwiss\nTaiwan\nTanzania\nThailand\nTimor Leste\nTiongkok\nTunisia\nTurki\nUni Emirat Arab\nUzbekistan\nUkraina\nVatikan\nVenezuela\nVietnam\nYordania\nYunani",
+      "source": "Daftar Subjek VoA, BVK & Calling Visa",
+      "locator_type": "section",
+      "locator_value": "Daftar Negara, Pemerintah Dari Daerah Administrasi Khusus Suatu Negara, dan Entitas Tertentu",
+      "title": "Daftar Subjek VoA, BVK & Calling Visa — Daftar Negara, Pemerintah Dari Daerah Administrasi Khusus Suatu Negara, dan Entitas Tertentu"
+    },
+    {
+      "text": "A1 Bebas Visa Wisata\nA4 Bebas Visa Penugasan Pemerintah\nA36 Bebas Visa Kru Kapal dan Pesawat\nA37 Bebas Visa Kru Kapal di Perairan Indonesia",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Bebas Visa Kunjungan",
+      "title": "Daftar Visa Indonesia — Bebas Visa Kunjungan"
+    },
+    {
+      "text": "B1 Visa Kunjungan Wisata\nB4 Visa Kunjungan Penugasan Pemerintahan\nF1 Visa Kunjungan Wisata\nF4 Visa Kunjungan Penugasan Pemerintahan",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Kunjungan Saat Kedatangan",
+      "title": "Daftar Visa Indonesia — Visa Kunjungan Saat Kedatangan"
+    },
+    {
+      "text": "C1 Visa Kunjungan Wisata\nC2 Visa Kunjungan Bisnis\nC3 Visa Kunjungan Perawatan Kesehatan\nC4 Visa Kunjungan Penugasan Pemerintah\nC5 Visa Kunjungan Media dan Pers\nC5A Visa Kunjungan Konten Kreator\nC6 Visa Kunjungan Kegiatan Sosial\nC7 Visa Kunjungan Penampilan Seni dan Budaya\nC7A Visa Kunjungan Penampilan Musik\nC7B Visa Kunjungan Kru Penampilan Musik\nC7C Visa Kunjungan Penampilan Bakat dan Seni\nC8 Visa Kunjungan Kegiatan Olahraga\nC8A Visa Kunjungan Atlet Olahraga\nC8B Visa Kunjungan Ofisial Olahraga\nC9 Visa Kunjungan Studi Singkat\nC9A Visa Kunjungan Pelatihan Singkat Keagamaan\nC9B Visa Kunjungan Pelatihan Singkat Bahasa Indonesia\nC10 Visa Kunjungan Narasumber Kegiatan Bisnis\nC10A Visa Kunjungan Penceramah Agama\nC11 Visa Kunjungan Promosi Produk dan Jasa\nC11A Visa Kunjungan Promosi Produk dan Jasa\nC12 Visa Kunjungan Pra-Investasi\nC13 Visa Kunjungan Awak Bergabung dengan Alat Angkut\nC14 Visa Kunjungan Pembuatan dan Produksi Film\nC15 Visa Kunjungan Penanganan Keadaan Darurat\nC16 Visa Kunjungan Instruktur Pengembangan Industri\nC17 Visa Kunjungan Audit, Kendali Mutu, dan Inspeksi Perusahaan\nC18 Visa Kunjungan Uji Kemampuan Tenaga Kerja Asing\nC19 Visa Kunjungan Layanan Purna Jual\nC20 Visa Kunjungan Pemasangan dan Perbaikan Mesin\nC21 Visa Kunjungan Menghadiri Proses Peradilan\nC22 Visa Kunjungan Pemagangan\nC22A Visa Kunjungan Pemagangan Akademik\nC22B Visa Kunjungan Pemagangan Kompetensi",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Kunjungan Satu Kali Perjalanan",
+      "title": "Daftar Visa Indonesia — Visa Kunjungan Satu Kali Perjalanan"
+    },
+    {
+      "text": "D1 Visa Kunjungan Wisata\nD2 Visa Kunjungan Bisnis\nD3 Visa Kunjungan Perawatan Kesehatan\nD4 Visa Kunjungan Penugasan Pemerintah\nD7 Visa Kunjungan Penampilan Seni dan Budaya\nD8 Visa Kunjungan Kegiatan Olahraga\nD12 Visa Kunjungan Pra-Investasi\nD14 Visa Kunjungan Pembuatan and Produksi Film\nD17 Visa Kunjungan Audit, Kendali Mutu, dan Inspeksi Perusahaan",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Kunjungan Beberapa Kali Perjalanan",
+      "title": "Daftar Visa Indonesia — Visa Kunjungan Beberapa Kali Perjalanan"
+    },
+    {
+      "text": "E23 Visa Kerja\nE23A Visa Kerja Kawasan Ekonomi Khusus\nE23U Visa Kerja Asisten Rumah Tangga Diplomat Asing\nE23V Visa Kerja Kantor Dagang dan Ekonomi\nE23X Visa Kerja Tenaga Ahli Pemerintah Indonesia\nE23Y Visa Kerja Tenaga Ahli Bidang Digital\nE25 Visa Kerja Komisaris dan Eksekutif Perusahaan\nE25A Visa Kerja Komisaris Perusahaan\nE25B Visa Kerja Direktur Perusahaan\nE25C Visa Kerja Wakil Direktur Perusahaan\nE25D Visa Kerja Manajer Umum Perusahaan\nE25E Visa Kerja Manajer Perusahaan\nE25F Visa Kerja Supervisor Perusahaan\nE26 Visa Kerja Awak Kapal, Alat Apung, dan Instalasi Lepas Pantai\nE27 Visa Kerja Rohaniwan\nE29 Visa Kerja Peneliti",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Kerja",
+      "title": "Daftar Visa Indonesia — Visa Kerja"
+    },
+    {
+      "text": "E28 Visa Investor\nE28A Visa Investor\nE28B Visa Investor Pendirian Perusahaan Golden Visa\nE28C Visa Investor Pasar Modal Golden Visa\nE28D Visa Investor Pendirian Cabang atau Anak Perusahaan Golden Visa\nE28E Visa Investor Kawasan Ekonomi Khusus\nE28F Visa Investor Pendirian Cabang atau Anak Perusahaan di Ibu Kota Nusantara Golden Visa\nE28G Visa Investor Perwakilan Perusahaan Induk Golden Visa",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Investor",
+      "title": "Daftar Visa Indonesia — Visa Investor"
+    },
+    {
+      "text": "E30 Visa Pendidikan\nE30A Visa Pendidikan Dasar dan Menengah\nE30B Visa Pendidikan Tinggi\nE30E Visa Pendidikan Kawasan Ekonomi Khusus\nE30F Visa Pertukaran Pelajar",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Pendidikan",
+      "title": "Daftar Visa Indonesia — Visa Pendidikan"
+    },
+    {
+      "text": "E31 Visa Keluarga\nE31A Visa Keluarga Suami/Istri WNI\nE31B Visa Keluarga Suami/Istri Pemegang ITAS/ITAP\nE31C Visa Keluarga Anak Hasil Perkawinan Sah WNA-WNI\nE31D Visa Keluarga Anak Bawaan WNA Perkawinan Sah WNA-WNI\nE31E Visa Keluarga Anak Pemegang ITAS/ITAP\nE31F Visa Keluarga Anak Dengan Orang Tua WNI\nE31G Visa Keluarga Orang Tua dari Anak WNI\nE31H Visa Keluarga Orang Tua dari Anak Pemegang ITAS/ITAP\nE31J Visa Keluarga Anak yang Bergabung dengan Saudara Kandung Pemegang ITAS/ITAP",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Keluarga",
+      "title": "Daftar Visa Indonesia — Visa Keluarga"
+    },
+    {
+      "text": "E32 Visa Repatriasi dan Keturunan EX-WNI\nE32A Visa Repatriasi 5 Tahun Golden Visa\nE32B Visa Keturunan EX-WNI 5 Atau 10 Tahun Golden Visa\nE32C Visa Repatriasi 2 Tahun\nE32D Visa Repatriasi 1 Tahun\nE32E Visa Repatriasi Tinggal Tetap Global Citizen of Indonesia\nE32F Visa Repatriasi Keahlian Khusus Global Citizen of Indonesia\nE32G Visa Keturunan EX-WNI Tinggal Tetap Global Citizen of Indonesia\nE32H Visa Keturunan EX-WNI Keahlian Khusus Global Citizen of Indonesia",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Repatriasi dan Keturunan Ex-WNI",
+      "title": "Daftar Visa Indonesia — Visa Repatriasi dan Keturunan Ex-WNI"
+    },
+    {
+      "text": "E33 Visa Rumah Kedua Golden Visa\nE33A Visa Rumah Kedua Tenaga Ahli Undangan Pemerintah Golden Visa\nE33B Visa Rumah Kedua Kolaborasi Keahlian Khusus Golden Visa\nE33C Visa Rumah Kedua Tokoh Dunia Undangan Pemerintah Golden Visa\nE33D Visa Rumah Kedua Tokoh Dunia Pendirian Perusahaan\nE33E Visa Rumah Kedua Lansia Untuk 5 Tahun Golden Visa\nE33F Visa Rumah Kedua Lansia Untuk 1 Tahun\nE33G Visa Rumah Kedua Pekerja Jarak Jauh\nE34 Visa Perawatan Kesehatan",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Rumah Kedua",
+      "title": "Daftar Visa Indonesia — Visa Rumah Kedua"
+    },
+    {
+      "text": "E35 Visa Kemudahan Bekerja Saat Berlibur\nE35A Visa Kemudahan Bekerja Saat Berlibur Australia",
+      "source": "Daftar Visa Indonesia",
+      "locator_type": "section",
+      "locator_value": "Visa Kemudahan Bekerja Saat Berlibur",
+      "title": "Daftar Visa Indonesia — Visa Kemudahan Bekerja Saat Berlibur"
+    },
+    {
+      "text": "General Information\nFAQ",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information & FAQ",
+      "title": "The Official eVisa website for Indonesia — General Information & FAQ"
+    },
+    {
+      "text": "evisa.imigrasi.go.id is a government portal run by the Directorate General of Immigration Ministry of Law and Human Rights.\nVisitor Visa is a single-entry visa which is valid for 30 days stay in Indonesia with the purpose of Tourism, Government Visit, Business Meeting, Goods Purchasing, or Transit only.\nThe validity period of Visitor Visa is different from the period of stay in Indonesia. The validity period of Visitor Visa is 90 days, as stated on Visitor Visa. If foreigners holding Visitor Visa come to Indonesia after the 90 days period, they must apply for a new Visitor Visa, visa on arrival at the airport, or other types of visas.\nAlbania\nAndorra\nArgentina\nAustralia\nAustria\nBahrain\nBelarus\nBelgium\nBosnia Herzegovina\nBrazil\nBrunei Darussalam\nBulgaria\nCambodia\nCanada\nChile\nChina\nColombia\nCroatia\nCyprus\nCzech\nDenmark\nEcuador\nEgypt\nEstonia\nFinland\nFrance\nGermany\nGreece\nHong Kong\nHungary\nIceland\nIndia\nIreland\nItaly\nJapan\nJordan\nKuwait\nKazakhstan\nLaos\nLatvia\nLiechtenstein\nLithuania\nLuxembourg\nMalaysia\nMaldives\nMalta\nMexico\nMonaco\nMorocco\nMyanmar\nNetherland\nNew Zealand\nNorway\nOman\nPalestine\nPeru\nPhilippines\nPoland\nPortugal\nRepublic of Korea\nQatar\nRomania\nRussia\nSan Marino\nSaudi Arabia\nSerbia\nSeychelles\nSingapore\nSlovakia\nSlovenia\nSouth Africa\nSpain\nSuriname\nSweden\nSwitzerland\nTaiwan\nThailand\nTimor Leste\nTunisia\nTurkiye\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States of America\nUzbekistan\nVatican\nVietnam\nHolders of travel document other than passport (Laissez Passer, Titre de voyage, Travel Document, Document of Identity, Certificate of Identity, Alien Passport, Alien Travel Document, Emergency Travel Document, Emergency Passport; or Temporary Passport) are not eligible to apply Visitor Visa.\nHalim Perdana Kusuma, DKI Jakarta\nHang Nadim, Kepulauan Riau\nJuanda, Jawa Timur",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "Halim Perdana Kusuma, DKI Jakarta\nHang Nadim, Kepulauan Riau\nJuanda, Jawa Timur\nKertajati, Jawa Barat\nKualanamu, Sumatera Utara\nMinangkabau, Sumatera Barat\nNgurah Rai, Bali\nSam Ratulangi, Sulawesi Utara\nSentani, Papua\nSoekarno Hatta, DKI Jakarta\nSultan Aji Muhammad Sulaiman, KalimantanTimur\nSultan Hasanuddin, Sulawesi Selatan\nSultan Iskandar Muda , Aceh\nSultan Syarif Kasim II, Riau\nYogyakarta, Daerah Istimewa Yogyakarta\nZainuddin Abdul Madjid, Nusa Tenggara Barat\nAchmad Yani, Maluku Utara\nAmamapare, Papua\nAnggrek, Gorontalo\nBagan Siapi-Api, Riau\nBandar Bentan Telani Lagoi, Kepulauan Riau\nBandar Seri Udana Lobam, Kepulauan Riau\nBandar Sri Setia Raja, Riau\nBatam Centre, Kepulauan Riau\nBatu Ampar, Kepulauan Riau\nBelakang Padang, Kepulauan Riau\nBelawan, Sumatera Utara\nBenete, Nusa Tenggara Barat\nBenoa, Bali\nBiak, Papua\nBoom Baru, Sumatera Selatan\nCelukan Bawang, Bali\nCirebon, Jawa Barat\nCitra Tri Tunas, Kepulauan Riau\nCiwandan, Banten\nDumai, Riau\nDwi Kora, Kalimantan Barat\nGunung Sitoli, Sumatera Utara\nJambi, Jambi\nJayapura, Papua\nKabil, Kepulauan Riau\nKendari, Sulawesi Tenggara\nKota Baru, Kalimantan Selatan\nKuala Enok, Riau\nKuala Langsa, Aceh\nKuala Tanjung, Sumatera Utara",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "Kota Baru, Kalimantan Selatan\nKuala Enok, Riau\nKuala Langsa, Aceh\nKuala Tanjung, Sumatera Utara\nKuala Tungkal, Jambi\nKumai, Kalimantan Tengah\nLabuan Bajo, Nusa Tenggara Timur\nLauren Say, Nusa Tenggara Timur\nLembar, Nusa Tenggara Barat\nLhokseumawe, Aceh\nMalahayati, Aceh\nMalundung, Kalimantan Timur\nManado, Sulawesi Utara\nMarina Ancol, DKI Jakarta\nMarina Teluk Senimba, Kepulauan Riau\nMerauke, Papua\nMuara Sabak, Jambi\nNongsa Terminal Bahari, Kepulauan Riau\nNusantara, Sulawesi Utara\nNusantara Pare Pare, Sulawesi Selatan\nPadang Bai, Bali\nPanarukan, Jawa Timur\nPangkal Balam, Bangka Belitung\nPanjang, Lampung\nPantoloan, Sulawesi Tengah\nPasuruan, Jawa Timur\nPatimban, Jawa Barat\nProbolinggo, Jawa Timur\nPulau Baai, Bengkulu\nSabang, Aceh\nSamarinda, Kalimantan Timur\nSampit, Kalimantan Tengah\nSamudera, Sulawesi Utara\nSaumlaki, Maluku\nSekupang, Kepulauan Riau\nSelat Lampa, Kepulauan Riau\nSemayang, Kalimantan Timur\nSiak Sri Indapura, Riau\nSibolga, Sumatera Utara\nSintete, Kalimantan Barat\nSoekarno-Hatta, Sulawesi Selatan\nSorong , Papua\nSri Bayintan, Kepulauan Riau\nSri Bintan Pura, Kepulauan Riau\nSunda Kelapa, DKI Jakarta\nSungai Guntung, Riau",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "Sri Bintan Pura, Kepulauan Riau\nSunda Kelapa, DKI Jakarta\nSungai Guntung, Riau\nTanjung Balai Karimun, Kepulauan Riau\nTanjung Emas, Jawa Tengah\nTanjung Gudang, Bangka Belitung\nTanjung Harapan, Riau\nTanjung Intan, Jawa Tengah\nTanjung Kalian, Bangka Belitung\nTanjung Pandan, Bangka Belitung\nTanjung Perak, Jawa Timur\nTanjung Priok, DKI Jakarta\nTanjung Uban, Kepulauan Riau\nTanjung Wangi, Jawa Timur\nTarempa, Kepulauan Riau\nTeluk Bayur, Sumatera Barat\nTeluk Nibung, Sumatera Utara\nTembilahan, Riau\nTenau, Nusa Tenggara Timur\nTri Sakti, Kalimantan Selatan\nTual, Maluku\nYos Sudarso, Maluku\nAruk, Kalimantan Barat\nEntikong, Kalimantan Barat\nMota’ain, Nusa Tenggara Timur\nMotamasin, Nusa Tenggara Timur\nSota, Papua\nTunon Taka, Kalimantan Utara\nWini, Nusa Tenggara Timur\nThe Visitor Visa fee is IDR 500.000,00. Please note that every payment via Debit/Credit Card will incur additional fees according to the financial institution’s regulations.\nEach traveler must hold a separate Visitor Visa, including infants and children (even if children/infants are included in their parent passports).\nForeigners who wish to enter Indonesia must hold a passport with an expiration date at least 6 (six) months from the date of arrival (In accordance with the article 22 (1) b Minister of Law and Human Rights Regulation Number 44 of 2015).",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "Once the Visitor Visa is processed, none of the information can be changed. The information on your Visitor Visa must be exactly the same as the information on your passport. Otherwise, your Visitor Visa will be invalid and there will be no refund. According to article 106 Minister of Law and Human Rights Regulation Number 44 of 2015, Immigration Officer at the ports of entry reserves the right to deny entry into Indonesia to a foreigner who provide incorrect information in the visa application.\nFull biodata page of passport with at least 6 months validity from the date of your arrival to Indonesia (format JPG/JPEG/PNG);\nPassport size photograph (format JPG/JPEG/PNG);\nEmail address; and\nA valid Mastercard, Visa, or JCB credit card.\nFill in data and uploading documents;\nReceive verification email; and\nActivate the Account by clicking “activate” on the verification email which must be confirmed within one hour.\n1) Visa type,\n2) Arrival information, and\n3) Residence information in Indonesia;\nPayment; and\nGranting Visitor Visa.\nAfter completing the “payment confirmation” page, you must proceed with the payment within 120 minutes. Otherwise, the system will not accept payment, and you will need to create a new request.\nYou can only make payment by Mastercard, Visa, and JCB credit card. The card is not required to be under your name . Kindly make sure that your card has a “3D Secure System” and is open to international transactions.\nAfter completing the payment process, your Visitor Visa will be available in your Account. Immigration Officers at the ports of entry can verify your Visitor Visa in their system. However, you are advised to keep your Visitor Visa with you either as a softcopy (on tablet pc, smartphone etc.) or as a hardcopy in case of any failure in the system.\nYou only need to do the Account creation once. If you forgot your password you can select “Main Page > Forgot Password”.",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "You only need to do the Account creation once. If you forgot your password you can select “Main Page > Forgot Password”.\nKindly inform the Visitor Visa Support Desk (livechat at www.imigrasi.go.id or sending email to visa@imigrasi.go.id or evoa@imigrasi.go.id) should you encounter any suspended or unsuccessful transactions during the request procedure. Please do not create a new request or make a new payment unless otherwise advised. The Ministry will not be responsible for additional payments and no refund will be granted in case of such unfinished transactions.\nThere are numerous websites which claim to assist users in receiving Indonesian Visitor Visa in return for a service charge. These websites are not endorsed by or associated with the Indonesian government. Therefore, we cannot be held responsible for any misuse of information or failure of service on their side.",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "General Information",
+      "title": "The Official eVisa website for Indonesia — General Information"
+    },
+    {
+      "text": "When your Visitor Visa expires, you are not allowed to apply for a new Visitor Visa without departing from Indonesia still, you are advised to apply at Immigration Office for a residence permit extension.\nPlease visit www.imigrasi.go.id to get more detailed information regarding the request for a residence permit and other types of visa (work visa, student visa, etc.).\nIf you overstay your visa, you might be asked to pay fines of IDR 1,000,000 per day, detained, deported, and/or banned future travel to Indonesia for a specific period.\nIf you overstay your visa for more than 60 days, you might be detained, deported, and/or banned from future traveling to Indonesia for a specific period.",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "May I apply for a new Visitor Visa while I am in Indonesia?",
+      "title": "The Official eVisa website for Indonesia — May I apply for a new Visitor Visa while I am in Indonesia?"
+    },
+    {
+      "text": "livechat at www.imigrasi.go.id\nvisa@imigrasi.go.id evoa@imigrasi.go.id",
+      "source": "The Official eVisa website for Indonesia",
+      "locator_type": "section",
+      "locator_value": "Still have questions ?",
+      "title": "The Official eVisa website for Indonesia — Still have questions ?"
+    },
+    {
+      "text": "1. Afrika Selatan;\n2. Albania;\n3. Amerika Serikat;\n4. Andorra\n5. Arab Saudi;\n6. Argentina;\n7. Armenia;\n8. Australia;\n9. Austria;\n10. Bahrain;\n11. Belanda;\n12. Belarus;\n13. Belgia;\n14. Brazil;\n15. Brunei Darussalam;\n16. Bosnia Herzegovina;\n17. Bulgaria;\n18. Ceko;\n19. Chile;\n20. Denmark;\n21. Ekuador;\n22. Estonia;\n23. Filipina;\n24. Finlandia;\n25. Guatemala;\n26. Hongkong;\n27. Hungaria;\n28. India;\n29. lnggris;\n30. lrlandia;\n31. Italia;\n32. Islandia;\n33. Jepang;\n34. Jerman;\n35. Kamboja;\n36. Kanada;\n37. Kazakhstan;\n.38. Kenya;\n39. Kolombia;\n40. Korea Selatan;\n41. Kroasia;\n42. Kuwait;\n43. Laos;\n44. Latvia;\n45. Liechtenstein;\n46. Lithuania;\n47. Luksemburg;\n48. Makau;\n49. Maladewa;\n50. Malaysia;\n51. Malta;\n52. Maroko;\n53. Meksiko;\n54. Mesir;\n55. Monako;\n56. Mongolia;\n57. Mozambik;\n58. Myanmar;\n59. Norwegia;\n60. Oman;\n61. Palestina;\n62. Papua Nugini\n63. Perancis;\n64. Peru;\n65. Polandia;\n66. Portugal;\n67. Qatar;\n68. Rumania;\n69. Rusia;\n70. Rwanda;\n71. San Marino;\n72. Selandia Baru;\n73. Serbia;\n74. Seychelles;\n75. Singapura;\n76. Siprus;\n77. Slovakia;\n78. Slovenia;\n79. Spanyol;\n80. Suriname;\n81. Swedia;\n82. Swiss;\n83. Taiwan;",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?",
+      "title": "Pertanyaan Paling Sering Diajukan — Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?"
+    },
+    {
+      "text": "76. Siprus;\n77. Slovakia;\n78. Slovenia;\n79. Spanyol;\n80. Suriname;\n81. Swedia;\n82. Swiss;\n83. Taiwan;\n84. Tanzania;\n85. Thailand;\n86. Timor Leste;\n87. Tiongkok;\n88. Tunisia;\n89. Turki;\n90. Uni Emirat Arab;\n91. Uzbekistan;\n92. Ukraina;\n93. Vatikan;\n94. Venezuela;\n95. Vietnam;\n96. Yordania; dan\n97. Yunani.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?",
+      "title": "Pertanyaan Paling Sering Diajukan — Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?"
+    },
+    {
+      "text": "Permohonan e-VOA diajukan dengan persyaratan berikut :\nPaspor asli yang sah dan masih berlaku minimal enam bulan,\nTiket kembali atau tiket terusan untuk melanjutkan perjalanan ke negara lain.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa saja dokumen persyaratan untuk mengajukan E-VOA?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa saja dokumen persyaratan untuk mengajukan E-VOA?"
+    },
+    {
+      "text": "Dokumen yang diperlukan untuk mempersiapkan permintaan Visa adalah:\nHalaman biodata lengkap paspor dengan masa berlaku minimal 6 bulan sejak tanggal kedatangan Anda ke Indonesia (format JPG/JPEG/PNG dengan ukuran maksimal 200 kb);\nFoto ukuran paspor (format JPG/JPEG/PNG dengan ukuran maksimal 200 kb);\nAlamat email;\nKartu kredit Mastercard, Visa, atau JCB yang valid.\nInformasi lebih lengkap terkait Visa Online dapat diakses melalui https://evisa.imigrasi.go.id/",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa saja dokumen persyaratan untuk mengajukan Visa Online?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa saja dokumen persyaratan untuk mengajukan Visa Online?"
+    },
+    {
+      "text": "Permohonan VOA diajukan oleh Orang Asing di Tempat Pemeriksaan Imigrasi (TPI) tertentu, dengan persyaratan berikut :\nPaspor kebangsaan yang sah dan masih berlaku minimal enam bulan,\nTiket kembali atau tiket terusan untuk melanjutkan perjalanan ke negara lain, kecuali bagi awak alat angkut yang akan singgah untuk bergabung dengan kapalnya dan melanjutkan perjalanan ke negara lain.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa saja persyaratan & prosedur dalam mengajukan Visa on Arrival (VOA)?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa saja persyaratan & prosedur dalam mengajukan Visa on Arrival (VOA)?"
+    },
+    {
+      "text": "Syarat untuk mendapatkan visa kunjungan yaitu :\nMemiliki Paspor dengan masa berlaku paling singkat 6 (enam) bulan dan memiliki tiket kembali atau tiket untuk melanjutkan perjalanan ke negara lain.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa saja syarat Bebas Visa Kunjungan?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa saja syarat Bebas Visa Kunjungan?"
+    },
+    {
+      "text": "Pastikan saldo mecukupi (tidak limit) dan jenis pembayaran yang anda pilih mendukung sistem pembayaran. Jika pembayaran ditolak silakan hubungi bank persepsi terkait. Apabila masih terdapat kendala, anda dapat menghubungi care@finnet.id .",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa yang harus dilakukan apabila pembayaran E-VOA bermasalah/gagal?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa yang harus dilakukan apabila pembayaran E-VOA bermasalah/gagal?"
+    },
+    {
+      "text": "Silakan mengakses fitur live chat atau bersurat ke humas@imigrasi.go.id dengan melampirkan data : Nama Pemohon, Nomor Passport, Transaction number, dan melampirkan bukti pembayaran.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Apa yang harus saya lakukan apabila akun E-VOA belum teraktivasi?",
+      "title": "Pertanyaan Paling Sering Diajukan — Apa yang harus saya lakukan apabila akun E-VOA belum teraktivasi?"
+    },
+    {
+      "text": "Untuk mengetahui jenis Visa yang cocok untuk anda, silakan akses menu Warga Negara Asing – Permohonan Visa Republik Indonesia di bagian menu pada halaman ini.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Saya ingin berkunjung ke Indonesia, Visa apakah yang cocok untuk saya?",
+      "title": "Pertanyaan Paling Sering Diajukan — Saya ingin berkunjung ke Indonesia, Visa apakah yang cocok untuk saya?"
+    },
+    {
+      "text": "1. Afrika Selatan;\n2. Albania;\n3. Amerika Serikat;\n4. Andorra\n5. Arab Saudi;\n6. Argentina;\n7. Armenia;\n8. Australia;\n9. Austria;\n10. Bahrain;\n11. Belanda;\n12. Belarus;\n13. Belgia;\n14. Brazil;\n15. Brunei Darussalam;\n16. Bosnia Herzegovina;\n17. Bulgaria;\n18. Ceko;\n19. Chile;\n20. Denmark;\n21. Ekuador;\n22. Estonia;\n23. Filipina;\n24. Finlandia;\n25. Guatemala;\n26. Hongkong;\n27. Hungaria;\n28. India;\n29. lnggris;\n30. lrlandia;\n31. Italia;\n32. Islandia;\n33. Jepang;\n34. Jerman;\n35. Kamboja;\n36. Kanada;\n37. Kazakhstan;\n.38. Kenya;\n39. Kolombia;\n40. Korea Selatan;\n41. Kroasia;\n42. Kuwait;\n43. Laos;\n44. Latvia;\n45. Liechtenstein;\n46. Lithuania;\n47. Luksemburg;\n48. Makau;\n49. Maladewa;\n50. Malaysia;\n51. Malta;\n52. Maroko;\n53. Meksiko;\n54. Mesir;\n55. Monako;\n56. Mongolia;\n57. Mozambik;\n58. Myanmar;\n59. Norwegia;\n60. Oman;\n61. Palestina;\n62. Papua Nugini\n63. Perancis;\n64. Peru;\n65. Polandia;\n66. Portugal;\n67. Qatar;\n68. Rumania;\n69. Rusia;\n70. Rwanda;\n71. San Marino;\n72. Selandia Baru;\n73. Serbia;\n74. Seychelles;\n75. Singapura;\n76. Siprus;\n77. Slovakia;\n78. Slovenia;\n79. Spanyol;\n80. Suriname;\n81. Swedia;\n82. Swiss;\n83. Taiwan;",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?",
+      "title": "Pertanyaan Paling Sering Diajukan — Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?"
+    },
+    {
+      "text": "76. Siprus;\n77. Slovakia;\n78. Slovenia;\n79. Spanyol;\n80. Suriname;\n81. Swedia;\n82. Swiss;\n83. Taiwan;\n84. Tanzania;\n85. Thailand;\n86. Timor Leste;\n87. Tiongkok;\n88. Tunisia;\n89. Turki;\n90. Uni Emirat Arab;\n91. Uzbekistan;\n92. Ukraina;\n93. Vatikan;\n94. Venezuela;\n95. Vietnam;\n96. Yordania; dan\n97. Yunani.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?",
+      "title": "Pertanyaan Paling Sering Diajukan — Negara mana saja yang terdaftar dalam daftar Electronic Visa on Arrival (E-VOA) ?"
+    },
+    {
+      "text": "Silahkan memastikan format dan ukuran file telah sesuai dengan ketentuan.",
+      "source": "Pertanyaan Paling Sering Diajukan",
+      "locator_type": "section",
+      "locator_value": "Saya telah mengunggah persyaratan Visa Online namun terdapat pemberitahuan bahwa dokumen belum terunggah",
+      "title": "Pertanyaan Paling Sering Diajukan — Saya telah mengunggah persyaratan Visa Online namun terdapat pemberitahuan bahwa dokumen belum terunggah"
     },
     {
       "text": "Paspor merupakan dokumen perjalanan yang diterbitkan oleh negara kepada warga negaranya yang akan melakukan perjalanan ke luar negeri.\nKantor Imigrasi Kelas I TPI Malang berkomitmen memberikan layanan yang transparan dan akuntabel. Artikel ini akan membahas secara mendalam mengenai persyaratan dokumen, rincian biaya, hingga langkah-langkah menggunakan aplikasi M-Paspor.",
@@ -134,6 +418,391 @@
       "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Lokasi Pelayanan Kantor Imigrasi Malang"
     },
     {
+      "text": "Permohonan paspor biasa dapat diajukan oleh warga negara Indonesia, baik di dalam maupun luar wilayah Indonesia.\nPaspor biasa terdiri atas paspor biasa elektronik (e-paspor) dan paspor biasa nonelektronik.\nPaspor biasa diterbitkan dengan menggunakan Sistem Informasi Manajemen Keimigrasian.\nPermohonan paspor biasa dapat diajukan secara manual atau elektronik dengan melampirkan dokumen kelengkapan persyaratan.",
+      "source": "Paspor Republik Indonesia",
+      "locator_type": "section",
+      "locator_value": "Informasi Umum",
+      "title": "Paspor Republik Indonesia — Informasi Umum"
+    },
+    {
+      "text": "Kartu tanda penduduk (KTP) yang masih berlaku atau surat keterangan pindah ke luar negeri\nKartu keluarga (KK)\nDokumen berupa akta kelahiran, akta perkawinan, buku nikah, ijazah, atau surat baptis*\nSurat pewarganegaraan Indonesia bagi Orang Asing yang memperoleh kewarganegaraan Indonesia atau penyampaian pernyataan untuk memilih kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan\nSurat penetapan ganti nama (bagi yang telah mengganti nama) dari pejabat yang berwenang\nCatatan: *Nama, tempat dan tanggal lahir, serta nama orang tua harus tercantum dalam dokumen. Jika tidak, Anda dapat melampirkan surat keterangan dari instansi yang berwenang.",
+      "source": "Paspor Republik Indonesia",
+      "locator_type": "section",
+      "locator_value": "Persyaratan",
+      "title": "Paspor Republik Indonesia — Persyaratan"
+    },
+    {
+      "text": "Lakukan pendaftaran melalui aplikasi M-Paspor yang dapat diunduh melalui App Store atau Google Play. Permohonan manual dapat Anda lakukan dengan cara berikut.\nIsi data di aplikasi yang disediakan pada loket permohonan dan lampirkan dokumen kelengkapan persyaratan.\nTunggu Pejabat Imigrasi memeriksa dokumen kelengkapan persyaratan.\nDapatkan tanda terima permohonan dan kode pembayaran dari Pejabat Imigrasi setelah dokumen persyaratan dinyatakan lengkap.\nJika dokumen persyaratan dinyatakan belum lengkap, terima dokumen permohonan yang dikembalikan Pejabat Imigrasi. Permohonan dianggap ditarik kembali.",
+      "source": "Paspor Republik Indonesia",
+      "locator_type": "section",
+      "locator_value": "Prosedur",
+      "title": "Paspor Republik Indonesia — Prosedur"
+    },
+    {
+      "text": "Pemeriksaan kelengkapan dan keabsahan persyaratan\nPembayaran biaya paspor\nPengambilan foto dan sidik jari\nWawancara\nVerifikasi\nAdjudikasi",
+      "source": "Paspor Republik Indonesia",
+      "locator_type": "section",
+      "locator_value": "Mekanisme Penerbitan",
+      "title": "Paspor Republik Indonesia — Mekanisme Penerbitan"
+    },
+    {
+      "text": "1\nLayanan Percepatan Paspor Selesai Pada Hari yang Sama\nRp 1.000.000,-\n2\nPaspor Biasa Non Elektronik (Masa Berlaku 5 Tahun)\nRp 350.000,-\n3\nPaspor biasa Non Elektronik (Masa Berlaku 10 Tahun)\nRp 650.000,-\n4\nPaspor biasa Elektronik (Masa Berlaku 5 Tahun)\nRp 650.000,-\n5\nPaspor biasa Elektronik (Masa Berlaku 10 Tahun)\nRp 950.000,-\nPenggantian paspor karena hilang atau rusak dikenakan denda sebagai berikut.\nBiaya beban paspor hilang: Rp1.000.000,\nBiaya beban paspor rusak: Rp500.000,\nBiaya beban paspor hilang/rusak karena keadaan kahar: Rp0.",
+      "source": "Paspor Republik Indonesia",
+      "locator_type": "section",
+      "locator_value": "Biaya",
+      "title": "Paspor Republik Indonesia — Biaya"
+    },
+    {
+      "text": "Paspor; dan\nSurat Perjalanan Laksana\nPaspor diplomatik;\nPaspor dinas; dan\nPaspor biasa\nSurat Perjalanan Laksana Paspor untuk warga negara Indonesia;\nSurat Perjalanan Laksana Paspor untuk Orang Asing; dan\nsurat perjalanan lintas batas atau pas lintas batas;\nDokumen Perjalanan Republik Indonesia sebagaimana dimaksud pada ayat (1) merupakan dokumen negara.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 24",
+      "title": "UU Keimigrasian — Pasal 24"
+    },
+    {
+      "text": "Paspor diplomatik diterbitkan bagi warga negara Indonesia yang akan melakukan perjalanan keluar Wilayah Indonesia dalam rangka penempatan atau perjalanan tugas yang bersifat diplomatik.\nPaspor dinas diterbitkan bagi warga negara Indonesia yang akan melakukan perjalanan keluar Wilayah Indonesia dalam rangka penempatan atau perjalanan dinas yang tidak bersifat diplomatik\nPaspor diplomatik dan Paspor dinas sebagaimana dimaksud pada ayat (1) dan ayat (2) diterbitkan oleh Menteri Luar Negeri.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 25",
+      "title": "UU Keimigrasian — Pasal 25"
+    },
+    {
+      "text": "Paspor biasa diterbitkan untuk warga negara Indonesia.\nPaspor biasa sebagaimana dimaksud pada ayat (1) diterbitkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 26",
+      "title": "UU Keimigrasian — Pasal 26"
+    },
+    {
+      "text": "Surat Perjalanan Laksana Paspor untuk warga negara Indonesia dikeluarkan bagi warga negara Indonesia dalam keadaan tertentu jika Paspor biasa tidak dapat diberikan.\nSurat Perjalanan Laksana Paspor untuk Orang Asing dikeluarkan bagi Orang Asing yang tidak mempunyai Dokumen Perjalanan yang sah dan negaranya tidak mempunyai perwakilan di Indonesia.\natas kehendak sendiri keluar Wilayah Indonesia sepanjang tidak terkena pencegahan;\ndikenai Deportasi; atau\nrepatriasi.\nSurat Perjalanan Laksana Paspor diterbitkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 27",
+      "title": "UU Keimigrasian — Pasal 27"
+    },
+    {
+      "text": "Surat Perjalanan Laksana Paspor dapat dikeluarkan untuk orang perseorangan atau kolektif.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 28",
+      "title": "UU Keimigrasian — Pasal 28"
+    },
+    {
+      "text": "Surat perjalanan lintas batas atau pas lintas batas dapat dikeluarkan bagi warga negara Indonesia yang berdomisili di wilayah perbatasan negara Republik Indonesia dengan negara lain sesuai dengan perjanjian lintas batas.\nSurat perjalanan lintas batas atau pas lintas batas diterbitkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 29",
+      "title": "UU Keimigrasian — Pasal 29"
+    },
+    {
+      "text": "Setiap warga negara Indonesia hanya diperbolehkan memegang 1 (satu) Dokumen Perjalanan Republik Indonesia yang sejenis atas namanya sendiri yang masih berlaku.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 30",
+      "title": "UU Keimigrasian — Pasal 30"
+    },
+    {
+      "text": "Menteri atau Pejabat Imigrasi yang ditunjuk berwenang melakukan penarikan atau pencabutan Paspor biasa, Surat Perjalanan Laksana Paspor, dan surat perjalanan lintas batas atau pas lintas batas yang telah dikeluarkan.\nMenteri Luar Negeri atau pejabat yang ditunjuk berwenang melakukan penarikan atau pencabutan Paspor diplomatik dan Paspor dinas.\npemegangnya melakukan tindak pidana atau melanggar peraturan perundang-undangan di Indonesia; atau\npemegangnya termasuk dalam daftar Pencegahan.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 31",
+      "title": "UU Keimigrasian — Pasal 31"
+    },
+    {
+      "text": "Paspor biasa;\nSurat Perjalanan Laksana Paspor; dan\nsurat perjalanan lintas batas atau pas lintas batas.\nPaspor biasa;\nSurat Perjalanan Laksana Paspor; dan\nsurat perjalanan lintas batas atau pas lintas batas.\nPaspor biasa;\nSurat Perjalanan Laksana Paspor; dan\nsurat perjalanan lintas batas atau pas lintas batas.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 32",
+      "title": "UU Keimigrasian — Pasal 32"
+    },
+    {
+      "text": "Ketentuan lebih lanjut mengenai tata cara dan persyaratan pemberian, penarikan, pembatalan, pencabutan, penggantian, serta pengadaan blanko dan standardisasi Dokumen Perjalanan Republik Indonesia diatur dengan Peraturan Pemerintah.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 33",
+      "title": "UU Keimigrasian — Pasal 33"
+    },
+    {
+      "text": "Visa terdiri atas:\nVisa diplomatik;\nVisa dinas;\nVisa kunjungan; dan\nVisa tinggal terbatas.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 34",
+      "title": "UU Keimigrasian — Pasal 34"
+    },
+    {
+      "text": "Visa diplomatik diberikan kepada Orang Asing pemegang Paspor diplomatik dan paspor lain untuk masuk Wilayah Indonesia guna melaksanakan tugas yang bersifat diplomatik.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 35",
+      "title": "UU Keimigrasian — Pasal 35"
+    },
+    {
+      "text": "Visa dinas diberikan kepada Orang Asing pemegang Paspor dinas dan Paspor lain yang akan melakukan perjalanan ke Wilayah Indonesia dalam rangka melaksanakan tugas resmi yang tidak bersifat diplomatik dari pemerintah asing yang bersangkutan atau organisasi internasional.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 36",
+      "title": "UU Keimigrasian — Pasal 36"
+    },
+    {
+      "text": "Pemberian Visa diplomatik dan Visa dinas merupakan kewenangan Menteri Luar Negeri dan dalam pelaksanaannya dikeluarkan oleh pejabat dinas luar negeri di Perwakilan Republik Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 37",
+      "title": "UU Keimigrasian — Pasal 37"
+    },
+    {
+      "text": "Visa kunjungan diberikan kepada Orang Asing yang akan melakukan perjalanan ke Wilayah Indonesia dalam rangka kunjungan tugas pemerintahan, pendidikan, sosial budaya, pariwisata, bisnis, keluarga, jurnalistik, atau singgah untuk meneruskan perjalanan ke negara lain.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 38",
+      "title": "UU Keimigrasian — Pasal 38"
+    },
+    {
+      "text": "Visa tinggal terbatas diberikan kepada Orang Asing:\nsebagai rohaniawan, tenaga ahli, pekerja, peneliti, pelajar, investor, lanjut usia, dan keluarganya, serta Orang Asing yang kawin secara sah dengan warga negara Indonesia, yang akan melakukan perjalanan ke Wilayah Indonesia untuk bertempat tinggal dalam jangka waktu yang terbatas; atau\ndalam rangka bergabung untuk bekerja di atas kapal, alat apung, atau instalasi yang beroperasi di wilayah perairan nusantara, laut teritorial, landas kontinen, dan/atau Zona Ekonomi Eksklusif Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "pasal 39",
+      "title": "UU Keimigrasian — pasal 39"
+    },
+    {
+      "text": "Pemberian Visa kunjungan dan Visa tinggal terbatas merupakan kewenangan Menteri.\nVisa sebagaimana dimaksud pada ayat (1) diberikan dan ditandatangani oleh Pejabat Imigrasi di Perwakilan Republik Indonesia di luar negeri.\nDalam hal Perwakilan Republik Indonesia belum ada Pejabat Imigrasi sebagaimana dimaksud pada ayat (2), pemberian Visa kunjungan dan Visa tinggal terbatas dilaksanakan oleh pejabat dinas luar negri.\nPejabat dinas luar negeri sebagaimana dimaksud pada ayat (3) berwenang memberikan Visa setelah memperoleh Keputusan Menteri.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 40",
+      "title": "UU Keimigrasian — Pasal 40"
+    },
+    {
+      "text": "Visa kunjungan dapat juga diberikan kepada Orang Asing pada saat kedatangan di Tempat Pemeriksaan Imigrasi.\nOrang Asing yang dapat diberikan Visa kunjungan saat kedatangan adalah warga negara dari negara tertentu yang ditetapkan berdasarkan Peraturan Menteri.\nPemberian Visa kunjungan saat kedatangan di Tempat Pemeriksaan Imigrasi sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Pejabat Imigrasi.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 41",
+      "title": "UU Keimigrasian — Pasal 41"
+    },
+    {
+      "text": "Permohonan Visa ditolak dalam hal pemohon:\nnamanya tercantum dalam daftar Penangkalan;\ntidak memiliki Dokumen Perjalanan yang sah dan masih berlaku;\ntidak cukup memiliki biaya hidup bagi dirinya dan/atau keluarganya selama berada di Indonesia;\ntidak memiliki tiket kembali atau tiket terusan untuk melanjutkan perjalanan ke negara lain;\ntidak memiliki Izin Masuk Kembali ke negara asal atau tidak memiliki visa ke negara lain;\nmenderita penyakit menular, gangguan jiwa, atau hal lain yang dapat membahayakan kesehatan atau ketertiban umum;\nterlibat tindak pidana transnasional yang terorganisasi atau membahayakan keutuhan wilayah Negara Kesatuan Republik Indonesia; dan/atau\ntermasuk dalam jaringan praktik atau kegiatan prostitusi, perdagangan orang, dan penyelundupan manusia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 42",
+      "title": "UU Keimigrasian — Pasal 42"
+    },
+    {
+      "text": "Dalam hal tertentu Orang Asing dapat dibebaskan dari kewajiban memiliki Visa.\nOrang Asing yang dibebaskan dari kewajiban memiliki Visa sebagaimana dimaksud pada ayat (1) adalah:\na. warga negara dari negara tertentu yang ditetapkan berdasarkan Peraturan Presiden dengan memperhatikan asas timbal balik dan asas manfaat;\nb. warga negara asing pemegang Izin Tinggal yang memiliki Izin Masuk Kembali yang masih berlaku;\nc. nakhoda, kapten pilot, atau awak yang sedang bertugas di alat angkut;\nd. nakhoda, awak kapal, atau tenaga ahli asing di atas kapal laut atau alat apung yang datang langsung dengan alat angkutnya untuk beroperasi di perairan Nusantara, laut teritorial, landas kontinen, dan/atau Zona Ekonomi Eksklusif Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 43",
+      "title": "UU Keimigrasian — Pasal 43"
+    },
+    {
+      "text": "Orang Asing dapat masuk Wilayah Indonesia setelah mendapat Tanda Masuk.\n.Tanda Masuk diberikan oleh Pejabat Imigrasi di Tempat Pemeriksaan Imigrasi kepada Orang Asing yang telah memenuhi persyaratan masuk Wilayah Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 44",
+      "title": "UU Keimigrasian — Pasal 44"
+    },
+    {
+      "text": "Tanda Masuk bagi Orang Asing pemegang Visa diplomatik atau Visa dinas yang melakukan kunjungan singkat di Indonesia berlaku juga sebagai Izin Tinggal diplomatik atau Izin Tinggal dinas.\nTanda Masuk bagi Orang Asing yang dibebaskan dari kewajiban memiliki Visa atau pemegang Visa kunjungan berlaku juga sebagai Izin Tinggal kunjungan.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 45",
+      "title": "UU Keimigrasian — Pasal 45"
+    },
+    {
+      "text": "Orang Asing pemegang Visa diplomatik atau Visa dinas dengan maksud bertempat tinggal di Wilayah Indonesia setelah mendapat Tanda Masuk wajib mengajukan permohonan kepada Menteri Luar Negeri atau pejabat yang ditunjuk untuk memperoleh Izin Tinggal diplomatik atau Izin Tinggal dinas.\nOrang Asing pemegang Visa tinggal terbatas setelah mendapat Tanda Masuk wajib mengajukan permohonan kepada kepala Kantor Imigrasi untuk memperoleh Izin Tinggal terbatas.\nJika Orang Asing sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak melaksanakan kewajiban tersebut, Orang Asing yang bersangkutan dianggap berada di Wilayah Indonesia secara tidak sah.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 46",
+      "title": "UU Keimigrasian — Pasal 46"
+    },
+    {
+      "text": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara permohonan, jenis kegiatan, dan jangka waktu Visa, serta tata cara pemberian Tanda Masuk diatur dengan Peraturan Pemerintah.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 47",
+      "title": "UU Keimigrasian — Pasal 47"
+    },
+    {
+      "text": "Setiap Orang Asing yang berada di Wilayah Indonesia wajib memiliki Izin Tinggal.\nIzin Tinggal diberikan kepada Orang Asing sesuai dengan Visa yang dimilikinya.\nIzin Tinggal diplomatik;\nIzin Tinggal dinas;\nIzin Tinggal kunjungan;\nIzin Tinggal terbatas; dan\nIzin Tinggal Tetap.\nMenteri berwenang melarang Orang Asing yang telah diberi Izin Tinggal berada di daerah tertentu di Wilayah Indonesia.\nTerhadap Orang Asing yang sedang menjalani penahanan untuk kepentingan proses penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan atau menjalani pidana kurungan atau pidana penjara di lembaga pemasyarakatan, sedangkan izin tinggalnya telah lampau waktu, Orang Asing tersebut tidak dikenai kewajiban sebagaimana dimaksud pada ayat (1).",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 48",
+      "title": "UU Keimigrasian — Pasal 48"
+    },
+    {
+      "text": "Izin Tinggal diplomatik diberikan kepada Orang Asing yang masuk Wilayah Indonesia dengan Visa diplomatik.\nIzin Tinggal dinas diberikan kepada Orang Asing yang masuk Wilayah Indonesia dengan Visa\nIzin Tinggal diplomatik dan Izin Tinggal dinas serta perpanjangannya diberikan oleh Menteri Luar Negeri.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 49",
+      "title": "UU Keimigrasian — Pasal 49"
+    },
+    {
+      "text": "Orang Asing yang masuk Wilayah Indonesia dengan Visa kunjungan; atau\nAnak yang baru lahir di Wilayah Indonesia dan pada saat lahir ayah dan / atau ibunya pemegang izin tinggal kunjungan.\nIzin tinggal kunjungan sebagaimana di maksud pada ayat (1) huruf b diberikan sesuai dengan izin tinggal kunjungan ayah dan/atau ibunya.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 50",
+      "title": "UU Keimigrasian — Pasal 50"
+    },
+    {
+      "text": "Izin Tinggal kunjungan berakhir karena pemegang Izin Tinggal kunjungan:\nkembali ke negara asalnya;\nizinnya telah habis masa berlaku;\nizinnya beralih status menjadi Izin Tinggal terbatas;\nizinnya dibatalkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk;\ndikenai Deportasi; atau\nmeninggal dunia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 51",
+      "title": "UU Keimigrasian — Pasal 51"
+    },
+    {
+      "text": "Izin Tinggal terbatas diberikan kepada:\nOrang Asing yang masuk Wilayah Indonesia dengan Visa tinggal terbatas;\nanak yang pada saat lahir di Wilayah Indonesia ayah dan/atau ibunya pemegang Izin Tinggal terbatas;\nOrang Asing yang diberikan alih status dari Izin Tinggal kunjungan;\nnakhoda, awak kapal, atau tenaga ahli asing di atas kapal laut, alat apung, atau instalasi yang beroperasi di wilayah perairan dan wilayah yurisdiksi Indonesia sesuai dengan ketentuan peraturan perundang- undangan;\nOrang Asing yang kawin secara sah dengan warga negara Indonesia; atau\nanak dari Orang Asing yang kawin secara sah dengan warga negara Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 52",
+      "title": "UU Keimigrasian — Pasal 52"
+    },
+    {
+      "text": "Izin Tinggal terbatas berakhir karena pemegang Izin Tinggal terbatas:\nkembali ke negara asalnya dan tidak bermaksud masuk lagi ke Wilayah Indonesia;\nkembali ke negara asalnya dan tidak kembali lagi melebihi masa berlaku Izin Masuk Kembali yang dimilikinya;\nmemperoleh kewarganegaraan Republik Indonesia;\nizinnya telah habis masa berlaku;\nizinnya beralih status menjadi Izin Tinggal Tetap;\nizinnya dibatalkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk;\ndikenai Deportasi; atau\nmeninggal dunia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 53",
+      "title": "UU Keimigrasian — Pasal 53"
+    },
+    {
+      "text": "Orang Asing pemegang Izin Tinggal terbatas sebagai rohaniwan, pekerja, investor, dan lanjut usia;\nkeluarga karena perkawinan campuran;\nsuami, istri, dan/atau anak dari Orang Asing pemegang Izin Tinggal Tetap; dan\nOrang Asing eks warga negara Indonesia dan eks subjek anak berkewarganegaraan ganda Republik Indonesia.\nIzin Tinggal Tetap sebagaimana dimaksud pada ayat (1) tidak diberikan kepada Orang Asing yang tidak memiliki paspor kebangsaan.\nOrang Asing pemegang Izin Tinggal Tetap merupakan penduduk Indonesia.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 54",
+      "title": "UU Keimigrasian — Pasal 54"
+    },
+    {
+      "text": "Pemberian, perpanjangan, dan pembatalan Izin Tinggal kunjungan, Izin Tinggal terbatas, dan Izin Tinggal Tetap dilakukan oleh Menteri atau Pejabat Imigrasi yang ditunjuk.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 55",
+      "title": "UU Keimigrasian — Pasal 55"
+    },
+    {
+      "text": "Izin Tinggal yang telah diberikan kepada Orang Asing dapat dialihstatuskan.\nIzin Tinggal yang dapat dialihstatuskan adalah Izin Tinggal kunjungan menjadi Izin Tinggal terbatas dan Izin Tinggal terbatas menjadi Izin Tinggal Tetap.\nAlih status Izin Tinggal sebagaimana dimaksud pada ayat (2) ditetapkan dengan Keputusan Menteri.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 56",
+      "title": "UU Keimigrasian — Pasal 56"
+    },
+    {
+      "text": "Izin Tinggal kunjungan dan Izin Tinggal terbatas dapat juga dialihstatuskan menjadi Izin Tinggal\nAlih status sebagaimana dimaksud pada ayat (1) hanya dapat dilaksanakan berdasarkan Keputusan Menteri setelah mendapat persetujuan Menteri Luar Negeri.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 57",
+      "title": "UU Keimigrasian — Pasal 57"
+    },
+    {
+      "text": "Dalam hal Pejabat Imigrasi meragukan status Izin Tinggal Orang Asing dan kewarganegaraan seseorang, Pejabat Imigrasi berwenang menelaah serta memeriksa status Izin Tinggal dan kewarganegaraannya.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 58",
+      "title": "UU Keimigrasian — Pasal 58"
+    },
+    {
+      "text": "Izin Tinggal Tetap diberikan untuk jangka waktu 5 (lima) tahun dan dapat diperpanjang untuk waktu yang tidak terbatas sepanjang izinnya tidak dibatalkan.\nPemegang Izin Tinggal Tetap untuk jangka waktu yang tidak terbatas sebagaimana dimaksud pada ayat (1) wajib melapor ke Kantor Imigrasi setiap 5 (lima) tahun dan tidak dikenai biaya.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 59",
+      "title": "UU Keimigrasian — Pasal 59"
+    },
+    {
+      "text": "Izin Tinggal Tetap bagi pemohon sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf a diberikan setelah pemohon tinggal menetap selama 3 (tiga) tahun berturut-turut dan menandatangani Pernyataan Integrasi kepada Pemerintah Republik Indonesia.\nUntuk mendapatkan Izin Tinggal Tetap bagi pemohon sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf b diberikan setelah usia perkawinannya mencapai 2 (dua) tahun dan menandatangani Pernyataan Integrasi kepada Pemerintah Republik Indonesia.\nIzin Tinggal Tetap bagi pemohon sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf c dan huruf d dapat langsung diberikan.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 60",
+      "title": "UU Keimigrasian — Pasal 60"
+    },
+    {
+      "text": "Pemegang Izin Tinggal terbatas sebagaimana dimaksud dalam Pasal 52 huruf e dan huruf f dan pemegang Izin Tinggal Tetap sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf b dan huruf d dapat melakukan pekerjaan dan/atau usaha untuk memenuhi kebutuhan hidup dan/atau keluarganya.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 61",
+      "title": "UU Keimigrasian — Pasal 61"
+    },
+    {
+      "text": "meninggalkan Wilayah Indonesia lebih dari 1 (satu) tahun atau tidak bermaksud masuk lagi ke Wilayah Indonesia;\ntidak melakukan perpanjangan Izin Tinggal Tetap setelah 5 (lima) tahun;\nmemperoleh kewarganegaraan Republik Indonesia;\nizinnya dibatalkan oleh Menteri atau Pejabat Imigrasi yang ditunjuk;\ndikenai tindakan Deportasi; atau\nmeninggal dunia.\nterbukti melakukan tindak pidana terhadap negara sebagaimana diatur dalam peraturan perundang-undangan;\nmelakukan kegiatan yang membahayakan keamanan negara;\nmelanggar Pernyataan Integrasi;\nmempekerjakan tenaga kerja asing tanpa izin kerja;\nmemberikan informasi yang tidak benar dalam pengajuan permohonan Izin Tinggal Tetap;\nOrang Asing yang bersangkutan dikenai Tindakan Administratif Keimigrasian; atau\nputus hubungan perkawinan Orang Asing yang kawin secara sah dengan warga negara Indonesia karena perceraian dan/atau atas putusan pengadilan, kecuali perkawinan yang telah berusia 10 (sepuluh) tahun atau lebih.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 62",
+      "title": "UU Keimigrasian — Pasal 62"
+    },
+    {
+      "text": "Orang Asing tertentu yang berada di Wilayah Indonesia wajib memiliki Penjamin yang menjamin keberadaannya.\nPenjamin bertanggung jawab atas keberadaan dan kegiatan Orang Asing yang dijamin selama tinggal di Wilayah Indonesia serta berkewajiban melaporkan setiap perubahan status sipil, status Keimigrasian, dan perubahan alamat.\ntelah habis masa berlaku Izin Tinggalnya; dan/atau\ndikenai Tindakan Administratif Keimigrasian berupa Deportasi.\nKetentuan mengenai penjaminan tidak berlaku bagi Orang Asing yang kawin secara sah dengan warga negara Indonesia.\nKetentuan sebagaimana dimaksud dalam Pasal 62 ayat (2) huruf g tidak berlaku dalam hal pemegang Izin Tinggal Tetap tersebut putus hubungan perkawinannya dengan warga negara Indonesia memperoleh penjaminan yang menjamin keberadaannya sebagaimana dimaksud pada ayat (1).",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 63",
+      "title": "UU Keimigrasian — Pasal 63"
+    },
+    {
+      "text": "Izin Masuk Kembali diberikan kepada Orang Asing pemegang Izin Tinggal terbatas atau Izin Tinggal Tetap.\nPemegang Izin Tinggal terbatas diberikan Izin Masuk Kembali yang masa berlakunya sama dengan masa berlaku Izin Tinggal\nPemegang Izin Tinggal Tetap diberikan Izin Masuk Kembali yang berlaku selama 2 (dua) tahun sepanjang tidak melebihi masa berlaku Izin Tinggal Tetap.\nIzin Masuk Kembali berlaku untuk beberapa kali perjalanan.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 64",
+      "title": "UU Keimigrasian — Pasal 64"
+    },
+    {
+      "text": "Ketentuan lebih lanjut mengenai tata cara dan persyaratan permohonan, jangka waktu, pemberian, perpanjangan, atau pembatalan Izin Tinggal, dan alih status Izin Tinggal diatur dengan Peraturan Pemerintah.",
+      "source": "UU Keimigrasian",
+      "locator_type": "section",
+      "locator_value": "Pasal 65",
+      "title": "UU Keimigrasian — Pasal 65"
+    },
+    {
+      "text": "berwisata, mengunjungi keluarga, menghadiri pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya, serta transit di Indonesia untuk ke negara lain.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Dengan fasilitas bebas visa A1, anda dapat",
+      "title": "A1 Bebas Visa Wisata — Dengan fasilitas bebas visa A1, anda dapat"
+    },
+    {
+      "text": "Fasilitas Bebas Visa merupakan merupakan kategori bebas visa yang diperuntukkan bagi warga negara tertentu untuk satu kali masuk ke Indonesia dengan izin tinggal maksimal 30 hari, dihitung sejak tanggal kedatangan. Izin Tinggal dari fasilitas bebas visa ini tidak dapat diperpanjang dan tidak dapat dialihkan menjadi izin tinggal lain.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "A1 Bebas Visa Wisata — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 30 hari, dihitung sejak tanggal kedatangan.\nAnda tidak dapat memperpanjang izin tinggal ini.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "A1 Bebas Visa Wisata — Masa tinggal"
+    },
+    {
+      "text": "Biaya Rp0\nBiaya Verifikasi I/II Rp 0",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "A1 Bebas Visa Wisata — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan fasiltas bebas visa ini.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "A1 Bebas Visa Wisata — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Saat Kedatangan\nanda harus menunjukkan:\npaspor yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis\ntiket kembali atau tiket terusan ke negara lain, kecuali bagi awak alat angkut yang akan singgah untuk bergabung dengan kapalnya dan melanjutkan perjalanan ke negara lain\npetugas pada konter imigrasi akan menerakan izin masuk yang sekaligus merupakan izin tinggal.\nPra Kedatangan (elektronik)\nanda harus mengisi formulir elektronik di evisa.imigrasi.go.id\nanda akan menerima tanda masuk elektronik yang sekaligus merupakan izin tinggal dan bisa digunakan untuk melintasi autogate pada tempat pemeriksaan imigrasi.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "A1 Bebas Visa Wisata — Pengajuan visa"
+    },
+    {
+      "text": "Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, titre du voyage, certificate of identity, laissez passer , atau dokumen sejenis lainnya tidak diizinkan mengajukan fasilitas bebas visa.\nOrang Asing dengan izin tinggal dari fasilitas bebas visa dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "A1 Bebas Visa Wisata — Ketentuan lain"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "A1 Bebas Visa Wisata",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "A1 Bebas Visa Wisata — Dasar hukum"
+    },
+    {
       "text": "berwisata\nmengunjungi keluarga\nmenghadiri : pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya\nserta transit di Indonesia untuk ke negara lain.",
       "source": "B1 Visa Kunjungan Wisata",
       "locator_type": "section",
@@ -197,6 +866,412 @@
       "title": "B1 Visa Kunjungan Wisata — Dasar hukum"
     },
     {
+      "text": "berkunjung ke Indonesia untuk berwisata, pengembangan pribadi, atau mempelajari keunikan daya tarik wisata, juga melakukan perjalanan dengan kapal pesiar. Anda juga bisa hadir sebagai peserta dalam kegiatan pertemuan, insentif, konvensi, dan pameran serta melakukan diskusi, negosiasi, dan atau penandatanganan perjanjian bisnis pada perkantoran, pabrik, atau tempat produksi barang. Anda juga diizinkan melakukan peninjauan lapangan ke perkantoran, pabrik, tempat produksi barang, tempat yang akan diinvestasikan, dan atau tempat pertambangan; maupun melakukan kegiatan yang berhubungan dengan medis.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dengan visa C1, anda dapat",
+      "title": "C1 Visa Kunjungan Wisata — Dengan visa C1, anda dapat"
+    },
+    {
+      "text": "Visa C1 merupakan Visa Kunjungan untuk satu kali masuk ke Indonesia dengan izin tinggal pertama kali maksimal 60 hari, dihitung sejak tanggal kedatangan. Izin Tinggal ini dapat diperpanjang dan dapat dikonversikan menjadi Izin Tinggal Terbatas.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "C1 Visa Kunjungan Wisata — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 60 hari, dihitung sejak tanggal kedatangan.\nAnda dapat memperpanjang izin tinggal ini beberapa kali hingga maksimal 180 hari.\nPerpanjangan izin tinggal dapat dilakukan secara online melalui akun yang telah terdaftar di evisa.imigrasi.go.id",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "C1 Visa Kunjungan Wisata — Masa tinggal"
+    },
+    {
+      "text": "Masa tinggal 60 hari (dapat diperpanjang) : Rp. 1.000.000\nKomponen biaya:\nBiaya visa C1 Rp. 1.000.000\nBiaya Verifikasi I/II Rp 0\nSemua pembayaran (PNBP) dapat dilakukan melalui beberapa bank yang telah ditunjuk. Silakan lihat kode billing yang muncul di sistem setelah pengajuan visa oleh sponsor.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "C1 Visa Kunjungan Wisata — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.\nKecuali anda:\nBerstatus tanpa kewarganegaraan ( stateless ); atau\nPemegang dokumen perjalanan bukan paspor kebangsaan; atau\nWarga negara dari negara tertentu yang ada di dalam daftar ini.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "C1 Visa Kunjungan Wisata — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Orang asing harus memiliki akun di evisa.imigrasi.go.id sebelum mengajukan visa. Setelah memiliki akun, orang asing dapat mengajukan visa setelah login di evisa.imigrasi.go.id dengan menyiapkan berkas elektronik (detail format file) Orang Asing antara lain:\ndokumen perjalanan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis,\n(untuk pemegang dokumen perjalanan selain paspor kebangsaan seperti paspor darurat, dokumen identitas, dll harus berlaku selama 12 bulan)\nbukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin sebesar minimal USD2000 atau dalam mata uang lain yang setara jumlahnya,\npasfoto berwarna terbaru (setahun terakhir). Detail",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "C1 Visa Kunjungan Wisata — Pengajuan visa"
+    },
+    {
+      "text": "Tidak ada persyaratan khusus",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Persyaratan khusus:",
+      "title": "C1 Visa Kunjungan Wisata — Persyaratan khusus:"
+    },
+    {
+      "text": "Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, titre du voyage , certificate of identity , laissez passer , atau dokumen sejenis lainnya harus melampirkan dokumen Izin Masuk Kembali ke negara tempat Visa Kunjungan diajukan serta tiket kembali/tiket terusan ke negara lain (kecuali bagi awak alat angkut).\nMasa berlaku visa adalah 90 hari sejak diterbitkan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nHarap diperhatikan bahwa masa berlaku visa berbeda dengan masa tinggal, silakan periksa visa Anda untuk informasi tentang lama izin tinggal.\nOrang Asing dengan izin tinggal dari visa ini dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.\nOrang Asing dengan izin tinggal dari visa ini dilarang menjadi mengisi acara sebagai Pembicara.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "C1 Visa Kunjungan Wisata — Ketentuan lain"
+    },
+    {
+      "text": "Pengajuan Visa di Perwakilan RI, petugas akan:\nmemeriksa kelengkapan persyaratan;\nmengisi data, memindai berkas, dan mencetak tanda terima permohonan;\nmemverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\nmembuat profil dan memverifikasi;\nmenyetujui permohonan;\nmelakukan proses personalisasi, mencetak, dan menandatangani visa kunjungan;\nmenerbitkan dan menyerahkan visa.\nWaktu proses lima hari kerja setelah pembayaran visa diterima.\nPengajuan Visa di Direktorat Jenderal Imigrasi:\npemeriksaan kelengkapan persyaratan;\nverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\npembuatan profil dan verifikasi;\npersetujuan;\npenerbitan visa.\nWaktu Proses lima hari kerja setelah pembayaran visa diterima.",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Proses pengajuan dan pemberian visa",
+      "title": "C1 Visa Kunjungan Wisata — Proses pengajuan dan pemberian visa"
+    },
+    {
+      "text": "Undang-undang Nomor 6 tahun 2011 tentang Keimigrasian\nPeraturan Pemerintah Nomor 31 tahun 2013\nPeraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "C1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "C1 Visa Kunjungan Wisata — Dasar hukum"
+    },
+    {
+      "text": "berbisnis, mengikuti rapat, serta melakukan pembelian barang. Anda juga dapat melakukan pembicaraan, pembahasan, negosiasi, dan/atau menandatangani perjanjian bisnis. Visa ini memungkinkan anda melakukan pengecekan barang di kantor, pabrik, atau tempat produksi barang. Termasuk dengan visa ini anda dapat berwisata serta mengunjungi teman dan keluarga.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Dengan visa C2, anda dapat",
+      "title": "C2 Visa Kunjungan Bisnis — Dengan visa C2, anda dapat"
+    },
+    {
+      "text": "Visa C2 merupakan Visa Kunjungan untuk satu kali masuk ke Indonesia dengan izin tinggal pertama kali maksimal 60 hari, dihitung sejak tanggal kedatangan. Izin Tinggal ini dapat diperpanjang dan dapat dikonversikan menjadi Izin Tinggal Terbatas.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "C2 Visa Kunjungan Bisnis — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 60 hari, dihitung sejak tanggal kedatangan.\nAnda dapat memperpanjang izin tinggal ini beberapa kali hingga maksimal 180 hari.\nPerpanjangan izin tinggal dapat dilakukan secara online melalui akun yang telah terdaftar di evisa.imigrasi.go.id",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "C2 Visa Kunjungan Bisnis — Masa tinggal"
+    },
+    {
+      "text": "Masa tinggal 60 hari (dapat diperpanjang) : Rp. 2.000.000\nKomponen biaya:\nBiaya visa C2 Rp 1.000.000\nBiaya Verifikasi I Rp 1.000.000\nSemua pembayaran (PNBP) dapat dilakukan melalui beberapa bank yang telah ditunjuk. Silakan lihat kode billing yang muncul di sistem setelah pengajuan visa oleh sponsor.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "C2 Visa Kunjungan Bisnis — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.\nKecuali anda:\nBerstatus tanpa kewarganegaraan ( stateless ); atau\nPemegang dokumen perjalanan bukan paspor kebangsaan; atau\nWarga negara dari negara tertentu yang ada di dalam daftar ini.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "C2 Visa Kunjungan Bisnis — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Orang asing harus memiliki akun di evisa.imigrasi.go.id sebelum mengajukan visa. Setelah memiliki akun, orang asing dapat mengajukan visa setelah login di evisa.imigrasi.go.id dengan menyiapkan berkas elektronik (detail format file) Orang Asing antara lain:\ndokumen perjalanan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis,\n(untuk pemegang dokumen perjalanan selain paspor kebangsaan seperti paspor darurat, dokumen identitas, dll harus berlaku selama 12 bulan)\nbukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin\npasfoto berwarna terbaru (setahun terakhir). Detail",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "C2 Visa Kunjungan Bisnis — Pengajuan visa"
+    },
+    {
+      "text": "Surat keterangan/undangan/korespondensi dari instansi pemerintah atau lembaga swasta yang menjelaskan hubungan dengan Orang Asing bersangkutan.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Persyaratan Khusus",
+      "title": "C2 Visa Kunjungan Bisnis — Persyaratan Khusus"
+    },
+    {
+      "text": "Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, titre du voyage , certificate of identity , laissez passer , atau dokumen sejenis lainnya harus melampirkan dokumen Izin Masuk Kembali ke negara tempat Visa Kunjungan diajukan serta tiket kembali/tiket terusan ke negara lain (kecuali bagi awak alat angkut).\nMasa berlaku visa adalah 90 hari sejak diterbitkan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nHarap diperhatikan bahwa masa berlaku visa berbeda dengan masa tinggal, silakan periksa visa Anda untuk informasi tentang lama izin tinggal.\nOrang Asing dengan izin tinggal dari visa ini dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "C2 Visa Kunjungan Bisnis — Ketentuan lain"
+    },
+    {
+      "text": "Pengajuan Visa di Perwakilan RI, petugas akan:\nmemeriksa kelengkapan persyaratan;\nmengisi data, memindai berkas, dan mencetak tanda terima permohonan;\nmemverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\nmembuat profil dan memverifikasi;\nmenyetujui permohonan;\nmelakukan proses personalisasi, mencetak, dan menandatangani visa kunjungan;\nmenerbitkan dan menyerahkan visa.\nWaktu proses lima hari kerja setelah pembayaran visa diterima.\nPengajuan Visa di Direktorat Jenderal Imigrasi:\npemeriksaan kelengkapan persyaratan;\nverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\npembuatan profil dan verifikasi;\npersetujuan;\npenerbitan visa.\nWaktu Proses lima hari kerja setelah pembayaran visa diterima.",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Proses pengajuan dan pemberian visa",
+      "title": "C2 Visa Kunjungan Bisnis — Proses pengajuan dan pemberian visa"
+    },
+    {
+      "text": "Undang-undang Nomor 6 tahun 2011 tentang Keimigrasian\nPeraturan Pemerintah Nomor 31 tahun 2013\nPeraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI\nKeputusan Direktur Jenderal Imigrasi Nomor IMI-943.GR.01.01 Tahun 2024 tentang Besaran Biaya Hidup Bagi Orang Asing Dan/Atau Keluarganya Selama Berada Di Wilayah Indonesia Sebagai Syarat Permohonan Visa Kunjungan Dan Visa Tinggal Terbatas",
+      "source": "C2 Visa Kunjungan Bisnis",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "C2 Visa Kunjungan Bisnis — Dasar hukum"
+    },
+    {
+      "text": "berwisata, mengunjungi keluarga, menghadiri pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya (sebagai peserta), serta transit di Indonesia untuk ke negara lain.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dengan visa D1, anda dapat",
+      "title": "D1 Visa Kunjungan Wisata — Dengan visa D1, anda dapat"
+    },
+    {
+      "text": "Visa ini merupakan Visa Kunjungan untuk beberapa kali masuk ke Indonesia dengan izin tinggal maksimal 60 hari setiap kedatangan, serta dihitung sejak tanggal kedatangan. Izin Tinggal ini dapat diperpanjang namun tidak dapat dikonversikan menjadi Izin Tinggal Terbatas.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "D1 Visa Kunjungan Wisata — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 60 hari setiap kali kedatangan, dihitung sejak tanggal kedatangan.\nAnda dapat memperpanjang izin tinggal ini beberapa kali hingga maksimal 180 hari.\nPerpanjangan izin tinggal dapat dilakukan secara online oleh sponsor melalui akun yang telah terdaftar di evisa.imigrasi.go.id",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "D1 Visa Kunjungan Wisata — Masa tinggal"
+    },
+    {
+      "text": "Visa Kunjungan Beberapa kali Perjalanan paling lama 1 tahun: Rp3.000.000\nVisa Kunjungan Beberapa kali Perjalanan paling lama 2 tahun: Rp5.000.000\nVisa Kunjungan Beberapa kali Perjalanan paling lama 5 tahun: Rp10.000.000\nBiaya Verifikasi I/II : Rp 0\nPenjamin dapat melakukan pembayaran melalui beberapa bank persepsi/bank yang telah ditunjuk di Indonesia. Setelah permohonan visa oleh penjamin selesai diajukan, silakan lihat kode tagihan (billing code) pada sistem sebagai dasar pembayaran visa.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "D1 Visa Kunjungan Wisata — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.\nKecuali anda warga negara dari negara tertentu yang ada di dalam daftar ini.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "D1 Visa Kunjungan Wisata — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Orang asing harus memiliki akun di evisa.imigrasi.go.id sebelum mengajukan visa. Setelah memiliki akun, orang asing dapat mengajukan visa setelah login di evisa.imigrasi.go.id dengan menyiapkan berkas elektronik (detail format file) Orang Asing antara lain:\ndokumen perjalanan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis;\nbukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin sebesar minimal USD2000 atau dalam mata uang lain yang setara jumlahnya,\npasfoto berwarna terbaru (setahun terakhir). Detail\ncurriculum vitae,\nrencana perjalanan (travel itinerary).",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "D1 Visa Kunjungan Wisata — Pengajuan visa"
+    },
+    {
+      "text": "surat keterangan, undangan, atau korespondensi dari instansi pemerintah atau lembaga swasta yang menjelaskan hubungan dengan Orang Asing bersangkutan; atau\nsurat keterangan dari suami/istri atau orang tua (WNI) yang menjelaskan ikatan keluarga dengan Orang Asing bersangkutan dan kegiatan Orang Asing selama berada di Indonesia (dilengkapi dengan kartu keluarga/dokumen sejenisnya).",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Persyaratan khusus",
+      "title": "D1 Visa Kunjungan Wisata — Persyaratan khusus"
+    },
+    {
+      "text": "Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, titre du voyage , certificate of identity , laissez passer , atau dokumen sejenis lainnya harus melampirkan dokumen Izin Masuk Kembali ke negara tempat Visa Multipel diajukan serta tiket kembali/tiket terusan ke negara lain (kecuali bagi awak alat angkut).\nMasa berlaku visa terhitung sejak tanggal penerbitan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nOrang Asing dengan izin tinggal dari Visa D1 dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "D1 Visa Kunjungan Wisata — Ketentuan lain"
+    },
+    {
+      "text": "pemeriksaan kelengkapan persyaratan;\nverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\npembuatan profil dan verifikasi;\npersetujuan;\npenerbitan visa.\nWaktu Proses lima hari kerja setelah pembayaran visa diterima.",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Proses pengajuan dan pemberian visa",
+      "title": "D1 Visa Kunjungan Wisata — Proses pengajuan dan pemberian visa"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "D1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "D1 Visa Kunjungan Wisata — Dasar hukum"
+    },
+    {
+      "text": "tinggal di wilayah Indonesia sepanjang memenuhi ketentuan peraturan perundang·undangan di bidang keimigrasian.\nSelama Izin Masuk Kembali masih berlaku, Anda diizinkan masuk dan keluar wilayah Indonesia.\nSelain itu, Anda juga dapat melakukan aktivitas yang berhubungan dengan wisata, mengunjungi teman atau keluarga",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Dengan visa ini, anda dapat",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Dengan visa ini, anda dapat"
+    },
+    {
+      "text": "Visa Tinggal Terbatas untuk masuk ke Indonesia yang memungkinkan Anda untuk masuk dan keluar Indonesia dalam jangka waktu tertentu.\nIzin Tinggal dari jenis visa ini dapat diperpanjang dan dapat dialihkan menjadi izin tinggal lainnya.",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Jenis visa"
+    },
+    {
+      "text": "Anda dapat memilih untuk tinggal di Indonesia selama 1 tahun atau 2 tahun dihitung sejak tanggal kedatangan.\nPerpanjangan izin tinggal dapat dilakukan secara online melalui evisa.imigrasi.go.id",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Masa tinggal"
+    },
+    {
+      "text": "Masa tinggal 1 tahun : Rp. 6.000.000,-\nKomponen Biaya:\nBiaya visa Rp 500.000\nIzin tinggal terbatas Rp 5.000.000\nIzin masuk kembali Rp 2.000.000\nBiaya Verifikasi I Rp 1.000.000\nMasa tinggal 2 tahun : Rp. 8.500.000,-\nKomponen Biaya:\nBiaya visa Rp 500.000\nIzin tinggal terbatas Rp 5.000.000\nIzin masuk kembali Rp 2.000.000\nBiaya Verifikasi I Rp 1.000.000",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda membutuhkan penjamin/sponsor untuk mengajukan visa ini.",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Penjamin (sponsor) harus memiliki akun di evisa.imigrasi.go.id sebelum mengajukan visa bagi Orang Asing yang dia sponsori.\nSetelah memiliki akun, penjamin dapat mengajukan visa bagi Orang Asing setelah login di evisa.imigrasi.go.id dengan menyiapkan berkas elektronik (file PDF atau JPEG) Orang Asing antara lain:\nSurat permohonan visa dari suami/istri warga negara Indonesia\nPaspor kebangsaan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis,\nbukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin dengan jumlah minimal USD $2000 (dua ribu Dolar Amerika Serikat) atau jumlah yang setara\npasfoto berwarna terbaru (setahun terakhir). Detail\nRincian perjalanan (itinerary)\nCurriculum vitae",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Pengajuan visa"
+    },
+    {
+      "text": "bukti pelaporan atau pencatatan pada Perwakilan Republik Indonesia atau instansi yang berwenang di bidang pencatatan sipil, dan akta perkawinan yang telah diterjemahkan dalam Bahasa Indonesia oleh penerjemah tersumpah kecuali dalam Bahasa Inggris, jika perkawinan dilakukan di luar Wilayah Indonesia;\nbuku nikah atau akta perkawinan yang dikeluarkan oleh kementerian atau lembaga berwenang, jika perkawinan dilakukan di Wilayah Indonesia.",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Persyaratan khusus",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Persyaratan khusus"
+    },
+    {
+      "text": "Masa berlaku visa adalah 90 hari sejak diterbitkan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nHarap diperhatikan bahwa masa berlaku visa berbeda dengan masa tinggal, silakan periksa visa Anda untuk informasi tentang lama izin tinggal.\nIzin Tinggal Terbatas dan Izin Masuk Kembali akan terbit secara otomatis begitu Anda diizinkan masuk oleh petugas pada Tempat Pemeriksaan Imigrasi.\nAnda dilarang tinggal di wilayah Indonesia melebihi jangka waktu izin tinggal, melakukan pekerjaan yang tidak sesuai dengan izin tinggal, melakukan penjualan barang atau jasa, terkecuali diperlukan dalam pekerjaannya.",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Ketentuan lain"
+    },
+    {
+      "text": "Pengajuan Visa di Direktorat Jenderal Imigrasi:\npemeriksaan kelengkapan persyaratan;\nverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\npembuatan profil dan verifikasi;\npersetujuan;\npenerbitan visa.\nWaktu proses lima hari kerja setelah pembayaran visa diterima.",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Proses pengajuan dan pemberian visa",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Proses pengajuan dan pemberian visa"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM\nPeraturan Menteri Hukum dan HAM RI Nomor 22 Tahun 2023 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan RI Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "E31A Visa Keluarga Suami/Istri WNI",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "E31A Visa Keluarga Suami/Istri WNI — Dasar hukum"
+    },
+    {
+      "text": "Tinggal di Indonesia untuk melaksanakan tugas dari perusahaan luar negeri.\nSelama Izin Masuk Kembali masih berlaku, Anda diizinkan untuk masuk dan keluar wilayah Indonesia. Selain itu, Anda juga dapat melakukan aktivitas yang berhubungan dengan wisata, mengunjungi teman atau keluarga",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Dengan visa ini, anda dapat",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Dengan visa ini, anda dapat"
+    },
+    {
+      "text": "Visa Tinggal Terbatas untuk masuk ke Indonesia yang memungkinkan Anda untuk masuk dan keluar Indonesia dalam jangka waktu tertentu.\nIzin Tinggal dari jenis visa ini dapat diperpanjang dan dapat dialihkan menjadi izin tinggal lainnya.",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia selama 1 tahun. Perpanjangan izin tinggal dapat dilakukan secara online melalui evisa.imigrasi.go.id",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Masa tinggal"
+    },
+    {
+      "text": "Masa tinggal 1 tahun: Rp.7.000.000,-\nVisa Tinggal Terbatas: Rp500.000,00\nBiaya Verifikasi Visa Kategori II: Rp2.000.000,00\nIzin Tinggal Terbatas paling lama 1 tahun: Rp3.000.000,00\nIzin Masuk Kembali paling lama 1 tahun: Rp1.500.000,00",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Anda harus memiliki akun di evisa.imigrasi.go.id sebelum mengajukan visa.\nSetelah memiliki akun, Anda dapat mengajukan visa setelah login di evisa.imigrasi.go.id dengan menyiapkan berkas elektronik (file PDF atau JPEG) Orang Asing antara lain:\nPaspor kebangsaan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis,\nbukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin dengan jumlah minimal USD $2000 (dua ribu Dolar Amerika Serikat) atau jumlah yang setara\npasfoto berwarna terbaru (setahun terakhir). Detail\nDaftar riwayat hidup\nRiwayat perjalanan ( itinerary )",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Pengajuan visa"
+    },
+    {
+      "text": "Rekening bank yang membuktikan penghasilan berupa gaji atau penghasilan senilai paling sedikit US$60.000 per tahun;\nPerjanjian kerja dengan perusahaan yang didirikan di luar Wilayah Indonesia.",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Persyaratan khusus",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Persyaratan khusus"
+    },
+    {
+      "text": "Masa berlaku visa adalah 90 hari sejak diterbitkan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nHarap diperhatikan bahwa masa berlaku visa berbeda dengan masa tinggal, silakan periksa visa Anda untuk informasi tentang lama izin tinggal.\nIzin Tinggal Terbatas dan Izin Masuk Kembali akan terbit secara otomatis begitu Anda diizinkan masuk oleh petugas pada Tempat Pemeriksaan Imigrasi.\nAnda dilarang tinggal di wilayah Indonesia melebihi jangka waktu izin tinggal, melakukan pekerjaan yang tidak sesuai dengan izin tinggal, melakukan penjualan barang atau jasa, terkecuali diperlukan dalam pekerjaannya",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Ketentuan lain"
+    },
+    {
+      "text": "Pengajuan Visa di Direktorat Jenderal Imigrasi:\npemeriksaan kelengkapan persyaratan;\nverifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;\npembuatan profil dan verifikasi;\npersetujuan;\npenerbitan visa.\nWaktu proses lima hari kerja setelah pembayaran visa diterima.",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Proses pengajuan dan pemberian visa",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Proses pengajuan dan pemberian visa"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM\nPeraturan Menteri Hukum dan HAM RI Nomor 22 Tahun 2023 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan RI Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "E33G Visa Rumah Kedua Pekerja Jarak Jauh",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "E33G Visa Rumah Kedua Pekerja Jarak Jauh — Dasar hukum"
+    },
+    {
+      "text": "berwisata, mengunjungi keluarga, menghadiri pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya, serta transit di Indonesia untuk ke negara lain.",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dengan visa F1, anda dapat",
+      "title": "F1 Visa Kunjungan Wisata — Dengan visa F1, anda dapat"
+    },
+    {
+      "text": "Visa F1 dengan Izin Tinggal 7 hari hanya diberikan di Tempat Pemeriksaan Imigrasi Laut di Wilayah Kepulauan Riau (Batam, Tanjung Pinang, Tanjung Uban, dan Tanjung Balai Karimun). Izin tinggal ini tidak dapat diperpanjang dan tidak dapat dialihstatuskan menjadi Izin Tinggal lainnya.\nVisa ini hanya dapat diajukan secara langsung oleh Orang Asing di Tempat Pemeriksaan Imigrasi tertentu saja.\nDaftar Pelabuhan Tempat Pemeriksaan Imigrasi Laut:\nNongsa Terminal Bahari\nMarina Teluk Senimba\nBatam Centre\nCitra Tri Tunas\nSekupang\nSri Bintan Pura\nBandar Bentani Telani Lagoi\nTanjung Balai Karimun",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "F1 Visa Kunjungan Wisata — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 7 hari, dihitung sejak tanggal kedatangan.\nAnda tidak dapat memperpanjang izin tinggal ini.",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "F1 Visa Kunjungan Wisata — Masa tinggal"
+    },
+    {
+      "text": "Biaya visa F1 Rp250.000\nBiaya Verifikasi I/II Rp 0\nPembayaran Visa Kunjungan Saat Kedatangan dilakukan di konter bank yang ditunjuk pada area pemeriksaan imigrasi .",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "F1 Visa Kunjungan Wisata — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "F1 Visa Kunjungan Wisata — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Permohonan dan Pembayaran Saat Kedatangan\nOrang asing dari negara subjek visa kunjungan saat kedatangan akan:\nmelakukan pembayaran Visa Kunjungan Saat Kedatangan di konter Bank yang ditunjuk pada area imigrasi bandar udara/pelabuhan dengan menunjukkan paspor yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis kepada petugas\nmemperoleh Vaucer Visa, kertas sekuriti sebagai tanda bukti pembayaran Visa kunjungan saat kedatangan\nmenunjukkan Vaucer Visa kepada petugas imigrasi pada konter Visa Kunjungan Saat Kedatangan\nmemperoleh stiker Visa Kunjungan Saat Kedatangan yang ditempelkan pada paspor serta tanda masuk elektronik.",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "F1 Visa Kunjungan Wisata — Pengajuan visa"
+    },
+    {
+      "text": "Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, titre du voyage, certificate of identity, laissez passer , atau dokumen sejenis lainnya tidak diizinkan mengajukan visa kunjungan saat kedatangan.\nVisa kunjungan saat kedatangan langsung digunakan setelah terbit\nOrang Asing dengan izin tinggal dari Visa F1 dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "F1 Visa Kunjungan Wisata — Ketentuan lain"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "F1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "F1 Visa Kunjungan Wisata — Dasar hukum"
+    },
+    {
       "text": "19 Apr 2024\nJAKARTA – Orang asing yang akan berwisata atau kunjungan keluarga tidak jarang mengalami kesulitan dalam memilih antara Visa on Arrival (VoA) dengan Visa Kunjungan Wisata (VKW). Merujuk pada Keputusan Menteri Hukum dan HAM Nomor M.HH-02.GR.01.04 tahun 2023 tentang Klasifikasi Visa, VoA dan VKW memang sama-sama diperuntukkan untuk kegiatan wisata, kunjungan keluarga atau transit. Hanya saja ada sejumlah hal yang membedakan kedua jenis visa tersebut.\n“VoA dan VKW sekilas memang mirip dalam hal peruntukkan kegiatannya. Sisanya berbeda sama sekali,” jelas Direktur Lalu Lintas Keimigrasian, Felucia Sengky.\nLebih lanjut Sengky menjelaskan bahwa ada tujuh perbedaan mendasar di antara VoA dan VKW.\nBerikut di antaranya:\n1. Indeks Visa\nVisa on Arrival menggunakan indeks B1 sedangkan Visa Kunjungan Wisata berindeks C1.\n2. Peruntukkan negara\nTidak semua negara bisa mengajukan visa on arrival. Hanya 97 negara yang bisa memperoleh VKSK sedangkan VKW bisa diajukan oleh negara mana saja.\n3. Lama Tinggal\nUntuk pemberian pertama, pemegang VoA diizinkan untuk tinggal selama 30 hari di Indonesia, sementara itu pemegang VKW bisa tinggal hingga 60 hari.\n4. Biaya\nJika VoA bisa diperoleh dengan biaya Rp. 500.000,-, orang asing yang akan mengajukan VKW harus mengeluarkan biaya tiga kali lipatnya atau sejumlah Rp 1.500.000,- dengan masa tinggal yang dua kali lebih lama dibanding orang asing pemegang VoA\n5. Pengajuan",
       "source": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
       "locator_type": "document",
@@ -209,6 +1284,139 @@
       "locator_type": "document",
       "locator_value": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
       "title": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival"
+    },
+    {
+      "text": "Utama\n»\nPerkhidmatan Utama\n»\nPas\n»\nPas Lawatan\n»\nPas Lawatan Sosial\n»\nPas Lawatan Sosial Jangka...",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "document",
+      "locator_value": "Pas Lawatan Sosial Jangka Panjang",
+      "title": "Pas Lawatan Sosial Jangka Panjang"
+    },
+    {
+      "text": "PAS LAWATAN (SOSIAL) JANGKA PANJANG\n(Pasangan kepada Warganegara Malaysia)\nPengenalan\nPas Lawatan Sosial Jangka Panjang (PLSJP) dikeluarkan oleh Jabatan Imigresen Malaysia kepada warga asing untuk tinggal sementara di Malaysia bagi tempoh minimum enam (6) bulan.\nBagi suami atau isteri warga asing kepada warganegara Malaysia:\nPas boleh diberikan sehingga lima (5) tahun, tertakluk kepada kelulusan dan syarat yang ditetapkan.\nPemegang pas ini dibenarkan bekerja, menjalankan perniagaan atau pekerjaan profesional tanpa perlu menukar kepada Pas Penggajian atau Pas Lawatan (Kerja Sementara).\nNaziran boleh dilaksanakan sebagai aktiviti pengesahan bagi memastikan pemegang kemudahan imigresen mematuhi syarat yang telah ditetapkan. Pelaksanaan Naziran boleh melibatkan lawatan ke alamat atau premis yang didaftarkan, pemerhatian, temu bual dengan pihak berkaitan serta semakan dokumen yang dikemukakan kepada Jabatan.\nPenemuan hasil Naziran akan digunakan sebagai asas sokongan dalam proses pertimbangan, pemberian atau lanjutan kemudahan imigresen di bawah kawalan Bahagian Visa, Pas dan Permit.\nSyarat dan Peraturan Kebenaran Bekerja\n(Pasangan Warganegara Malaysia)\nJabatan Imigresen Malaysia berhak meminta dokumen tambahan sekiranya diperlukan.\nSemua dokumen asal mesti dibawa untuk tujuan pengesahan. Permohonan yang tidak lengkap tidak akan diproses.\nPermohonan hendaklah dikemukakan oleh pemohon bersama pasangan warganegara Malaysia.\nPemohon mestilah suami atau isteri kepada warganegara Malaysia yang memegang Pas Lawatan (Sosial) di bawah kemudahan pasangan warganegara Malaysia.",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Pemohon mestilah suami atau isteri kepada warganegara Malaysia yang memegang Pas Lawatan (Sosial) di bawah kemudahan pasangan warganegara Malaysia.\nPekerjaan atau perniagaan yang dijalankan mestilah sah di sisi undang-undang Malaysia.\nKebenaran bekerja atau berniaga akan diendors dalam pasport pemohon.\nPemohon yang telah diberi kebenaran bekerja hendaklah mematuhi semua peraturan yang ditetapkan oleh Ketua Pengarah Imigresen Malaysia.\nSenarai Semak Dokumen Yang Diperlukan\nPemohon perlu menyediakan dokumen berikut:\nSalinan Kad Pengenalan (MyKad) suami atau isteri warganegara Malaysia.\nSalinan pasport pemohon serta pas terkini.\nBorang Akuan Sumpah yang lengkap berserta gambar dan disahkan oleh Pesuruhjaya Sumpah.\nSalinan Sijil Perkahwinan atau Sijil Nikah.\nSurat Tawaran Kerja daripada majikan (menggunakan kepala surat rasmi syarikat).\nJawatan\nTempoh pekerjaan\nGaji bulanan\nTandatangan majikan dan pekerja\nBorang Maklumat Pemohon, Pasangan Warganegara dan Majikan.\nSalinan terkini Borang Pendaftaran Syarikat yang dicetak terus daripada sistem MyData SSM.\nTatacara Memohon Endorsmen Kebenaran Bekerja\nPermohonan hendaklah dibuat di Bahagian Visa, Pas dan Permit di negeri tempat pemohon bekerja.\nSemasa memohon Pas Lawatan (Sosial) Jangka Panjang; atau\nPada bila-bila masa selepas menerima tawaran kerja.\nSyarat dan dokumen permohonan yang diperlukan mengikut kategori :\nPermohonan Baru Isteri Atau Suami Kepada Warganegara\nPermohonan Baru Bagi Suami Atau Isteri Kepada Warganegara China dan Nigeria",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Permohonan Baru Isteri Atau Suami Kepada Warganegara\nPermohonan Baru Bagi Suami Atau Isteri Kepada Warganegara China dan Nigeria\nPermohonan Lanjutan Bagi Suami / Isteri Kepada Warganegara\nPegawai Dagang dan Anak yang telah mendapat kelulusan taraf Penduduk Tetap (sementara menunggu pengeluaran Permit Masuk)\nJabatan Imigresen Malaysia berhak memohon bukti / dokumen lain jika diperlukan.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nPermohonan perlu dikemukakan oleh pemohon dengan kehadiran pasangan Warganegara Malaysia.\nPemohon merupakan isteri atau suami kepada warganegara Malaysia yang mana perkahwinan mereka telah didaftarkan secara sah dan teratur di bawah undang-undang yang berkuatkuasa di Malaysia.\nPemohon adalah layak diberikan ataupun telah diberikan Pas Lawatan Sosial dibawah kemudahan suami atau isteri asing kepada warganegara Malaysia.\nPekerjaan atau perniagaan yang dilakukan itu adalah merupakan pekerjaan atau perniagaan yang sah mengikut undang-undang dan peraturan-peraturan yang berkaitan yang berkuatkuasa di Malaysia.\nKebenaran melakukan pekerjaan atau perniagaan ini dicatatkan ataupun di endos dalam Pas Lawatan Sosial yang berkaitan oleh Ketua Pengarah Imigresen Malaysia atau mana-mana Pegawai Imigresen yang diberi kuasa untuk membuat catatan/endorsan tersebut.\nPemegang Pas Lawatan Sosial tersebut mematuhi peraturan-peraturan yang ditetapkan oleh Ketua Pengarah Imigresen Malaysia bagi maksud pengeluaran Pas Lawatan Sosial tersebut serta bagi maksud membuat catatan/pengendorsan yang berkaitan.\nSalinan Kad Pengenalan suami / isteri",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Salinan Kad Pengenalan suami / isteri\nSalinan Pasport dan pas terkini Pemohon\nBorang Surat Akuan Sumpah beserta gambar (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nSalinan Daftar Perkahwinan / Sijil Nikah\nSurat Tawaran Bekerja dari majikan (menggunakan Letterhead Syarikat)\nJawatan\nTempoh Kerja\nGaji Bulanan\nTandatangan kedua pihak (majikan dan pekerja)\nBorang Maklumat Pemohon, Pasangan Warganegara dan Majikan\nBorang Pendaftaran Syarikat (dicetak terus dari sistem My Data – SSM) terkini.\nPermohonan boleh dibuat di Bahagian Visa, Pas dan Permit, Ibu Pejabat Imigresen, Putrajaya atau di Pejabat Imigresen Negeri berdekatan.\nPermohonan boleh dikemukakan semasa mendapatkan semasa mendapatkan kelulusan Pas Lawatan Sosial yang berkaitan atau pada bila-bila masa selepas Pas Lawatan Sosial yang berkaitan diberikan.\nSijil Perkahwinan / Sijil nikah\nTawaran Kerja / Daftar Perniagaan (mana yang berkaitan)\nPermohonan perlu dikemukakan oleh ibubapa warganegara.\nPemohon hendaklah berumur 7 tahun kebawah.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nJabatan Imigresen Malaysia berhak memohon bukti / dokumen lain jika diperlukan.\nBorang Imm.12\nBorang Imm.38\nSalinan Pasport pemohon (semua mukasurat bercetak)\nSalinan Kad Pengenalan ibu / bapa warganegara\nSalinan Pasport dan Pas Semasa ibu atau bapa bukan warganegara",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Salinan Kad Pengenalan ibu / bapa warganegara\nSalinan Pasport dan Pas Semasa ibu atau bapa bukan warganegara\nSijil Penceraian/ Sijil Kematian Pasangan, Sijil Kahwin, Sijil Lahir, Notarial Certificate diterjemahkan dalam bahasa melayu / inggeris (pengesahan dari Kedutaan Malaysia di Luar Negara dan Wisma Putra)\nWarganegara asing yang berumur 60 tahun ke atas yang tidak mempunyai keluarga di negara asal dan mempunyai keluarga di negara ini yang sanggup menyaranya.\nPenaja hendaklah terdiri daripada anak kandung / menantu / adik beradik.\nPenaja hendaklah berpendapatan RM 2000 dan ke atas.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nJabatan Imigresen Malaysia berhak memohon bukti / dokumen lain jika diperlukan.\nBorang Imm.12 (2 salinan)\nBorang Imm.38\nSalinan Pasport pemohon (semua mukasurat bercetak)\nSurat Akuan pemohon (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nB orang Personal Bond / Security Bond (dimatikan setem Rm 10 di LHDN) – Security Bond bagi warganegara China dan Nigeria\nSalinan Kad Pengenalan Penaja (penaja perlu hadir)\nBorang Akuan Penaja (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nBukti pendapatan majikan ( Letterhead Syarikat) ATAU\nLesen Perniagaan / SSM / ROC DAN\nPenyata Bank Akaun Persendirian – 3 bulan terkini",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Lesen Perniagaan / SSM / ROC DAN\nPenyata Bank Akaun Persendirian – 3 bulan terkini\nSijil Penceraian/ Sijil Kematian Pasangan, Sijil Kahwin, Sijil Lahir, Notarial Certificate diterjemahkan dalam bahasa melayu / inggeris (pengesahan dari Kedutaan Malaysia di Luar Negara dan Wisma Putra)\nBukti pertalian hendaklah dikemukakan dalam bentuk dokumen bagi menerangkan pertalian antara penaja dengan pemohon\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.12 / Imm.55\nBorang Imm.38 (jika perlu)\nSurat pengesahan pelajar dari IPTS/IPTA\nSalinan sijil kelahiran pelajar\nSurat dari kedutaan sebagai bukti pertalian\nPasport\nSijil nikah/ perkahwinan suami/ isteri\nSijil kelahiran anak kepada pelajar\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.12 / Imm. 55\nBorang Imm.38\nSalinan sijil nikah\nSalinan sijil kelahiran anak (jika ada)\nSurat Akuan Sumpah Terkini – perkahwinan wujud dan masih sah\nBorang ‘Security Bond’ (dimatikan setem hasil RM10.00)\nKad pengenalan penaja/pasangan\nBukti pendapatan penaja/ pasangan\nSalinan pasport penaja / pasangan\nGambar perkahwinan\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.12 / Imm. 55\nBorang Imm.38\nSijil nikah\nSijil kelahiran anak (jika ada)\nSurat Akuan Sumpah terkini – suami tidak dapat dikesan/ lari",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Borang Imm.38\nSijil nikah\nSijil kelahiran anak (jika ada)\nSurat Akuan Sumpah terkini – suami tidak dapat dikesan/ lari\nBorang ‘Security Bond’ (dimatikan setem hasil RM10.00)\nSurat akuan penaja tempatan\nKad pengenalan penaja\nBukti pendapatan penaja – pendapatan penaja RM2000.00 ke atas\nSalinan laporan polis/ hospital – bukti penganiayaan\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.12 / Imm. 55\nBorang Imm.38\nSijil nikah\nSijil perceraian\nSijil kelahiran anak (jika ada)\nSurat Akuan Sumpah – tidak pernah berkahwin setelah bercerai\nBorang ‘Security Bond’ (dimatikan setem hasil RM10.00)\nSurat Akuan Penaja Tempatan\nKad pengenalan penaja\nBukti pendapatan penaja – pendapatan penaja RM2000.00 ke atas\nPermohonan perlu dikemukakan oleh pemohon dengan kehadiran penaja Warganegara Malaysia.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nJabatan Imigresen Malaysia berhak memohon bukti / dokumen lain jika diperlukan.\nBorang Imm.12\nBorang Imm.38\nSalinan Pasport Pemohon (semua mukasurat bercetak)\nBorang Personal Bond / Security Bond (dimatikan setem Rm 10 di LHDN) – Security Bond bagi warganegara China dan Nigeria\nSurat Akuan Pemohon (AM 80) – dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan\nSalinan Kad Pengenalan Penaja (penaja hendaklah dari ahli keluarga terdekat suami)",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Salinan Kad Pengenalan Penaja (penaja hendaklah dari ahli keluarga terdekat suami)\nSurat Akuan Penaja (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nBukti pendapatan majikan ( Letterhead Syarikat) beserta slip gaji (3 bulan terkini) ATAU\nLesen Perniagaan / SSM / ROC beserta Penyata Bank (3 bulan terkini)\nDokumen Tambahan (Sijil Penceraian / Sijil Kematian Pasangan, Sijil Kahwin, Sijil Lahir, Notarial Certificate diterjemahkan dalam Bahasa Melayu / Inggeris) – pengesahan dari Kedutaan Malaysia di Luar Negara dan Wisma Putra\nPermohonan perlu dikemukakan oleh subjek / wakil hospital / pengiring pesakit.\nTerhad kepada rawatan di Hospital kerajaan / Hospital pakar sahaja.\nPesakit hanya dibenarkan membawa hanya seorang sahaja pengiring.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nJabatan Imigresen Malaysia berhak memohon bukti / dokumen lain jika diperlukan.\nBorang Imm.12\nBorang Imm.38\nSalinan Pasport Pemohon (semua mukasurat bercetak)\nSurat Sokongan dari hospital / klinik kesihatan\nSurat dari (Malaysian Health Trade Centre (MHTC) – untuk hospital / klinik yang berdaftar bersama pihak MHTC\nGambar subjek dalam keadaan yang terkini (jika pesakit tidak boleh melakukan perjalanan / bergerak)\nResit Pembayaran ATAU\nSurat yang menyatakan pembayaran\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nSurat sokongan dari majikan\nSuratkuasa dari majikan\n2 set borang Imm. 10\n2 set borang Imm. 12",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Surat sokongan dari majikan\nSuratkuasa dari majikan\n2 set borang Imm. 10\n2 set borang Imm. 12\nBorang Imm.38 (jika perlu)\nSijil nikah / perkahwinan\nSijil lahir anak\nPasport ahli keluarga pegawai dagang\nSurat kelulusan pegawai dagang\n2 keping gambar terkini pemohon\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBukti bekerja sebagai pembantu rumah\nBorang Imm.12 / Imm.55\nBorang Imm.38\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nKad pengenalan suami\nPermit masuk suami\nPasport isteri (kesemua mukasurat)\nSijil nikah / perkahwinan\n2 keping gambar terkini isteri bersaiz pasport\nUsia perkahwinan telah melebihi 6 bulan\n2 set borang Imm. 47\nBorang Imm. 55\nBorang Imm.38\nBorang ‘Security Bond’ (dimatikan setem hasil RM10.00)\nPemohon perlu hadir bersama pasangan.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.12\nBorang Imm.38 (2 salinan)\nBorang Imm.55 (2 salinan)\nBorang kenyataan penaja\nSecurity bond – dimatikan setem RM10.00\nSurat akuan sumpah berserta gambar dan dicop Pesuruhjaya Sumpah\nKad pengenalan dan sijil lahir suami / isteri\nSijil daftar perkahwinan\nBukti surat cerai/ sijil mati (jika berkaitan)\nGambar perkahwinan berukuran poskad\nSijil lahir anak (surat pengesahan dari mahkamah jika anak tiri)",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Gambar perkahwinan berukuran poskad\nSijil lahir anak (surat pengesahan dari mahkamah jika anak tiri)\nLesen niaga/ ROC syarikat/ Borang J (Jika bekerja sendiri)\nSurat pengesahan dari majikan dengan letter head (Jika bekerja)\nBukti pendapatan (slip gaji 3 bulan terakhir/ buku bank/ borang J)\nBukti alamat tempat tinggal (bil utiliti)\nPasport Malaysia suami / isteri(semua muka surat)\nLain-lain dokumen sekiranya diperlukan\nPemohon perlu hadir bersama pasangan.\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nJika sebarang laporan / kenyataan / repretasi didapati palsu maka ia adalah satu kesalahan di bawah Seksyen 56 (1) (f) Akta Imigresen 1959/63 dan boleh dikenakan denda tidak melebihi RM 10,000 atau penjara tidak melebihi 5 tahun atau kedua-dua sekali.\nPermohonan hendaklah dikemukakan ke Ibupejabat Jabatan Imigresen Malaysia.\nBorang Imm.12 (2 salinan)\nBorang Imm.38 (2 salinan)\nBorang Imm.55 (2 salinan)\nBorang Kenyataan Penaja\nBorang Hal Ehwal Suami Isteri\nBorang Maklumat Tambahan\nSecurity Bond (Dimatikan setem RM 10 Di LHDN)\nSurat Akuan Sumpah Beserta Gambar (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nSurat Akuan Penaja (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan) ** Penaja hendaklah berpendapatan RM 2000 dan ke atas\nSalinan Kad Pengenalan dan Sijil Lahir Pasangan Warganegara",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Salinan Kad Pengenalan dan Sijil Lahir Pasangan Warganegara\nSalinan Daftar Perkahwinan Luar Negara (jika perkahwinan di luar negara)\nSalinan Daftar Perkahwinan di Malaysia\nCabutan untuk Daftar Perkahwinan (dapatkan dari JPN Putrajaya sahaja)\nSalinan Bukti Cerai / Sijil Mati sekiranya duda / janda / balu ( Notarial Certificate jika ada)\nGambar Perkahwinan (berpakaian pengantin) – 1 keping\nGambar berukuran saiz Pasport – suami (4 keping) dan isteri (4 keping)\nSalinan Sijil Lahir Anak (surat hak penjagaan dari mahkamah jika anak tiri)\nSurat Pengesahan Majikan ( Letterhead Syarikat) beserta slip gaji (3 bulan terkini) atau Lesen Perniagaan / SSM / ROC\nPenyata Bank Penaja (3 bulan terkini)\nBukti alamat tempat tinggal (bil air / eletrik atau Tenancy Aggreement )\nSalinan Pasport Antarabangsa pasangan warganegara (semua mukasurat bercetak)\nSalinan Pasport Suami / Isteri (semua mukasurat bercetak)\nLain-lain dokumen sekiranya perlu dari semasa ke semasa\nPermohonan perlu dikemukakan oleh pemohon dengan kehadiran bersama pasangan Warganegara Malaysia .\nSemua dokumen asal perlu dibawa bersama untuk disahkan dan permohonan yang lengkap sahaja diterima.\nBorang Imm.38\nBorang Imm.55\nBorang Akuan Sumpah Beserta Gambar (dicop Pesuruhjaya Sumpah dari Mahkamah Kerajaan)\nSalinan Daftar Kelahiran Anak / Sijil Lahir\nSalinan Kad pengenalan suami / isteri\nSalinan Daftar Perkahwinan / Sijil Nikah",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Salinan Daftar Kelahiran Anak / Sijil Lahir\nSalinan Kad pengenalan suami / isteri\nSalinan Daftar Perkahwinan / Sijil Nikah\nSalinan Pasport dan pas terkini pemohon (semua muka surat yang bercetak)\nSuami isteri mesti hadir bersama.\nBagi permohonan kali pertama, dokumen asal hendaklah dibawa bersama salinan.\nSurat kuasa dari syarikat\nBorang Imm.12 (2 set)\nBorang Imm. 38 (jika perlu)\nSijil kahwin\nSijil kelahiran anak\nPasport keluarga pegawai dagang yang memohon\nSurat kelulusan jawatan pegawai dagang\nGambar terkini pemohon berukuran pasport (2 keping)",
+      "source": "Pas Lawatan Sosial Jangka Panjang",
+      "locator_type": "section",
+      "locator_value": "PAS LAWATAN SOSIAL JANGKA PANJANG",
+      "title": "Pas Lawatan Sosial Jangka Panjang — PAS LAWATAN SOSIAL JANGKA PANJANG"
+    },
+    {
+      "text": "Home\nEntering, Transiting and Departing\nEntering Singapore\nVisa Free Transit Facility",
+      "source": "Visa Free Transit Facility",
+      "locator_type": "document",
+      "locator_value": "Visa Free Transit Facility",
+      "title": "Visa Free Transit Facility"
+    },
+    {
+      "text": "The information on this page is a guide for visitors who may qualify for the 96-hour visa free transit facility (VFTF). This may be available to nationals of the Commonwealth of Independent States (CIS) [1] , Georgia, India, Turkmenistan and Ukraine; as well as selected [2] Nationals of the People's Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports.\nTransit travellers who satisfy the criteria for VFTF will have to meet the prevailing entry requirements before they are allowed entry into Singapore. Assessment for entry is determined by the Immigration & Checkpoints Authority (ICA) officers at the point of entry.\nExtension of stay for transit travellers under VFTF is strictly not allowed.\n[1] CIS refers to: Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan.\n[2] These include holder of the PRC Travel Document, Hong Kong Special Administrative Region (SAR) Document of Identity (DOI) and Macau SAR Travel Permit. Holder of ordinary, diplomatic, public affairs and service PRC passports are excluded.\nNationals of India and selected [2] Nationals of PRC\nIf you are in transit to or from any third country via Singapore, you may be eligible for the 96-hour VFTF if you meet these requirements:\nYou may enter Singapore by any mode of transport but depart only via air or sea. You must have a valid onward air/ferry/cruise ticket departing Singapore within 96 hours; and\nYou must have a valid visa [3] or long-term pass (with a validity of at least one month from the date of entry into Singapore under the VFTF) issued by and/or good for entry into any of the following countries: - Australia - Canada - Germany - Japan - New Zealand - Switzerland - United Kingdom - United States of America\n[3] Travellers with Single Journey Visas (SJV) may still be granted VFTF on the return leg of their journey (i.e., after the SJV is used and no longer valid), but you must:\nTravel directly from the country that issued the SJV, en route through Singapore, back to your home country\nNot have returned to your home country since you last used the SJV.",
+      "source": "Visa Free Transit Facility",
+      "locator_type": "document",
+      "locator_value": "Visa Free Transit Facility",
+      "title": "Visa Free Transit Facility"
+    },
+    {
+      "text": "Travel directly from the country that issued the SJV, en route through Singapore, back to your home country\nNot have returned to your home country since you last used the SJV.\nNationals of the CIS [1] , Georgia, Turkmenistan and Ukraine\nIf you are in transit to or from any third country, you may be eligible for the 96-hour VFTF if you have a valid onward air ticket departing within 96 hours. You may enter Singapore by any mode of transport but must depart Singapore by air.\nTransiting Through Singapore\nRequirements for Entering Singapore\nVisa Requirements",
+      "source": "Visa Free Transit Facility",
+      "locator_type": "document",
+      "locator_value": "Visa Free Transit Facility",
+      "title": "Visa Free Transit Facility"
+    },
+    {
+      "text": "Home\nEntering, Transiting and Departing\nEntering Singapore\nCheck if You Need an Entry Visa",
+      "source": "Check if You Need an Entry Visa",
+      "locator_type": "document",
+      "locator_value": "Check if You Need an Entry Visa",
+      "title": "Check if You Need an Entry Visa"
+    },
+    {
+      "text": "If you hold a travel document 1 issued by one of the countries or places listed below, you will require a valid Singapore entry visa to travel to, and seek entry, into Singapore.\nPossession of a valid visa does not guarantee entry into Singapore. Please refer to entry requirements for more information.\nPlease note the following:\nSG Arrival Card is not a visa . Please refer to SG Arrival Card e-Service for more information.\nValid visa holders are required to adhere to the latest travel requirements and advisories , where applicable.\nThe period of stay in Singapore is not tied to the validity of your visa. The period of stay is determined by the duration of the Visit Pass issued to you in the form of electronic visit pass (e-Pass) at the checkpoint upon entry.\nTo extend the duration of stay, the applicant will have to apply for a Short-Term Visit Pass (STVP) extension. For more information, please refer to Seeking Extension of Visit Pass .\n1 All travellers, regardless of age, must hold a valid individually-issued travel document as collective travel documents are not accepted.\nA Singapore entry visa is not an immigration pass. It is a pre-entry permission for the holder of a valid visa to travel to, and seek entry, into Singapore. The grant of an immigration pass will be determined by the ICA officers at the point of entry. The period of stay granted is not tied to the validity of your visa. ICA does not accept submission of visa application over the immigration counters. If you do not have a Local Contact with a Singpass/Corppass account, you may submit the visa application:\nThrough an authorised visa agent appointed by the Singapore Overseas Missions; or\nAt the nearest Singapore Overseas Mission .\nPlease liaise directly with the nearest Singapore Overseas Mission for detailed visa application procedure if the application is to be submitted through their authorised visa agents or at the Singapore Overseas Mission.\nFrom 11 March 2022, all foreign visitors arriving in Singapore will be notified digitally of their Visit Pass (e-Pass) through email. There will not be any endorsement on your passport. The e-Pass notification will indicate the period of stay granted and last day of stay allowed. Please ensure that you provide a valid email address when submitting the SG Arrival Card .",
+      "source": "Check if You Need an Entry Visa",
+      "locator_type": "document",
+      "locator_value": "Check if You Need an Entry Visa",
+      "title": "Check if You Need an Entry Visa"
+    },
+    {
+      "text": "If your travel document is issued by one of the countries/ places listed below, you will require a valid visa to enter Singapore. Click on individual countries/ places to find out more.\nYou will also need a visa if you are travelling on:\nA Refugee travel document. This travel document is subject to assessment of recognition for entry into Singapore\nAn Alien's passport. This travel document is subject to assessment of recognition for entry into Singapore\nA Palestinian Authority passport\nA temporary passport issued by the United Arab Emirates\nA Document of Identity issued by Hong Kong Special Administrative Region\nA Travel Permit issued by Macao Special Administrative Region\nA PRC Travel Document\nYou may contact us via the enquiry form with a copy of your travel document biodata page and front cover for further assistance and verification.\nVisa Free Transit Facilities\nNationals of the Commonwealth of Independent States, Georgia, India, Turkmenistan and Ukraine; as well as selected* Nationals of the People’s Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports may be eligible for the Visa-Free Transit Facility (VFTF). Please refer to Visa-Free Transit Facility for more information.\n*These include the PRC Travel Document, Hong Kong Special Administrative Region (SAR), Document of Identity (DOI) and Macau SAR Travel Permit.",
+      "source": "Check if You Need an Entry Visa",
+      "locator_type": "document",
+      "locator_value": "Check if You Need an Entry Visa",
+      "title": "Check if You Need an Entry Visa"
     }
   ]
 }

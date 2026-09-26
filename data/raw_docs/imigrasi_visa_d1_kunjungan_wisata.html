@@ -1,0 +1,1357 @@
+
+<!DOCTYPE html>
+<html lang="id-ID">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>WNA &ndash; Direktorat Jenderal Imigrasi</title>	<link href="https://www.imigrasi.go.id/favicon.ico" rel="icon">
+
+		<meta name="google-site-verification" content="9oGmMCllhGyHkLsou-mO9ce3Z0P-tW0KhmfMlBUNAZ4">
+<meta name="csrf-param" content="dirjen_imigrasi-FRONTEND-CSRF">
+<meta name="csrf-token" content="aUTdzug5U94kLTqNHU6YdsdiVbTuGTXr3eRLMBHlAqEiF7-h22w26lFyecxIAupH9hAkwq1uW93usT9gJ7J6kg==">
+
+<link href="/themes/ayumi/assets/css/new_style.css?v=1790394878" rel="stylesheet">
+<link href="/assets/345aa491/themes/smoothness/jquery-ui.css?v=1757531572" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="/assets/6accef45/css/flaticon.min.css?v=1790394878" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/bellerose" rel="stylesheet">
+<link href="/assets/6accef45/main.css?v=1790394878" rel="stylesheet">
+<link href="/assets/6accef45/css/styles.css?v=1790394878" rel="stylesheet">
+<link href="/assets/6accef45/css/hyperlink-popup.css?v=1790394878" rel="stylesheet">
+<link href="/assets/6accef45/css/ai-loading.css?v=1790394878" rel="stylesheet">
+<link href="/assets/6accef45/css/search-ai-ui2.css?v=1790394878" rel="stylesheet">
+<link href="/assets/db2086a2/frontend.css?v=1790394879" rel="stylesheet">
+<style>	.z-n1{
+		/* top: 90px; */
+		width: 100vw;
+	}
+
+	.z-n1 img{
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.section-title{
+		margin-bottom: 40px;
+	}
+
+	#sidecontent{
+		position: relative;
+	}
+
+	/* width */
+	#button_vertical::-webkit-scrollbar {
+	width: 10px;
+	}
+
+	/* Track */
+	#button_vertical::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	}
+
+	/* Handle */
+	#button_vertical::-webkit-scrollbar-thumb {
+	background: #888;
+	}
+
+	/* Handle on hover */
+	#button_vertical::-webkit-scrollbar-thumb:hover {
+	background: #555;
+	}
+
+	/*hidden*/
+	.hide-scrollbar ::-webkit-scrollbar-thumb{
+		visibility : hidden;
+	}
+
+	.search_type_kiri{
+		font-size: 1rem!important;
+		padding: 0 12px!important;
+		height: 50px;
+	}
+
+	.apply-button{
+		color:#fff;
+		background-color:#2B3A51;
+	}
+
+	.apply-button:hover{
+		color:#fff;
+		background-color:#6c9aa7;
+	}
+
+	.btn.apply-button{
+		padding: 12px 20px;
+	}
+
+	.section-title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      color: #212529;
+    }
+
+	.visa-list li a{
+		display: inline-grid;;
+		grid-template-columns: 2px 26px 1fr; /* kolom: bullet, kode, deskripsi */
+		column-gap: 1rem;
+		align-items: start;
+		margin-bottom: .3rem;
+	}
+
+	.visa-list li a::before {
+		content: "•";
+		color: #333;
+		font-weight: bold;
+		text-align: center;
+		padding-left: 0px !important;
+		text-align: start;
+	}
+
+	.visa-list a:hover {
+		color: #083B68;
+		text-decoration: underline;
+	}
+
+	.visa-list a {
+		color: #0B4F8A;
+	}
+
+	@media (max-width: 767px) {
+		.content-block li::marker {
+			content: "" !important;
+		}
+	}</style>
+<style>	#shareModal .modal-content{
+		background-color: rgba(255, 255, 255, .9);
+	}
+
+	.share_icon{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 5px;
+		border: 1px solid #DBDBDB;
+		border-radius: 55px;
+	}
+
+	.share_icon i{
+		font-size: 1.35rem;
+	}
+
+	.social_media_name{
+		color: #494949;
+		font-size: 0.9rem;
+	}
+
+	@media print {
+		#chatbotikawebchat, #toggle-widget, #toggle-widget-icon{
+			display: none!important;
+		}
+
+		#toggle-widget span{
+			display: none!important;
+		}
+	}
+
+	@media screen and (min-width: 769px) {
+		.modal.disability-modal .modal-dialog {
+			position: fixed;
+			width: 250px;
+			bottom: 15px;
+			left: 90px;
+			margin:0px;
+		}
+
+		.modal.disability-modal .modal-dialog2 {
+			position: fixed;
+			width: 600px;
+			left: calc(50% - 300px);
+			top: 50%;
+			margin:0px;
+			-ms-transform: translateY(-50%);
+  			transform: translateY(-50%);
+		}
+
+		.modal-dialog2 p{
+			font-size: 14px !important;
+			margin-bottom: 0px !important;
+		}
+	}
+
+	@media screen and (max-width: 768px){
+		.modal.disability-modal .modal-dialog {
+			position: fixed;
+			/* width: 250px; */
+			width: 50%;
+			bottom: 75px;
+			/* left: 20px;  */
+			left: 5%;
+			/* transform: translate(-50%, 0%); */
+			margin:0px;
+		}
+		.modal.disability-modal .modal-dialog2 {
+			position: fixed;
+			width: 90%;
+			/* left: calc(50% - 210px); */
+			left: 5%;
+			top: 26%;
+			margin:0px;
+			-ms-transform: translateY(-50%);
+  			transform: translateY(-50%);
+		}
+		.modal-dialog2 p{
+			font-size: 14px !important;
+			margin-bottom: 0px !important;
+		}
+
+		.modal-dialog .modal-content .modal-footer{
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+		}
+		.modal-dialog .modal-content .modal-header{
+			padding-top: 8px !important;
+			padding-bottom: 8px !important;
+		}
+		#textHiddenmodalDisability{
+			font-size: 11px;
+		}
+		#cbHiddenmodalDisability{
+			transform: scale(0.8);
+		}
+
+		.modal-dialog p{
+			font-size: 11px !important;
+			margin-bottom: 0px !important;
+		}
+	}
+
+	.glass-effect-information{
+		background-color: rgba(255,255,255, 0.8) !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px);
+        border: 0px !important;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3) !important;
+		border-radius: var(--bs-modal-inner-border-radius);
+	}
+	
+	.modal.disability-modal .modal-content {
+		border-radius: 12px;
+	}
+	
+	.modal.disability-modal .modal-header {
+		border-bottom: 0;
+	}
+	
+	.modal.disability-modal .modal-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+		width: 100%;
+	}</style>	<script src="https://cdn.userway.org/widget.js" data-account="0IMXendsaP"></script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Direktorat Jenderal Imigrasi",
+			"url": "https://imigrasi.go.id/",
+			"logo": "https://imigrasi.go.id/favicon.png",
+			"thumbnailUrl": "https://imigrasi.go.id/images/thumbnail_1200x630_seo.jpg",
+			"sameAs": [
+				"https://www.instagram.com/ditjen_imigrasi/",
+				"https://www.tiktok.com/@ditjen_imigrasi",
+				"https://www.twitter.com/ditjen_imigrasi",
+				"https://www.youtube.com/c/ditjenimigrasiyoutube",
+				"https://www.facebook.com/DitjenImigrasi/"
+			]
+		}
+	</script>
+
+</head>
+
+
+<body class="overflow-x-hidden toggle-sidebar" >
+	
+	
+<style>
+	.button {
+		display: inline-block;
+		margin: 4px 2px;
+		font-size: 14px;
+		height: 38px;
+		line-height: 50px;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.logo a img {
+		max-height: 35px !important;
+		margin-right: 0;
+	}
+
+	.button:hover {
+		transition-duration: 0.4s;
+		-moz-transition-duration: 0.4s;
+		-webkit-transition-duration: 0.4s;
+		-o-transition-duration: 0.4s;
+		color: black;
+	}
+
+	#icon_search {
+		cursor: pointer;
+		color: white;
+		transtion: .2s;
+	}
+
+	#icon_search:hover {
+		color: black;
+	}
+
+	.search {
+		outline: none;
+		width: 90%;
+		padding: 0 12px;
+		border-radius: 6px 0 0 6px;
+		border: none;
+	}
+
+	.w-10 {
+		width: 10%;
+	}
+
+	.icon_search_input {
+		color: var(--color-biru-tua);
+	}
+
+	/* Disini style asli searchnya  */
+
+	/* Style the buttons that are used to open and close the accordion-trigger panel */
+	.accordion-trigger {
+		cursor: pointer;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	.panel {
+		background-color: transparent;
+		display: none;
+		overflow: hidden;
+	}
+
+	.toggle-sidebar-btn span {
+		font-size: 1.2rem;
+	}
+
+	#text_sub_header {
+		font-size: 13px;
+	}
+
+	@media screen and (max-width: 768px) {
+		.button {
+			height: 38px;
+		}
+	}
+
+	@media screen and (max-width: 425px) {
+		#text_sub_header {
+			font-size: 0.65rem;
+		}
+
+		.btn-group a {
+			font-size: 0.8rem;
+			padding: 4px 10px;
+		}
+
+		.button {
+			height: 32px;
+		}
+
+		#navbar-search::placeholder {
+			font-size: 0.85rem;
+		}
+
+		.w-10 {
+			width: 15%;
+		}
+	}
+
+	@media print {
+
+		#chatbotikawebchat,
+		#toggle-widget,
+		#toggle-widget-icon {
+			display: none !important;
+		}
+	}
+</style>
+
+<!-- ======= Header ======= -->
+<header id="header"
+	class="d-print-none fixed-top d-grid align-items-between bg-biru-tua">
+	<div class="text-black" style="font-size:9pt;padding:0;margin:0;background-color:#fff;">
+		<div class="container">
+			<div class="d-flex flex-row gap-1 align-items-center justify-content-center" style="min-height: 20px;">
+				<p id="text_sub_header" class="text-center mb-0">
+					Situs Web Resmi Imigrasi Republik Indonesia				</p>
+				<div>
+					<a id="accordion-trigger" href="#!" class="accordion-trigger text-decoration-none"
+						style="color:#000 !important;">
+						<i class="bi bi-info-circle-fill text_link"></i>
+					</a>
+				</div>
+			</div>
+			<div id="panel" class="panel py-2 ">
+				<div class="row">
+					<div class="col">
+						<div class="d-flex flex-wrap flex-md-nowrap justify-content-between">
+							<div class="wrapper d-flex gap-2 col-md-6">
+								<div class="icon">
+									<i class="bi bi-circle-fill"></i>
+								</div>
+								<div class="content">
+									<div class="title fw-bold">
+										Direktorat Jenderal Imigrasi merupakan Unit Eselon I di bawah <a href='#' target='_blank'>Kementerian Imigrasi dan Pemasyarakatan</a>									</div>
+									<article>
+										Secara umum, situs web resmi kementerian/lembaga Pemerintah RI berakhiran .go.id									</article>
+								</div>
+							</div>
+							<div class="wrapper d-flex gap-2 col-md-6">
+								<div class="icon">
+									<i class="bi bi-circle-fill"></i>
+								</div>
+								<div class="content">
+									<div class="title fw-bold">
+										Situs web yang aman menggunakan HTTPS menampilkan icon(<i class='bi bi-lock-fill'></i>)									</div>
+									<article>
+										Alamat situs web berawalan https:// merupakan salah satu bentuk pengamanan, menandakan bahwa aliran data dan komunikasi antara peramban Anda ke server situs web terenkripsi.									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid d-flex align-items-center justify-content-between px-0 px-lg-5"
+		style="min-height: 60px;">
+		<div class="d-flex align-items-center justify-content-between">
+			<button style="background:transparent;border:0;">
+				<i style="font-size:25pt !important;"
+					class="bi bi-list toggle-sidebar-btn d-flex align-items-center text-white"><span
+						class="fst-normal ms-2 d-none d-md-block">Menu</span></i>
+			</button>
+		</div>
+
+		<div
+			class="container mx-auto d-flex gap-1 align-items-center justify-content-center logo ps-md-4" id="logoHeader" style="cursor: pointer;" >
+			<a href="https://www.imigrasi.go.id"><img alt=""></a>
+			
+									<div>
+						<img src="/assets/6accef45/img/logo_header_2025.webp" style="height: 40px;">	
+					</div>
+					<div style="white-space: nowrap;">
+						<p class="m-0 user-select-none" style="font-size: 12px;">Kementerian Imigrasi dan Pemasyarakatan Republik Indonesia</p><p class="m-0 user-select-none" style="font-size: 16px;">Direktorat Jenderal Imigrasi</p>					</div>
+					</div>
+
+		<nav class="header-nav" style="margin-right: 8px;">
+			<ul class="d-flex align-items-center">
+									<div class="me-md-3 me-1 me-2">
+													<!-- <i id="icon_search" class="bi bi-search cursor-pointer"></i> -->
+												<!-- <div class="search-container">
+							<form class="" action="/search" method="get">							<input type="text" id="navbar-search" class="search expandright" name="search" value="" data-href="/search-json" placeholder="Silakan cari informasi yang anda inginkan ...">							<label class="button searchbutton" for="navbar-search"><span
+									class="mglass">&#9906;</span></label>
+							</form>						</div> -->
+					</div>
+													<!-- Language Switcher -->
+					<div class="dropdown">
+						<button
+							class="btn btn-lang dropdown-toggle"
+							type="button"
+							id="langDropdown"
+							data-bs-toggle="dropdown"
+						>
+							<span class="lang-code">ID</span>
+							<span class="material-icons lang-icon">expand_more</span>
+						</button>
+
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
+							<li><a class="dropdown-item" href="/site/lang?lang=id-ID">Indonesia (ID)</a></li>
+							<li><a class="dropdown-item" href="/site/lang?lang=en-US">English (EN)</a></li>
+							<!-- <li><a class="dropdown-item" href="?lang=ar">عربي (AR)</a></li> -->
+						</ul>
+					</div>
+			</ul>
+		</nav>
+	</div>
+	
+	
+	
+
+	<!-- Search Header -->
+			<div id="search_header" class="container d-none">
+			<div class="bg-white rounded mt-2 mb-3">
+				<form class="" action="/search" method="get">				<div class=" d-flex flex-row justify-content-center">
+					<input type="text" id="navbar-search" class="search flex-grow-1" name="search" value="" data-href="/search-json" placeholder="Silakan cari informasi yang Anda inginkan ...">					<label class="button border-start w-10" for="navbar-search">
+						<div class="d-flex align-items-center h-100">
+							<i class="bi bi-search icon_search_input mx-auto"></i>
+						</div>
+					</label>
+					</form>				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- ======= Sidebar ======= -->
+<div class="overlay d-print-none "></div>
+<aside id="sidebar" class="sidebar d-print-none ">
+	<ul class="sidebar-nav" id="sidebar-nav">
+		<li class="nav-item">
+			<a class="text-decoration-none nav-link" href="http://www.imigrasi.go.id" data-pjax="0"><span class="ps-3">Beranda</span></a>		</li>
+		<li class="nav-item">
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Layanan Warga Negara Indonesia</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/layanan-wni/paspor-republik-indonesia" data-pjax="0"><span class="ps-4">Paspor Republik Indonesia</span></a>						
+																																				<a class="" href="/layanan-wni/kartu-perjalanan-pebisnis-apec" data-pjax="0"><span class="ps-4">Kartu Perjalanan Pebisnis APEC</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Layanan Warga Negara Asing</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/wna/daftar-visa-indonesia" data-pjax="0"><span class="ps-4">Daftar Visa Indonesia</span></a>						
+																																				<a class="" href="/wna/daftar-negara-voa-bvk-calling-visa" data-pjax="0"><span class="ps-4">Daftar Subjek VoA, BVK & Calling Visa</span></a>						
+																																				<a class="" href="/wna/izin-tinggal-keimigrasian" data-pjax="0"><span class="ps-4">Izin Tinggal Keimigrasian</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Produk Hukum</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/produk-hukum/undang-undang-keimigrasian" data-pjax="0"><span class="ps-4">Undang Undang Keimigrasian</span></a>						
+																																				<a class="" href="/produk-hukum/peraturan-pemerintah" data-pjax="0"><span class="ps-4">Peraturan Pemerintah</span></a>						
+																																				<a class="" href="/produk-hukum/peraturan-presiden" data-pjax="0"><span class="ps-4">Peraturan Presiden</span></a>						
+																																				<a class="" href="/produk-hukum/peraturan-menteri" data-pjax="0"><span class="ps-4">Peraturan Menteri</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Dokumen</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/csca" data-pjax="0"><span class="ps-4">CSCA</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Ruang Media</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/siaran_pers" data-pjax="0"><span class="ps-4">Siaran Pers</span></a>						
+																																				<a class="" href="/berita" data-pjax="0"><span class="ps-4">Berita</span></a>						
+																																				<a class="" href="/kegiatan" data-pjax="0"><span class="ps-4">Kegiatan</span></a>						
+																																				<a class="" href="/foto" data-pjax="0"><span class="ps-4">Galeri Foto</span></a>						
+																																				<a class="" href="/video" data-pjax="0"><span class="ps-4">Galeri Video</span></a>						
+																																				<a class="" href="/majalah" data-pjax="0"><span class="ps-4">Majalah Bhumipura</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Pengaduan</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a href="https://www.lapor.go.id/" target="_blank" data-pjax="0"><span class="ps-4">Lapor!</span></a>	
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">Tentang Kami</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/pejabat" data-pjax="0"><span class="ps-4">Profil Organisasi</span></a>						
+																																				<a class="" href="/hubungi" data-pjax="0"><span class="ps-4">Hubungi Kami</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+						<li class="nav-item">
+				 
+					<a class="text-decoration-none nav-link collapsed" href="/hubungi/lokasi-kami" data-pjax="0"><span class="ps-3">Lokasi Kami</span></a>
+							</li>
+						<li class="nav-item">
+				 
+					<a class="text-decoration-none nav-link collapsed" href="/link/index" data-pjax="0"><span class="ps-3">Situs Terkait</span></a>
+							</li>
+						<li class="nav-item">
+									<a class="nav-link collapsed" href="#" data-bs-parent="#sidebar-nav"><span class="ps-3">FAQ</span><i class="bi bi-chevron-right ms-auto"></i></a>			
+					<div class="submenu rounded-3">
+						<ul class="nav-content">
+							<li class="submenu-item">
+																											<a class="" href="/faq/m-paspor" data-pjax="0"><span class="ps-4">M-Paspor</span></a>						
+																																				<a class="" href="/faq/affidavit" data-pjax="0"><span class="ps-4">Affidavit</span></a>						
+																																				<a class="" href="/faq/izin-tinggal" data-pjax="0"><span class="ps-4">Izin Tinggal</span></a>						
+																																				<a class="" href="/faq/kartu-perjalanan-pebisnins-apec" data-pjax="0"><span class="ps-4">Kartu Perjalanan Pebisnis APEC</span></a>						
+																																				<a class="" href="/faq/paspor" data-pjax="0"><span class="ps-4">Paspor</span></a>						
+																																				<a class="" href="/faq/pelaporan-orang-asing" data-pjax="0"><span class="ps-4">Pelaporan Orang Asing</span></a>						
+																																				<a class="" href="/faq/sduwhv" data-pjax="0"><span class="ps-4">SDUWHV</span></a>						
+																																				<a class="" href="/faq/visa" data-pjax="0"><span class="ps-4">Visa</span></a>						
+																								</li>
+						</ul>
+					</div>
+							</li>
+					</li>
+	</ul>
+</aside>
+
+
+	<!-- <div class="container d-none d-md-block d-print-none">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="button-container">
+					<div class="btn-group-vertical">
+						<a class="btn btn-transparent mb-1 p-2" id="printButton"><i
+								class="bi bi-printer-fill h5"></i></a>
+						<a data-link="/wna/daftar-visa-indonesia/D1" title="WNA"
+							data-title="WNA"
+							class="btn btn-transparent mb-1 p-2 btn-share text-decoration-none">
+							<i class="bi bi-envelope-fill h5"></i>
+						</a>
+						<a class="btn btn-transparent mb-1 p-2" data-bs-toggle="modal" data-bs-target="#shareModal"><i
+								class="bi bi-share-fill h5"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div class="container pt-5 d-none d-print-block">
+		<div class="d-flex align-items-center justify-content-between">
+			<a class="logo d-flex align-items-center" href="//" data-pjax="0"><img src="/assets/6accef45//img/logo.svg" alt="Direktorat Jenderal Imigrasi"></a>		</div>
+	</div>
+
+	
+<div class="breadcrumbs scrolled-offset d-print-none">
+	<div class="container pb-1">
+		<div class="d-flex justify-content-between align-items-center">
+			<nav aria-label="breadcrumb animated slideInDown">
+				<!-- Jika Desktop -->
+
+				<ol class="breadcrumb mb-0 text-decoration-none w-100"><li class="breadcrumb-item d-inline-flex align-items-center text-decoration-none text-white"><a class="text-white" href="/">Beranda</a></li><li class="breadcrumb-item d-inline-flex align-items-center text-decoration-none text-white"><a href="/custom/view?type=wna-category">Warga Negara Asing</a></li><li class="breadcrumb-item d-inline-flex align-items-center text-decoration-none text-white"><a href="/wna/daftar-visa-indonesia">Daftar Visa Indonesia</a></li></ol>			</nav>
+		</div>
+	</div>
+</div>
+
+		<section class="hero-wrapper">
+		<div class="container px-4">
+		<div class="hero-content">
+			<h1 class="hero-title mb-3"><h2>D1 Visa Kunjungan Wisata</h2></h1>
+					</div>
+		</div>
+	</section>
+
+		
+	<div class="container my-5 px-4 content">
+		<div class="row gx-5">
+			<!-- KIRI: TAB / MENU -->
+			<div class="col-md-4 col-lg-3 d-print-none">
+				<div class="bg-light p-4 sidebar-sticky">
+					<!-- <h5 class="mb-3 fw-bold">Crossing the border</h5>
+					<hr> -->
+					<nav id="sidebarMenu" class="nav flex-column gap-3">
+						
+						<a class="nav-link ps-0 " href="#dengan-visa-d1-anda-dapat">
+							Dengan visa D1, anda dapat
+						</a>
+						<a class="nav-link ps-0 " href="#jenis-visa">
+							Jenis visa
+						</a>
+						<a class="nav-link ps-0 " href="#masa-tinggal">
+							Masa tinggal
+						</a>
+						<a class="nav-link ps-0 " href="#biaya-pnbp">
+							Biaya (PNBP)
+						</a>
+						<a class="nav-link ps-0 " href="#penjamin-sponsor">
+							Penjamin (Sponsor)
+						</a>
+						<a class="nav-link ps-0 " href="#pengajuan-visa">
+							Pengajuan visa
+						</a>
+						<a class="nav-link ps-0 " href="#persyaratan-khusus">
+							Persyaratan khusus
+						</a>
+						<a class="nav-link ps-0 " href="#ketentuan-lain">
+							Ketentuan lain
+						</a>
+						<a class="nav-link ps-0 " href="#proses-pengajuan-dan-pemberian-visa">
+							Proses pengajuan dan pemberian visa
+						</a>
+						<a class="nav-link ps-0 " href="#dasar-hukum">
+							Dasar hukum
+						</a>					</nav>
+				</div>
+			</div>
+
+			<!-- KANAN: KONTEN -->
+			<div class="col-md-8 col-lg-9">
+				
+						<section id="dengan-visa-d1-anda-dapat" class="mb-5">
+							<h2>Dengan visa D1, anda dapat</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <p><span><span><span><span><span><span><span><span>berwisata, mengunjungi keluarga, menghadiri pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya (sebagai peserta), serta transit di Indonesia untuk ke negara lain.</span></span></span></span></span></span></span></span></p>
+								</ul>
+							</div>
+						</section>
+						<section id="jenis-visa" class="mb-5">
+							<h2>Jenis visa</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <p><span><span><span><span><span><span><span><span>Visa ini merupakan Visa Kunjungan untuk beberapa kali masuk ke Indonesia dengan izin tinggal maksimal 60 hari setiap kedatangan, serta dihitung sejak tanggal kedatangan. Izin Tinggal ini dapat diperpanjang namun tidak dapat dikonversikan menjadi Izin Tinggal Terbatas. </span></span></span></span></span></span></span></span></p>
+								</ul>
+							</div>
+						</section>
+						<section id="masa-tinggal" class="mb-5">
+							<h2>Masa tinggal</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <ul><li aria-level="1"><span><span><span><span><span><span><span><span>Anda dapat tinggal di Indonesia maksimal 60 hari setiap kali kedatangan, dihitung sejak tanggal kedatangan. </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Anda dapat memperpanjang izin tinggal ini beberapa kali hingga maksimal 180 hari.</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Perpanjangan izin tinggal dapat dilakukan secara online oleh sponsor melalui akun yang telah terdaftar di</span></span></span></span></span></span><a href="http://evisa.imigrasi.go.id/"><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span><span><span>evisa.imigrasi.go.id</span></span></span></span></span></span></span></span></a><span><span><span><span><span><span> </span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>
+						<section id="biaya-pnbp" class="mb-5">
+							<h2>Biaya (PNBP)</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									<ul><li aria-level="1"><span><span><span><span><span><span><span><span>Visa Kunjungan Beberapa kali Perjalanan paling lama 1 tahun: Rp3.000.000</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Visa Kunjungan Beberapa kali Perjalanan paling lama 2 tahun: Rp5.000.000</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Visa Kunjungan Beberapa kali Perjalanan paling lama 5 tahun: Rp10.000.000</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Biaya Verifikasi I/II : Rp 0</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Penjamin dapat melakukan pembayaran melalui beberapa bank persepsi/bank yang telah ditunjuk di Indonesia. Setelah permohonan visa oleh penjamin selesai diajukan, silakan lihat kode tagihan (billing code) pada sistem sebagai dasar pembayaran visa.</span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>
+						<section id="penjamin-sponsor" class="mb-5">
+							<h2>Penjamin (Sponsor)</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									<p><span><span><span><span><span><span><span><span>Anda tidak membutuhkan</span></span></span></span></span></span><a href="https://www.imigrasi.go.id/upload/file/2136-PERMENKUMHAM%20NO%2036_2021%20TTG%20PENJAMIN%20KEIMIGRASIAN.pdf"><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span><span><span>penjamin/sponsor</span></span></span></span></span></span></span></span></a><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span>untuk mengajukan visa ini. </span></span></span></span></span></span></span></span></p><p><span><span><span><span><span><span><span><span>Kecuali</span></span></span></span></span></span><span><span><span><span><span><span> anda warga negara dari negara tertentu yang ada di dalam </span></span></span></span></span></span><span><span><span><span><span><span><span><span>daftar ini.</span></span></span></span></span></span></span></span></span></span></p>
+								</ul>
+							</div>
+						</section>
+						<section id="pengajuan-visa" class="mb-5">
+							<h2>Pengajuan visa</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <p><span><span><span><span><span><span><span><span>Orang asing harus memiliki akun di</span></span></span></span></span></span><a href="http://evisa.imigrasi.go.id/"><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span><span><span>evisa.imigrasi.go.id</span></span></span></span></span></span></span></span></a><span><span><span><span><span><span> sebelum mengajukan visa. Setelah memiliki akun, orang asing dapat mengajukan visa setelah </span></span></span></span></span></span><span><span><span><span><span><span>login</span></span></span></span></span></span><span><span><span><span><span><span> di</span></span></span></span></span></span><a href="http://evisa.imigrasi.go.id/"><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span><span><span>evisa.imigrasi.go.id</span></span></span></span></span></span></span></span></a><span><span><span><span><span><span> dengan menyiapkan berkas elektronik </span></span></span></span></span></span><span><span><span><span><span><span>(detail format file)</span></span></span></span></span></span><span><span><span><span><span><span> Orang Asing antara lain: </span></span></span></span></span></span></span></span></p><ul><li aria-level="1"><span><span><span><span><span><span><span><span>dokumen perjalanan yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis;</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>bukti memiliki biaya hidup selama berada di wilayah Indonesia berupa rekening koran 3 bulan terakhir atas nama Orang Asing atau penjamin sebesar minimal USD2000 atau dalam mata uang lain yang setara jumlahnya,</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>pasfoto berwarna terbaru (setahun terakhir).</span></span></span></span></span></span><a href="https://www.imigrasi.go.id/upload/file/Syarat%20Foto.pdf"><span><span><span><span><span><span> </span></span></span></span></span></span><span><span><span><span><span><span><span><span>Detail</span></span></span></span></span></span></span></span></a><span><span><span><span><span><span><span><span> </span></span></span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>curriculum vitae, </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>rencana perjalanan (travel itinerary).</span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>
+						<section id="persyaratan-khusus" class="mb-5">
+							<h2>Persyaratan khusus</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <ul><li aria-level="1"><span><span><span><span><span><span><span><span><span>surat keterangan, undangan, atau korespondensi dari instansi pemerintah atau lembaga swasta yang menjelaskan hubungan dengan Orang Asing bersangkutan; atau</span></span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span><span>surat keterangan dari suami/istri atau orang tua (WNI) yang menjelaskan ikatan keluarga dengan Orang Asing bersangkutan dan kegiatan Orang Asing selama berada di Indonesia (dilengkapi dengan kartu keluarga/dokumen sejenisnya).</span></span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>
+						<section id="ketentuan-lain" class="mb-5">
+							<h2>Ketentuan lain</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									 <ul><li aria-level="1"><span><span><span><span><span><span><span><span>Orang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa paspor sementara, paspor darurat, </span></span></span></span></span></span><span><span><span><span><span><span>titre du voyage</span></span></span></span></span></span><span><span><span><span><span><span>, </span></span></span></span></span></span><span><span><span><span><span><span>certificate of identity</span></span></span></span></span></span><span><span><span><span><span><span>, </span></span></span></span></span></span><span><span><span><span><span><span>laissez passer</span></span></span></span></span></span><span><span><span><span><span><span>, atau dokumen sejenis lainnya harus melampirkan dokumen Izin Masuk Kembali ke negara tempat Visa Multipel diajukan serta tiket kembali/tiket terusan ke negara lain (kecuali bagi awak alat angkut).</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Masa berlaku visa terhitung sejak tanggal penerbitan. Jika tidak digunakan setelah jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.  </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Orang Asing dengan izin tinggal dari Visa D1 dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.</span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>
+						<section id="proses-pengajuan-dan-pemberian-visa" class="mb-5">
+							<h2>Proses pengajuan dan pemberian visa</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									<ul><li aria-level="1"><span><span><span><span><span><span><span><span>pemeriksaan kelengkapan persyaratan;</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>verifikasi pembayaran biaya imigrasi sesuai dengan ketentuan peraturan perundang-undangan;</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>pembuatan profil dan verifikasi;</span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>persetujuan; </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>penerbitan visa.</span></span></span></span></span></span></span></span></li></ul><p><span><span><span><span><span><span><span><span>Waktu Proses lima hari kerja  setelah pembayaran visa diterima.</span></span></span></span></span></span></span></span></p>
+								</ul>
+							</div>
+						</section>
+						<section id="dasar-hukum" class="mb-5">
+							<h2>Dasar hukum</h2>
+							<div class="content-block">
+								<ul class="visa-list ps-0">
+									<ul><li aria-level="1"><span><span><span><span><span><span><span><span>Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Peraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal  </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Peraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023  tentang Visa dan Izin Tinggal </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Keputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025  tentang Klasifikasi Visa </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Peraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI </span></span></span></span></span></span></span></span></li><li aria-level="1"><span><span><span><span><span><span><span><span>Peraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI</span></span></span></span></span></span></span></span></li></ul>
+								</ul>
+							</div>
+						</section>			</div>
+		</div>
+	</div>
+
+
+<div class="container-fluid bg-biru-muda d-print-none">
+    <div class="d-flex align-items-center position-relative" style="min-height: 40px;">
+        
+        <!-- Tanggal di tengah -->
+        <p class="p-1 m-0 last-updated position-absolute start-50 translate-middle-x text-center">
+                    </p>
+
+        <!-- Tombol di kanan -->
+        <div class="ms-auto me-2">
+            <div class="btn-group">
+                <a class="btn text-white p-2" id="printButton">
+                    <i class="bi bi-printer-fill h5"></i>
+                </a>
+                <a class="btn text-white p-2"
+                   data-bs-toggle="modal" data-bs-target="#shareModal">
+                    <i class="bi bi-share-fill h5"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+	var sideContent = ``
+</script>
+
+	<!-- Modal -->
+	<div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body p-5 d-flex flex-column align-items-center">
+					<h4 class="mb-4">
+						Bagikan ke:
+					</h4>
+					<div class="d-flex flex-row gap-3">
+						<!-- Share to Facebook -->
+						<div class="d-flex flex-column gap align-items-center">
+							<div class="share_icon" style="background-color: #1873eb">
+								<a onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FD1','newwindow','width=400,height=300'); return false;"
+									class="btn text-decoration-none">
+									<i class="bi bi-facebook" style="color: #EFFAF5"></i>
+								</a>
+							</div>
+							<span class="social_media_name">Facebook</span>
+						</div>
+
+						<!-- Share to Twitter -->
+						<div class="d-flex flex-column gap align-items-center">
+							<div class="share_icon" style="background-color: #000">
+								<a onclick="window.open('https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FD1','newwindow','width=400,height=300'); return false;"
+									class="btn text-decoration-none">
+									<i class="bi bi-twitter-x" style="color: #EFFAF5"></i>
+								</a>
+							</div>
+							<span class="social_media_name">Twitter</span>
+						</div>
+
+						<!-- Share to WhatsApp -->
+						<div class="d-flex flex-column gap align-items-center">
+							<div class="share_icon" style="background-color: #13990a">
+								<a href="https://api.whatsapp.com/send?text=http%3A%2F%2Fwww.imigrasi.go.id%2Fwna%2Fdaftar-visa-indonesia%2FD1" target="blank"
+									class="btn text-decoration-none">
+									<i class="bi bi-whatsapp" style="color: #EFFAF5"></i>
+								</a>
+							</div>
+							<span class="social_media_name">WhatsApp</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modalDisability" class="modal disability-modal" tabindex="-1">
+		<div id="mainDisability" class="modal-dialog glass-effect-information" >
+			<div class="modal-content" style="background-color: transparent !important; border: none !important;">
+			<div class="modal-header">
+				<h5 class="modal-title"></h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p class="mb-0">Website ini sudah <strong>ramah disabilitas.</strong> Silahkan gunakan fitur ini untuk <strong>meningkatkan pengalaman pengguna</strong> bagi penyandang disabilitas</p>
+				<div style="border-top: 12px solid red !important;"></div>
+				<p><i>This website is <strong>accessibility-ready</strong>. Please use this feature to <strong>enhance the user experience</strong> for people with disabilities.</i></p>
+			</div>
+			<div class="modal-footer">
+				<div class="form-check">
+					<input class="form-check-input" style="border-color: var(--color-biru-tua);" type="checkbox" value="" id="cbHiddenmodalDisability">
+					<label class="form-check-label user-select-none" id="textHiddenmodalDisability">
+						Don't show this again
+					</label>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+			</div>
+
+	
+<style>
+	.footer-link {
+		color: rgb(255, 255, 255);
+		opacity: 0.75 !important;
+	}
+
+	.footer-link:hover {
+		color: rgb(255, 255, 255);
+		opacity: 1 !important;
+	}
+
+	.footer_logo img {
+		height: 80px;
+	}
+
+	@media screen and (max-width: 768px) {
+		.footer_logo img {
+			height: 95px;
+		}
+	}
+
+	@media screen and (max-width: 425px) {
+		.footer_logo img {
+			height: 60px;
+		}
+	}
+</style>
+
+<footer id="footer" class="footer d-print-none">
+	<div class="container mb-md-5 mb-2 footer-top">
+		<div class="row justify-content-between g-4">
+			<div class="col-lg-5 col-md-12 mb-3 mb-md-0 footer-about">
+				<a class="mb-3 footer_logo" href="//" data-pjax="0"><img class="img-fluid mb-3" src="/assets/6accef45/img/logo_footer_2025.webp" alt="Direktorat Jenderal Imigrasi"></a>				<p class="text-white">
+					Jl. H.R. Rasuna Said, Kav. X6, No. 8,
+Kuningan, Jakarta Selatan,
+DKI Jakarta, Indonesia				</p>
+				<p class="text-white">
+					<a class="text-decoration-none text-white"
+						href="mailto::contact@imigrasi.go.id">
+						contact@imigrasi.go.id					</a>
+				</p>
+				<div class="social-links d-flex mt-4">
+												<a href="https://www.instagram.com/ditjen_imigrasi/" title="Sosial Media instagram" target="_blank"><i class="fs-5 bi bi-instagram"></i></a>
+														<a href="https://www.tiktok.com/@ditjen_imigrasi" title="Sosial Media tiktok" target="_blank"><i class="fs-5 bi bi-tiktok"></i></a>
+														<a href="https://www.twitter.com/ditjen_imigrasi" title="Sosial Media twitter-x" target="_blank"><i class="fs-5 bi bi-twitter-x"></i></a>
+														<a href="https://www.youtube.com/c/ditjenimigrasiyoutube" title="Sosial Media youtube" target="_blank"><i class="fs-5 bi bi-youtube"></i></a>
+														<a href="https://www.facebook.com/DitjenImigrasi/" title="Sosial Media facebook" target="_blank"><i class="fs-5 bi bi-facebook"></i></a>
+											</div>
+			</div>
+			<div class="col-lg-2 col-6 footer-links">
+				<h5 class="fw-semibold text-white mb-3 mb-md-5">
+					Layanan Situs				</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a class="text-decoration-none footer-link" href="/wni/paspor-baru" data-pjax="0"><span class="mb-0">Paspor</span></a>					</li>
+					<li>
+						<a class="text-decoration-none footer-link" href="/wna/permohonan-visa-republik-indonesia" data-pjax="0"><span class="mb-0">Visa Indonesia</span></a>					</li>
+					<li>
+						<a class="text-decoration-none footer-link" href="/wna/izin-tinggal-keimigrasian" data-pjax="0"><span class="mb-0">Izin Tinggal</span></a>					</li>
+					<li>
+						<a class="footer-link" href="https://visa.imigrasi.go.id/" target="_blank">
+							Status Permohonan						</a>
+					</li>
+					<li>
+						<a class="text-decoration-none footer-link" href="/biaya_imigrasi/index" data-pjax="0"><span class="mb-0">Biaya Keimigrasian</span></a>					</li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-6 me-md-5 footer-links">
+				<h5 class="fw-semibold text-white mb-3 mb-md-5">
+					Informasi				</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a class="text-decoration-none footer-link" href="/ppid" data-pjax="0" target="_blank"><span class="mb-0">Informasi Publik</span></a>					</li>
+					<li>
+						<a class="text-decoration-none footer-link" href="/uu_imigrasi" data-pjax="0" target="_blank"><span class="mb-0">UU Keimigrasian</span></a>					</li>
+																	<li>
+							<a class="text-decoration-none footer-link" href="/download/peraturan" data-pjax="0" target="_blank"><span class="mb-0">Peraturan</span></a>						</li>
+																	<li>
+							<a class="text-decoration-none footer-link" href="/download/produk-hukum" data-pjax="0" target="_blank"><span class="mb-0">Produk Hukum</span></a>						</li>
+																	<li>
+							<a class="text-decoration-none footer-link" href="/download/jurnal" data-pjax="0" target="_blank"><span class="mb-0">Jurnal</span></a>						</li>
+									</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-biru-muda text-center mt-md-3 mt-1 py-3">
+		<div class="container">
+			<div class="d-flex flex-column flex-md-row gap-2 justify-content-start">
+
+				<div class="col-auto ms-3 text-start">
+					<a href="/kebijakan-privasi"
+						class="text-decoration-none">
+						<p class="mb-0 text-white">
+							Kebijakan Privasi						</p>
+					</a>
+				</div>
+
+				<div class="col-auto ms-3 text-start">
+					<a href="/hubungi" class="text-decoration-none">
+						<p class="mb-0 text-white">
+							Hubungi Kami						</p>
+					</a>
+				</div>
+
+				<div class="col-auto ms-3 text-start">
+					<a href="/link/index" class="text-decoration-none">
+						<p class="mb-0 text-white">
+							Situs Terkait						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-dark text-center py-3">
+		<p class="text-white mb-0" style="font-size: 14px">©️ 2026			Direktorat Jenderal Imigrasi Republik Indonesia		</p>
+	</div>
+</footer>
+	<div id="modal-form-ajax" class="modal modal-lg fade" tabindex="-1">
+		<div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+			<div class="modal-content">
+
+			</div>
+		</div>
+	</div>
+
+	<div id="preloader">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
+
+	<script id="sessionFlashes" type="application/json">
+		{}	</script>
+
+	<script src="/assets/58a3f682/jquery.js?v=1757531562"></script>
+<script src="/assets/345aa491/jquery-ui.js?v=1757531580"></script>
+<script src="/assets/54f7976c/yii.js?v=1757532998"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js"></script>
+<script src="/assets/6accef45/main.js?v=1790394878"></script>
+<script src="/assets/6accef45/js/main.min.js?v=1790394878"></script>
+<script src="/assets/6accef45/js/hyperlink-popup.js?v=1790394878"></script>
+<script src="/assets/6accef45/js/marked.min.js?v=1790394878"></script>
+<script src="/assets/6accef45/js/search-ai-ui2.js?v=1790394878"></script>
+<script src="/assets/6accef45/js/sitebar-sticky.js?v=1790394878"></script>
+<script src="/assets/db2086a2/frontend.js?v=1790394879"></script>
+<script>jQuery(function ($) {
+	// let buttonSidebar = document.querySelector('.btn-category-mobile .title');
+	// let activeMenu = document.querySelector('.btn-type.active').textContent;
+	// buttonSidebar.textContent = activeMenu;
+
+    // $('table').addClass('table table-bordered table-striped');
+    // let heightData = $("#datalist").height();
+    // const buttons = $("#button_vertical");
+    // if(heightData < 200) {
+    //   buttons.height('auto')
+    //   buttons.css("overflow", "hidden")
+    // } else {
+    // 	if(window.innerWidth > 768){
+    //   	buttons.height(heightData);
+    //   } else {
+    //   	buttons.height(300);
+    //   }
+    //   buttons.css("overflow-y", "auto");
+    // }
+	
+    // buttons.find(".active").each(function(){
+    //   this.scrollIntoView(true)
+    // });
+
+	$("#search").filter(function(){
+		return this.value==yourval
+	}).remove();
+
+	// Get aktif kategori
+	let judulTerpilih = $('.btn-type.active').text();
+
+	// Pembuatan elemen judul terpilih ketika scroll
+        $(".breadcrumbs").append(`<div class='judul_container mb-4 shadow-lg tidak_tampil'>
+									<div class="container">
+										<p id='judul' class='fw-bold'></p>
+									</div>
+        						  </div>`);
+
+	if($(".text-decoration-none.btn.btn-light").text() == 'ID' ) {
+		$("#judul").text('Halaman: ' + judulTerpilih);
+	} else {
+		$("#judul").text('Page: ' + judulTerpilih);
+	};
+
+	$("#judul_terpilih").text(judulTerpilih);
+	$('#chatbotikawebchat').addClass('d-print-none');
+
+	// let posisiItemAktif = $(".btn-type.active").position();
+	// $("#button_vertical").animate({
+	// 	scrollTop: posisiItemAktif.top,
+	// })
+
+	// $(window).scroll(function () {
+	// 	if ($(window).scrollTop() > 200) {
+	// 		$(".judul_container").removeClass("tidak_tampil");
+	// 	} else {
+	// 		$(".judul_container").addClass("tidak_tampil");
+	// 	}
+	// })
+
+	tableToJson(sideContent)
+	function tableToJson(tableString) {
+		var currentLang = $('html').attr('lang').includes('id') ? 'id' : 'en';
+
+		const table = $(tableString);
+		const headers = ['no','id','en'];
+
+		const json = [];
+		table.find('tr').each(function(rowIndex, row) {
+    if (rowIndex > 0) { // Skip header row
+      const rowData = {};
+      $(row).find('td').each(function(cellIndex, cell) {
+        rowData[headers[cellIndex]] = $(cell).html();
+      });
+
+      	var content = rowData[currentLang], title = '', subtitle = '', replacement = '', accordionContent = ''
+		$(content).find('span[style*="text-decoration:none"]').each(function(x,y){
+
+			if(x == 0 ){
+				title = $(y).text()
+				replacement = $(this).prop("outerHTML")
+				
+			}
+		})
+
+		accordionContent = content.replace(replacement, '').replace(/font-size\s*:\s*\d+(\.\d+)?pt/gi, 'font-size:14px');
+
+		// Buat elemen sementara untuk parsing
+		var temp = $('<div>').html(accordionContent);
+
+		// Hapus elemen pertama anak dari temp
+		temp.children().first().remove();
+
+		// Ambil HTML hasil setelah penghapusan
+		accordionContent = temp.html().replace('&nbsp;', '');
+		
+      
+      	$("#datalist").append(`
+			<div class="accordion-item">
+					<h3 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wna-content-`+rowIndex+`" aria-expanded="true">
+							`+title+`			</button>
+					</h3><div class="accordion_decoration"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+					<div id="wna-content-`+rowIndex+`" class="accordion-collapse collapse show">
+						<div class="accordion-body pt-3">
+							`+accordionContent+`
+						</div>
+					</div>
+				</div>
+				`)
+			}
+		});
+		
+		return JSON.stringify(json);
+	}
+	
+	$('#accordion-trigger').click(function () {
+		$('#panel').toggleClass('d-block')
+	})
+
+	$("#text_sub_header").click(function () {
+		$('#panel').toggleClass('d-block')
+	})
+
+	$("#text_sub_header").on("mouseenter", function () {
+		$("#text_sub_header").css('cursor', 'pointer')
+	})
+
+	$(".toggle-sidebar-btn").click(function () {
+		$("#panel").removeClass("d-block")
+	})
+
+
+	$(window).scroll(function () {
+		if ($(window).scrollTop() > 200) {
+			$("#panel").removeClass("d-block");
+		}
+
+		/** @anoop: ku komen karena error, silakan lu un-komen kalo udah lu fix */
+		/*
+		if ($(window).scrollDown() > 200) {
+			$("#panel").removeClass("d-block");
+		}
+		*/
+	})
+
+	$(document).click(function(e) {
+		if ($(e.target).closest("#text_sub_header").length === 0 && $(e.target).closest("#panel").length === 0 && $(e.target).closest("#accordion-trigger").length === 0) {
+		if($("#panel").hasClass("d-block")) {
+			$("#panel").removeClass("d-block")
+		}
+		}
+	});
+
+	// menampilkan Search Header
+	$("#icon_search").click(function() {
+		$('#search_header').removeClass('d-none');
+		$('#search_header').show("drop", { direction: "down" }, 300);
+	})
+
+	// Menyembunyikan Search Header
+	$(document).click(function(e) {
+		if ($(e.target).closest("#search_header").length === 0 && $(e.target).closest("#icon_search").length === 0) {
+			$('#search_header').hide("drop", { direction: "down" }, 300);
+		}
+	});
+	$("#BotikaWidget").addClass("d-print-none");
+	$(`<div class="accordion_decoration"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>`).insertAfter($('.accordion-header'));
+	
+	// if($("#modal-informasi").length > 0){
+	// 	$('#modalDisability').modal('show')
+	// }
+	
+	// if (localStorage.getItem("hideModalDisability") != null) {
+	// 	$("#mainDisability").hide()
+	// 	$(".modal-dialog2").css({"top": "50%"})
+	// 	$('.modal-dialog2 .modal-body').css({'max-height': navigator.userAgentData.mobile ? '400px' : '600px', 'overflow': 'scroll'})
+	// }else{
+	// 	$('#modalDisability').modal('show')
+	// 	if(navigator.userAgentData.mobile)
+	// 		$('.modal-dialog2 .modal-body').css({'max-height': '270px', 'overflow': 'scroll'})
+	// }
+	
+	// $("#textHiddenmodalDisability").on('click', function(){
+	// 	if ($('#cbHiddenmodalDisability').is(":checked"))
+	// 	{
+	// 		$( "#cbHiddenmodalDisability").prop('checked', false);
+	// 		localStorage.removeItem("hideModalDisability");
+	// 	}
+	// 	else
+	// 	{
+	// 		$( "#cbHiddenmodalDisability").prop('checked', true);
+	// 		localStorage.setItem("hideModalDisability", true);
+	// 	}
+	// })
+
+	// $("#cbHiddenmodalDisability").on('change',function() {
+    //     if(this.checked) {
+	// 		localStorage.setItem("hideModalDisability", true);
+    //     }else{
+	// 		localStorage.removeItem("hideModalDisability");
+	// 	}
+    // });
+
+	// $("#logoHeader").on('click', function(){
+	// 	window.location = "/"
+	// })
+
+	
+	// const observer = new MutationObserver(function(mutations_list) {
+	// 	mutations_list.forEach(function(mutation) {
+	// 		mutation.addedNodes.forEach(function(added_node) {
+	// 			if(added_node.getAttribute("class") == 'uwy userway_p5 utb'){
+	// 				// console.log(added_node)
+	// 				// console.log("detected")
+
+	// 				// $('iframe.userway_p5').on('load', function(){
+	// 				// 	console.log("userway")
+	// 				// 	$(this).contents().find("body").append($("<p>this isn't sparta</p>"));
+	// 				// 	console.log($(this).contents())
+	// 				// 	console.log($('iframe.userway_p5').contents())
+	// 				// })
+					
+
+	// 				document.querySelector("iframe").addEventListener( "load", function(e) {
+	// 					// console.log('JSSS')
+	// 					this.style.backgroundColor = "red";
+	// 					// alert(this.nodeName);
+						
+	// 					// console.log(e.contentDocument);
+
+	// 				} );
+	// 			}
+				
+	// 		});
+	// 	});
+	// });
+
+	// observer.observe(document.querySelector("body"), { subtree: false, childList: true });
+	
+
+	// var i = 0;
+	// var intervalId = window.setInterval(function(){
+	// 	i++
+	// 	var whatIWantedToSelect = document.getElementsByName('html')[0];
+	// 	console.log("HTML class :  "+$("html").attr('class'))
+
+	// 	if(i >= 5){
+	// 		// clearInterval(intervalId);
+	// 	}
+	// }, 1000);
+	
+});</script>
+	<script>
+		AOS.init();
+		new WOW().init();
+	</script>
+
+			
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X48P02788C"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+
+	gtag('js', new Date());
+	gtag('config', 'G-X48P02788C');
+</script>
+		
+		<script>
+			const userLang = document.documentElement.lang || navigator.language || 'id';
+			const isEnglish = userLang.startsWith('en');
+		</script>
+
+		</body>
+
+
+</html>

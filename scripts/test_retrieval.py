@@ -13,7 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import config
-from rag.embedder import embed_query
+from rag.embedder import embed_queries
 from rag.retriever import Retriever
 
 
@@ -27,10 +27,12 @@ def _is_relevant_hit(query: dict, hit) -> bool:
     return bool(expected_section) and expected_section in str(hit.chunk.locator_value)
 
 
-def evaluate(retriever: Retriever, queries: list[dict], top_k: int) -> list[dict]:
+def evaluate(
+    retriever: Retriever, queries: list[dict], vectors: list[list[float]], top_k: int
+) -> list[dict]:
     rows = []
-    for query in queries:
-        hits = retriever.search(embed_query(query["query"]), top_k=top_k, threshold=None)
+    for query, vector in zip(queries, vectors):
+        hits = retriever.search(vector, top_k=top_k, threshold=None)
         top1 = hits[0].score if hits else None
 
         if query["kind"] == "relevant":
@@ -50,7 +52,8 @@ def main() -> None:
 
     print(f"index: {retriever.index.ntotal} vectors, dim {retriever.index.d}, top_k={config.TOP_K_RETRIEVAL}\n")
 
-    rows = evaluate(retriever, queries, config.TOP_K_RETRIEVAL)
+    vectors = embed_queries([query["query"] for query in queries])
+    rows = evaluate(retriever, queries, vectors, config.TOP_K_RETRIEVAL)
 
     for row in rows:
         query = row["query"]

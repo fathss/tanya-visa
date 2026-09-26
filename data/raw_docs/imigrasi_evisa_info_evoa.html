@@ -1,0 +1,1043 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>The Official eVisa website for Indonesia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="The Official eVisa website for Indonesia" />
+        <meta name="description" content="The Official Indonesian e-Visa Website" />
+        <meta name="keywords" content="evisa, e-visa, e-visa imigrasi, evisa imigrasi, evisa indonesia, e-visa indonesia, evisa official, e-voa, evoa, evoa imigrasi, e-voa imigrasi, e-voa indonesia, evoa indonesia, visa on arrival, imigrasi indonesia, indonesia, indonesia immigration" />
+        <meta name="author" content="Imigrasi Indonesia" />
+        <meta name="email" content="imigrasi@imigrasi.go.id" />
+        <meta name="website" content="https://imigrasi.go.id" />
+        <meta name="Version" content="v2.0.0" />
+
+        <meta property="og:title" content="The Official Indonesian e-Visa Website" />
+        <meta property="og:description" content="Indonesian e-Visa, This application is used for the issuance of e-Visa for foreigners who will enter Indonesia">
+        <meta property="og:type" content="visa on arrival" />
+        <meta property="og:url" content="http://evisa.imigrasi.go.id/front/info/evoa" />
+        <meta property="og:image" content="/assets/images/favicon.png" />
+        <meta property="og:site_name" content="MOLINA">
+
+        <meta name="twitter:title" content="The Official Indonesian e-Visa Website">
+        <meta name="twitter:description" content="Indonesian e-Visa, This application is used for the issuance of e-Visa for foreigners who will enter Indonesia">
+        <meta name="twitter:image" content="/assets/images/favicon.png">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- Add this meta tag inside the head section -->
+        
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+        <!-- Css -->
+        <!-- Bootstrap Css -->
+        <link href="/assets/css/bootstrap.css" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css" >
+
+        <!-- Icons Css -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/icons.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/libs/@iconscout/unicons/css/line.css">
+
+        <!-- Style Css-->
+        <link rel="stylesheet" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
+
+        <!-- Custom Css-->
+        <link rel="stylesheet" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+        <link rel="stylesheet" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" href="/assets/css/logo.css">
+
+        <!-- Custom Font Css-->
+        <link rel="stylesheet" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css" href="/assets/css/fonts.css">
+
+        <link rel="stylesheet" href="/assets/libs/jquery-countdown/css/jquery.countdown.css" type="text/css" />
+
+        <link rel="stylesheet" href="/plugins/pace-progress/themes/molina/pace-theme-flash.css" type="text/css" />
+
+        <style>
+                        .section {
+                min-height: 93vh;
+            }
+                                        body {
+                    padding-top: 0 !important;
+                }
+                    </style>
+
+            <style>
+        @media (min-width: 1400px)
+        {
+            .container {
+                max-width: 90%;
+            }
+            .heads {
+                margin-top: 4.5rem !important;
+            }
+        }
+
+        .bg-half-100 {
+            padding: 45px 0;
+        }
+
+        .icon-register {
+            left: 80px !important;
+        }
+
+        .card-title {
+            margin-top: 8px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #11375C;
+        }
+        .shadow {
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        .col-form-label, .form-check-label {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 17px;
+            color: #484848;
+        }
+
+        #topnav.nav-sticky {
+            /*box-shadow: 1px solid #D7D7D7 !important;*/
+        }
+
+        .btn-upload, .btn-send, .btn-back, .btn-upload-biodata {
+            font-size:14px;
+        }
+        .tips-container {
+            background: #CFE2FF;
+        }
+
+        .tips-title {
+            font-size: 20px;
+        }
+        .card-text {
+            color: #11375C;
+        }
+
+        .read-more-tips {
+            color: #11375C !important;
+            font-weight: 600;
+            text-decoration-line: underline !important;
+        }
+        .file-upload-field, .file-attachment-field {
+            display: none;
+        }
+        #emailErrors {
+            font-size: 16px;
+        }
+        .btn-info {
+            color: #fff;
+        }
+
+        .accordion .accordion-item .accordion-button:not(.collapsed) {
+            color: white;
+            background: #11375C !important;
+        }
+        .list-alphabet {
+            padding-left: 17px;
+        }
+        .list-number {
+            padding-left: 0;
+        }
+        .list-alphabet li {
+            padding-left: 10px;
+        }
+        .list-number li {
+            list-style: none;
+            padding-left: 0;
+        }
+        #navmenu-nav .navbar-item {
+            font-weight: 600;
+            text-align: left;
+            box-shadow: none;
+            padding: 1rem 2.5rem 1rem 1.25rem;
+        }
+        #navmenu-nav .navbar-item.active {
+            background: #11375C !important;
+            color: #fff !important;
+        }
+        #navmenu-nav .navbar-item.active:first-child {
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+        #navmenu-nav .navbar-item.active:last-child {
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+        #navmenu-nav .navbar-item.active a {
+            color: #fff !important;
+        }
+
+        @media (max-width: 767.98px){
+            .p-4 {
+                padding: 10px !important;
+            }
+            .m-4 {
+                margin: 20px !important;
+            }
+        }
+    </style>
+
+        <style>
+            #maintenanceCountdown.is-countdown {
+                font-weight: bold;
+                color: #ffcf6f;
+                border: none;
+                background: none;
+            }
+            @media (min-width: 1400px)
+            {
+                .heads {
+                    margin-top: 6.8rem !important;
+                }
+
+                .section {
+                    padding: 90px 0;
+                    position: relative;
+                }
+            }
+
+            @media (max-width: 767.98px){
+
+                .heads {
+                    margin-top: 13rem !important;
+                }
+                .section {
+                    padding: 230px 0;
+                    position: relative;
+                }
+            }
+            .float{
+                position:fixed;
+                bottom:40px;
+                right:40px;
+                background-color:#0C9;
+                color:#FFF;
+                text-align:center;
+                /*box-shadow: 2px 2px 3px #999;*/
+            }
+            #topnav.sticky .notification-center {
+                display: block !important;
+            }
+            #topnav.sticky.nav-sticky .notification-center {
+                display: none !important;
+            }
+            .stepper-item-v2::after {
+                border-bottom: 74px solid #f17425;
+            }
+            .stepper-item-v2 .step-name.one {
+                padding: 30px 25px 26px 70px;
+            }
+            .stepper-item-v2 .step-name {
+                font-size: 12px;
+                padding: 28px 25px 28px 70px;
+            }
+            @media (min-width: 1400px)
+            {
+                .container {
+                    max-width: 90%;
+                }
+            }
+            @media (max-width: 1580px)
+            {
+                #topnav .navigation-menu>li>a {
+                    font-size: 12px;
+                }
+                .stepper-item-v2 .step-name.one {
+                    padding: 19px 25px 19px 70px;
+                }
+            }
+            @media (max-width: 1400px)
+            {
+                #topnav .navigation-menu>li>a {
+                    padding-left: 5px !important;
+                    padding-right: 5px !important;
+                }
+                #topnav .navigation-menu>li>a {
+                    font-size: 10px !important;
+                }
+                .logo-title .head-title {
+                    font-size: 11px !important;
+                }
+                .logo-title .sub-title {
+                    font-size: 9px !important;
+                }
+                #topnav .logo img, #topnav .logo img {
+                    height: 30px !important;
+                    margin-top: 10px;
+                }
+            }
+            @media (max-width: 768px)
+            {
+                .logo-title .head-title {
+                    font-size: 9px !important;
+                }
+                .logo-title .sub-title {
+                    font-size: 6px !important;
+                }
+            }
+        </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLK0ZH5KF3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RLK0ZH5KF3');
+        </script>
+        <meta name="google-site-verification" content="Xc1vlUupQCUNY6D8QlSrk3wiJ84k_aZfesDWlNUpuM8" />
+    </head>
+
+    <body>
+            <style>
+#topnav .logo .l-dark, #topnav .logo .logo-dark-mode {
+    display: block;
+}
+#topnav .logo {
+    padding-left: 0;
+    padding-top: 10px;
+}
+#topnav .navigation-menu>li {
+    margin: 0;
+}
+#topnav .navigation-menu>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (min-width: 768px) {
+    #topnav .navigation-menu > li .submenu {
+        border-radius: 0 !important;
+    }
+
+    #topnav .navigation-menu > li .submenu.megamenu {
+        width: 200px !important;
+        position: absolute;
+        left: auto;
+        right: 0;
+        right: -79%;
+    }
+
+    #topnav .navigation-menu > li .submenu.megamenu > li {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    #topnav .navigation-menu > li > a {
+        color: #212529;
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 768px) {
+    #topnav .navigation-menu .has-submenu .menu-arrow {
+        border: solid #212529;
+        border-radius: 0.5px;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        right: -1px;
+        top: 30px;
+    }
+    #topnav .navigation-menu .has-submenu .menu-arrow {
+        right: 8px;
+        top: 16px;
+        border: solid #212529;
+    }
+}
+#topnav .navigation-menu>li .submenu {
+    min-width: 240px;
+}
+#topnav .navigation-menu>li.has-submenu:hover>.submenu>li.has-submenu:hover>.submenu {
+    padding: 5px 0;
+    top: -3px;
+    background: #f1f1f1;
+    border: solid 1px #cdcdcd;
+}
+#topnav .has-submenu .submenu .has-submenu:hover>.submenu-arrow {
+    border-color: #212528;
+}
+#topnav .navigation-menu>li.has-submenu:hover>.submenu {
+    background: #f1f1f1;
+    border: solid 1px #cdcdcd;
+}
+.btn-logout:hover img {
+    content:url(/assets/images/humbleicons_logout_light.png);
+}
+@media (min-width: 1400px)
+{
+    .container-menu {
+        max-width: 1320px;
+    }
+}
+.logo img {
+    float: left;
+}
+</style>
+
+
+<header id="topnav" class="defaultscroll sticky">
+    
+    <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="/">
+            <img height="50" src="/logo-2025.png" alt="" class="logo-dark-mode">
+            <div class="logo-title">
+                <div class="head-title">MINISTRY OF IMMIGRATION AND CORRECTIONS</div>
+                <div class="sub-title">DIRECTORATE GENERAL OF IMMIGRATION</div>
+            </div>
+        </a>
+        <!-- Logo End -->
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+                        
+                        
+
+
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0 d-none d-sm-block" style="margin-left: 0 !important; padding-left: 0 !important;" >
+            
+            <li class="list-inline-item ps-1 mb-0">
+                                    <a href="/front/login?menu-token=f057cccca24.qiFfLbiviI9rjhHSbN308J3v2uwbAwjWzru-y2Tnkoo.wUsyR_vqvsox_ii2AauywtiLjZhRe2WnmujpgxfKyM75FQdD1s7XwQndYg" class="btn btn-warning btn-logout"><i data-feather="log-out" class="fea icon-sm"> </i> Sign In </a>
+                            </li>
+
+                    </ul>
+
+        <!--Login button End-->
+
+        <div id="navigation">
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu">
+                <li><a href="/" class="sub-menu-item active">HOME</a></li>
+
+                                                                                        <li>
+                                <a href="/web/services" class="sub-menu-item">
+                                    services
+                                </a>
+                            </li>
+                                                                                                    <li>
+                    <a href="https://www.imigrasi.go.id" target="_blank">INFORMATION</a></span>
+                    <ul class="submenu">
+                        <li><a href="/front/faqs/university">  FAQ </a></li>
+                    </ul>
+                </li>
+                <li><a href="/front/info/contact-us" class="sub-menu-item">Contact Us</a></li>
+                <li class="hidden-md"><a href="/front/login?menu-token=f057cccca24.qiFfLbiviI9rjhHSbN308J3v2uwbAwjWzru-y2Tnkoo.wUsyR_vqvsox_ii2AauywtiLjZhRe2WnmujpgxfKyM75FQdD1s7XwQndYg" class="sub-menu-item"><i data-feather="log-out" class="fea icon-sm"> </i> Sign In </a></li>
+                            </ul><!--end navigation menu-->
+        </div><!--end navigation-->
+    </div><!--end container-->
+</header>
+
+        <div class="container mt-5 heads"><div class="row"><div class="col-12">&nbsp;</div></div></div><!-- Start --><section class="section pt-4 bg-light" style="min-height: 74vh;"><div class="container pt-4"><div class="row"><div class="col-12"><div class="position-breadcrumb"><h4 class="title pl-4"><span class="text-primary">General Information &amp; FAQ</h4><div class="col-12"><img src="/assets/images/line.png" class="img-fluid center-block" alt=""></div><nav aria-label="breadcrumb" class="d-inline-block"><ul class="breadcrumb rounded shadow mb-0 px-4 py-2"><li class="breadcrumb-item"><a href="/">HOME</a></li><li class="breadcrumb-item active" aria-current="page">INFORMATION ABOUT VISITOR VISA</li></ul></nav></div></div></div><div class="row justify-content-center" style="margin-top: 80px;"><div class="col-lg-4 col-md-5 col-12 d-md-block pb-sm-3 pb-xs-3 pb-3"><div class="rounded shadow sticky-bar text-center" style="box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;"><ul class="list-unstyled sidebar-nav mb-0 py-0" id="navmenu-nav"><li class="navbar-item active"><a href="#generalinfo" class="h6 text-dark navbar-link">General Information</a></li><li class="navbar-item"><a href="#generalquestions" class="h6 text-dark navbar-link">FAQ</a></li></ul></div></div><!--end col--><div class="col-lg-8 col-md-7 col-12"><div class="accordion" id="generalinfo"><div class="accordion-item rounded"><h2 class="accordion-header" id="headingInfoZero"><button class="accordion-button border-0 bg-light generalinfo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfoZero" aria-expanded="true" aria-controls="collapseInfoZero">
+                                        General Information
+                                    </button></h2><div id="collapseInfoZero" class="accordion-collapse generalinfo-collapse border-0 collapse p-4 m-4 pt-0 show" aria-labelledby="headingInfoZero" data-bs-parent="#generalinfo"><div class="row pt-3"><div class="col-12"><ul class="list-unstyled" style="list-style-type: decimal;text-align: justify;"><li class="mb-1 text-primary me-2"><span><strong class="bold"><a href="https://evisa.imigrasi.go.id" target="_blank">evisa.imigrasi.go.id</a></strong> is a government portal run by the Directorate General of Immigration Ministry of Law and Human Rights.</span></li><li class="mb-1 text-primary me-2"><span>Visitor Visa is a single-entry visa which is valid for 30 days stay in Indonesia with the purpose of Tourism, Government Visit, Business Meeting, Goods Purchasing, or Transit only.</span></li><li class="mb-1 text-primary me-2"><span>The validity period of Visitor Visa is different from the period of stay in Indonesia. The validity period of Visitor Visa is 90 days, as stated on Visitor Visa. If foreigners holding Visitor Visa come to Indonesia after the 90 days period, they must apply for a new Visitor Visa, visa on arrival at the airport, or other types of visas.</span></li><li class="mb-1 text-primary me-2"><span>Holders of passports of these following countries are eligible to apply for Visitor Visa:</span><div class="row"><div class="col-md-3 col-sm-12"><ol class="list-alphabet" type="1"><li>Albania</li><li>Andorra</li><li>Argentina</li><li>Australia</li><li>Austria</li><li>Bahrain</li><li>Belarus</li><li>Belgium</li><li>Bosnia Herzegovina</li><li>Brazil</li><li>Brunei Darussalam</li><li>Bulgaria</li><li>Cambodia</li><li>Canada</li><li>Chile</li><li>China</li><li>Colombia</li><li>Croatia</li><li>Cyprus</li><li>Czech</li><li>Denmark</li><li>Ecuador</li></ol></div><div class="col-md-3 col-sm-12"><ol class="list-alphabet" type="1" start="23"><li>Egypt</li><li>Estonia</li><li>Finland</li><li>France</li><li>Germany</li><li>Greece</li><li>Hong Kong</li><li>Hungary</li><li>Iceland</li><li>India</li><li>Ireland</li><li>Italy</li><li>Japan</li><li>Jordan</li><li>Kuwait</li><li>Kazakhstan</li><li>Laos</li><li>Latvia</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Malaysia</li><li>Maldives</li></ol></div><div class="col-md-3 col-sm-12"><ol class="list-alphabet" type="1" start="46"><li>Malta</li><li>Mexico</li><li>Monaco</li><li>Morocco</li><li>Myanmar</li><li>Netherland</li><li>New Zealand</li><li>Norway</li><li>Oman</li><li>Palestine</li><li>Peru</li><li>Philippines</li><li>Poland</li><li>Portugal</li><li>Republic of Korea</li><li>Qatar</li><li>Romania</li><li>Russia</li><li>San Marino</li><li>Saudi Arabia</li><li>Serbia</li><li>Seychelles</li></ol></div><div class="col-md-3 col-sm-12"><ol class="list-alphabet" type="1" start="68"><li>Singapore</li><li>Slovakia</li><li>Slovenia</li><li>South Africa</li><li>Spain</li><li>Suriname</li><li>Sweden</li><li>Switzerland</li><li>Taiwan</li><li>Thailand</li><li>Timor Leste</li><li>Tunisia</li><li>Turkiye</li><li>Ukraine</li><li>United Arab Emirates</li><li>United Kingdom</li><li>United States of America</li><li>Uzbekistan</li><li>Vatican</li><li>Vietnam</li></ol></div></div><br></li><li class="mb-1 text-primary me-2"><span>Holders of travel document other than passport (Laissez Passer, Titre	de	voyage, Travel Document, Document  of Identity, Certificate  of Identity, Alien Passport, Alien Travel Document, Emergency Travel Document, Emergency Passport; or Temporary Passport) are not eligible to apply Visitor Visa.</span></li><li class="mb-1 text-primary me-2"><span>Foreigners holding Visitor Visa are allowed to land at:</span><br><span>Seaport Immigration Checkpoint:</span><div class="row"><div class="col-md-6 col-sm-12"><ol class="list-alphabet" type="1"><li>Halim Perdana Kusuma, DKI Jakarta</li><li>Hang Nadim, Kepulauan Riau</li><li>Juanda, Jawa Timur</li><li>Kertajati, Jawa Barat</li><li>Kualanamu, Sumatera Utara</li><li>Minangkabau, Sumatera Barat</li><li>Ngurah Rai, Bali</li><li>Sam Ratulangi, Sulawesi Utara</li></ol></div><div class="col-md-6 col-sm-12"><ol class="list-alphabet" type="1" start="9"><li>Sentani, Papua</li><li>Soekarno Hatta, DKI Jakarta</li><li>Sultan Aji Muhammad Sulaiman, KalimantanTimur</li><li>Sultan Hasanuddin, Sulawesi Selatan</li><li>Sultan Iskandar Muda , Aceh</li><li>Sultan Syarif Kasim II, Riau</li><li>Yogyakarta, Daerah Istimewa Yogyakarta</li><li>Zainuddin Abdul Madjid, Nusa Tenggara Barat</li></ol></div></div><br><span>Seaport Immigration Checkpoint:</span><div class="row"><div class="col-md-4 col-sm-12"><ol class="list-alphabet" type="1" start="17"><li>Achmad Yani, Maluku Utara</li><li>Amamapare, Papua</li><li>Anggrek, Gorontalo</li><li>Bagan Siapi-Api, Riau</li><li>Bandar Bentan Telani Lagoi, Kepulauan Riau</li><li>Bandar Seri Udana Lobam, Kepulauan Riau</li><li>Bandar Sri Setia Raja, Riau</li><li>Batam Centre, Kepulauan Riau</li><li>Batu Ampar, Kepulauan Riau</li><li>Belakang Padang, Kepulauan Riau</li><li>Belawan, Sumatera Utara</li><li>Benete, Nusa Tenggara Barat</li><li>Benoa, Bali</li><li>Biak, Papua</li><li>Boom Baru, Sumatera Selatan</li><li>Celukan Bawang, Bali</li><li>Cirebon, Jawa Barat</li><li>Citra Tri Tunas, Kepulauan Riau</li><li>Ciwandan, Banten</li><li>Dumai, Riau</li><li>Dwi Kora, Kalimantan Barat</li><li>Gunung Sitoli, Sumatera Utara</li><li>Jambi, Jambi</li><li>Jayapura, Papua</li><li>Kabil, Kepulauan Riau</li><li>Kendari, Sulawesi Tenggara</li><li>Kota Baru, Kalimantan Selatan</li><li>Kuala Enok, Riau</li><li>Kuala Langsa, Aceh</li><li>Kuala Tanjung, Sumatera Utara</li></ol></div><div class="col-md-4 col-sm-12"><ol class="list-alphabet" type="1" start="47"><li>Kuala Tungkal, Jambi</li><li>Kumai, Kalimantan Tengah</li><li>Labuan Bajo, Nusa Tenggara Timur</li><li>Lauren Say, Nusa Tenggara Timur</li><li>Lembar, Nusa Tenggara Barat</li><li>Lhokseumawe, Aceh</li><li>Malahayati, Aceh</li><li>Malundung, Kalimantan Timur</li><li>Manado, Sulawesi Utara</li><li>Marina Ancol, DKI Jakarta</li><li>Marina Teluk Senimba, Kepulauan Riau</li><li>Merauke, Papua</li><li>Muara Sabak, Jambi</li><li>Nongsa Terminal Bahari, Kepulauan Riau</li><li>Nusantara, Sulawesi Utara</li><li>Nusantara Pare Pare, Sulawesi Selatan</li><li>Padang Bai, Bali</li><li>Panarukan, Jawa Timur</li><li>Pangkal Balam, Bangka Belitung</li><li>Panjang, Lampung</li><li>Pantoloan, Sulawesi Tengah</li><li>Pasuruan, Jawa Timur</li><li>Patimban, Jawa Barat</li><li>Probolinggo, Jawa Timur</li><li>Pulau Baai, Bengkulu</li><li>Sabang, Aceh</li><li>Samarinda, Kalimantan Timur</li><li>Sampit, Kalimantan Tengah</li><li>Samudera, Sulawesi Utara</li><li>Saumlaki, Maluku</li></ol></div><div class="col-md-4 col-sm-12"><ol class="list-alphabet" type="1" start="77"><li>Sekupang, Kepulauan Riau</li><li>Selat Lampa, Kepulauan Riau</li><li>Semayang, Kalimantan Timur</li><li>Siak Sri Indapura, Riau</li><li>Sibolga, Sumatera Utara</li><li>Sintete, Kalimantan Barat</li><li>Soekarno-Hatta, Sulawesi Selatan</li><li>Sorong , Papua</li><li>Sri Bayintan, Kepulauan Riau</li><li>Sri Bintan Pura, Kepulauan Riau</li><li>Sunda Kelapa, DKI Jakarta</li><li>Sungai Guntung, Riau</li><li>Tanjung Balai Karimun, Kepulauan Riau</li><li>Tanjung Emas, Jawa Tengah</li><li>Tanjung Gudang, Bangka Belitung</li><li>Tanjung Harapan, Riau</li><li>Tanjung Intan, Jawa Tengah</li><li>Tanjung Kalian, Bangka Belitung</li><li>Tanjung Pandan, Bangka Belitung</li><li>Tanjung Perak, Jawa Timur</li><li>Tanjung Priok, DKI Jakarta</li><li>Tanjung Uban, Kepulauan Riau</li><li>Tanjung Wangi, Jawa Timur</li><li>Tarempa, Kepulauan Riau</li><li>Teluk Bayur, Sumatera Barat</li><li>Teluk Nibung, Sumatera Utara</li><li>Tembilahan, Riau</li><li>Tenau, Nusa Tenggara Timur</li><li>Tri Sakti, Kalimantan Selatan</li><li>Tual, Maluku</li><li>Yos Sudarso, Maluku</li></ol></div></div><br><span>Cross Border Post Immigration Checkpoint:</span><div class="row"><div class="col-md-4 col-sm-12"><ol class="list-alphabet" type="1" start="108"><li>Aruk, Kalimantan Barat</li><li>Entikong, Kalimantan Barat</li><li>Mota’ain, Nusa Tenggara Timur</li><li>Motamasin, Nusa Tenggara Timur</li><li>Sota, Papua</li><li>Tunon Taka, Kalimantan Utara</li><li>Wini, Nusa Tenggara Timur</li></ol></div></div><br></li><li class="mb-1 text-primary me-2"><span>The Visitor Visa fee is IDR 500.000,00. Please note that every payment via Debit/Credit Card will incur additional fees according to the financial institution’s regulations.</span></li><li class="mb-1 text-primary me-2"><span>Each traveler must hold a separate Visitor Visa, including infants and children (even if children/infants are included in their parent passports).</span></li><li class="mb-1 text-primary me-2"><span>Foreigners who wish to enter Indonesia must hold a passport with an expiration date at least 6 (six) months from the date of arrival (In accordance with the article 22 (1) b Minister of Law and Human Rights Regulation Number 44 of 2015).</span></li><li class="mb-1 text-primary me-2"><span>Once the Visitor Visa is processed, none of the information can be changed. The information on your Visitor Visa must be exactly the same as the information on your passport. Otherwise, your Visitor Visa will be invalid and there will be no refund. According to article 106 Minister of Law and Human Rights Regulation Number 44 of 2015, Immigration Officer at the ports of entry reserves the right to deny entry into Indonesia to a foreigner who provide incorrect information in the visa application.</span></li><li class="mb-1 text-primary me-2"><span>The documents to request an Visitor Visa are as follows:</span><ol class="list-alphabet ml-2" type="a"><li class="mb-1 text-primary me-2"><span>Full biodata page of passport with at least 6 months validity from the date of your arrival to Indonesia (format JPG/JPEG/PNG);</span></li><li class="mb-1 text-primary me-2"><span>Passport size photograph (format JPG/JPEG/PNG);</span></li><li class="mb-1 text-primary me-2"><span>Email address; and</span></li><li class="mb-1 text-primary me-2"><span>A valid Mastercard, Visa, or JCB credit card.</span></li></ol></li><li class="mb-1 text-primary me-2"><span>Before submitting Visitor Visa, you must create an Account by “Main Page > Apply > Register” (please note that each visitor visa must be submitted by the respective account) and perform:</span><ol class="list-alphabet ml-2" type="a"><li class="mb-1 text-primary me-2"><span>Fill in data and uploading documents;</span></li><li class="mb-1 text-primary me-2"><span>Receive verification email; and</span></li><li class="mb-1 text-primary me-2"><span>Activate the Account by clicking “activate” on the verification email which must be confirmed within one hour.</span></li></ol></li><li class="mb-1 text-primary me-2"><span>After logging in to your account, you can apply for Visitor Visa by clicking “Main Page > Apply” and then perform:</span><ol class="list-alphabet ml-2" type="a"><li class="mb-1 text-primary me-2"><span>Data Filling:</span><ol class="list-number ml-2"><li class="mb-1 text-primary me-2">1)&nbsp;&nbsp;<span> Visa type,</span></li><li class="mb-1 text-primary me-2">2)&nbsp;&nbsp;<span> Arrival information, and</span></li><li class="mb-1 text-primary me-2">3)&nbsp;&nbsp;<span> Residence information in Indonesia;</span></li></ol></li><li class="mb-1 text-primary me-2"><span>Payment; and</span></li><li class="mb-1 text-primary me-2"><span>Granting Visitor Visa.</span></li></ol></li><li class="mb-1 text-primary me-2"><span>After completing the “payment confirmation” page, you must proceed with the payment within 120 minutes. Otherwise, the system will not accept payment, and you will need to create a new request.</span></li><li class="mb-1 text-primary me-2"><span>You can only make payment by Mastercard, Visa, and JCB credit card. <b>The card is not required to be under your name</b>. Kindly make sure that your card has a “3D Secure System” and is open to international transactions.</span></li><li class="mb-1 text-primary me-2"><span>After completing the payment process, your Visitor Visa will be available in your Account. Immigration Officers at the ports of entry can verify your Visitor Visa in their system. However, you are advised to keep your Visitor Visa with you either as a softcopy (on tablet pc, smartphone etc.) or as a hardcopy in case of any failure in the system.</span></li><li class="mb-1 text-primary me-2"><span>You only need to do the Account creation once. If you forgot your password you can select “Main Page > Forgot Password”.</span></li><li class="mb-1 text-primary me-2"><span>Kindly inform the Visitor Visa Support Desk (livechat at www.imigrasi.go.id or sending email to visa@imigrasi.go.id or evoa@imigrasi.go.id) should you encounter any suspended or unsuccessful transactions during the request procedure. Please do not create a new request or make a new payment unless otherwise advised. The Ministry will not be responsible for additional payments and no refund will be granted in case of such unfinished transactions.</span></li><li class="mb-1 text-primary me-2"><span>There are numerous websites which claim to assist users in receiving Indonesian Visitor Visa in return for a service charge. These websites are not endorsed by or associated with the Indonesian government. Therefore, we cannot be held responsible for any misuse of information or failure of service on their side.</span></li></ul></div><!--end col--></div><!--end row--></div></div></div><div class="accordion mt-4 pt-2" id="generalquestions"><div class="accordion-item rounded"><h2 class="accordion-header" id="headingZero"><button class="accordion-button border-0 bg-light generalquestions collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                                        FAQ
+                                    </button></h2><div id="collapseZero" class="accordion-collapse generalquestions-collapse border-0 collapse p-3 pt-0 show" aria-labelledby="headingZero" data-bs-parent="#generalquestion"><div class="row pt-3"><div class="col-12"><div class="accordion pt-2 p-2"><div class="accordion-item rounded"><h2 class="accordion-header" id="headingOne"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                            What is an Visitor Visa?
+                                                        </button></h2><div id="collapseOne" class="accordion-collapse border-0 collapse" aria-labelledby="headingOne" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Visitor Visa is a single-entry visa valid for 30-day stay in Indonesia with the purpose of
+                                                            Tourism, Government visits, Business Meetings, Goods Purchasing, or Transit only.
+                                                            <br/><br/>
+                                                            Visitor Visa is an alternative to visas issued electronically via e-VISA Application, visa on arrival
+                                                            at the port of entry, and visa at Indonesian Embassy/Consulate.
+                                                            <br/><br/>
+                                                            Applicants obtain their Visitor Visa electronically after entering required information and making
+                                                            payments by a credit card (Mastercard, Visa, or JCB).
+                                                            <br/><br/>
+                                                            The link to download your Visitor Visa is given on the final step, where you will be informed that
+                                                            your request has been completed successfully. In addition, the same link to download your
+                                                            Visitor Visa will be e-mailed to you.
+                                                            <br/><br/>
+                                                            Alternatives:
+                                                            You can download Visitor Visa via the “Application” menu in the Visitor Visa Application.
+                                                            <br/><br/>
+                                                            Immigration officers at port of entry can verify your Visitor Visa on their system. However,
+                                                            you are advised to keep your Visitor Visa either as a soft copy (tablet PC, smartphone, etc.)
+                                                            or a hard copy if there is any failure on their system.
+                                                            <br/><br/>
+                                                            As in the case of other visas, the Immigration Officer at the entry ports reserves the right to
+                                                            deny access to Indonesia to an Visitor Visa holder without any explanation.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingTwo"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            What do I need for my Visitor Visa request?
+                                                        </button></h2><div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Documents needed to prepare Visitor Visa request are:
+                                                            <br>
+                                                            a. Full biodata page of passport with at least 6 months validity from the date of your arrival
+                                                            <br>
+                                                            to Indonesia (format JPG/JPEG/PNG with max. size of 200 kb);
+                                                            <br>
+                                                            b. Passport size photograph (format JPG/JPEG/PNG with max. size of 200 kb);
+                                                            <br>
+                                                            c. Email address;
+                                                            <br>
+                                                            d. A valid Mastercard, Visa, or JCB credit card.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingThree"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            What are the advantages of Visitor Visa?
+                                                        </button></h2><div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            An Visitor Visa can be obtained easily anywhere with an internet connection. It saves time you
+                                                            would otherwise spend on e-VISA Application, visa on arrival at the port of entry, visa at
+                                                            Indonesian Embassy/Consulate (if you are eligible).
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingFour"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                            Does having Visitor Visa guarantee entry to Indonesia?
+                                                        </button></h2><div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Issuance of Visitor Visa does not guarantee entry to Indonesia. Visitor Visa simply indicates that the individual is eligible to seek entry for a specific purpose. The decision of entry remains the right of the respective Immigration Officer at the port of entry.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingfive"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                                            If I have already obtained the Visitor Visa, what should I do after arriving at the entry port?
+                                                        </button></h2><div id="collapsefive" class="accordion-collapse border-0 collapse" aria-labelledby="headingfive" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Under Article 22 (1) b Minister of Law and Human Rights Regulation Number 44 of 2015,
+                                                            foreigners who wish to enter Indonesia must hold a passport with an expiration date at least
+                                                            6 (six) months from the date of arrival. You are advised to have the return ticket printed.
+                                                            <br /><br />
+                                                            Immigration Officer reserves the right to ask for your return ticket at entry.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingsix"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                                            What should I do if the information I provide in the Visitor Visa is incorrect?
+                                                        </button></h2><div id="collapsesix" class="accordion-collapse border-0 collapse" aria-labelledby="headingsix" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            You must apply new Visitor Visa application. We cannot refund payments for error in visa application.
+                                                            <br /><br />
+                                                            According to Article 106 Minister of Law and Human Rights Regulation Number 44 of 2015,
+                                                            Immigration Officer at the ports of entry reserves the right to deny entry into Indonesia to a
+                                                            foreigner who provide incorrect information in the visa request.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingseven"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                                                            Do I need to enter Indonesia on the exact date specified in my request?
+                                                        </button></h2><div id="collapseseven" class="accordion-collapse border-0 collapse" aria-labelledby="headingseven" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No. The validity period of your Visitor Visa begins from the date specified in your application. You can enter Indonesia on any date within this period.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingeight"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                                            How do you protect the information that I share during my Visitor Visa request process?
+                                                        </button></h2><div id="collapseeight" class="accordion-collapse border-0 collapse" aria-labelledby="headingeight" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            The Republic of Indonesia does not sell, rent, or otherwise use for commercial purposes any
+                                                            personal information entered in the Visitor Visa Application System to third parties.
+                                                            <br /><br />
+                                                            The applicant bears full responsibility for the safety of the soft and hard copies of the Visitor Visa.
+                                                            <br />
+                                                            Any information obtained at each request stage and the Visitor Visa issued at the end of the
+                                                            process is stored in secure systems. The applicant bears full responsibility for this information
+                                                            again should it fall into the hands of third parties.
+                                                            <br /><br />
+                                                            The barcode on the Visitor Visa stores the applicant’s information in an encrypted and
+                                                            electronically signed form designated by the Directorate General of Immigration Ministry of
+                                                            Law and the Human Rights Republic of Indonesia.
+                                                            <br /><br />
+                                                            Access to the barcode’s content is solely provided to the institutions authorized by the
+                                                            Directorate General of Immigration Ministry of Law and the Human Rights Republic of
+                                                            Indonesia. The applicant bears full responsibility for any inconvenience that may result from
+                                                            barcode alterations or forgery caused by the applicant.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingnine"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                                                            Do I need to obtain a separate Visitor Visa for people accompanying me?
+                                                        </button></h2><div id="collapsenine" class="accordion-collapse border-0 collapse" aria-labelledby="headingnine" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Yes. Each traveler must have a separate Visitor Visa.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingeleven"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+                                                            Can I obtain a multiple-entry Visitor Visa?
+                                                        </button></h2><div id="collapseeleven" class="accordion-collapse border-0 collapse" aria-labelledby="headingeleven" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No. Visitor Visa is only for single entry. If you wish to obtain a multiple entry visa, you can apply for a multiple entry visa via e-VISA Application.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwelve"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+                                                            The information on my Visitor Visa does not fully match the information on my passport.<br />Can I enter Indonesia with this Visitor Visa?
+                                                        </button></h2><div id="collapsetwelve" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwelve" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No, your Visitor Visa is invalid. You must obtain another Visitor Visa.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingthirteen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirteen" aria-expanded="false" aria-controls="collapsethirteen">
+                                                            I want to stay in Indonesia for longer than the Visitor Visa permits.<br />What should I do?
+                                                        </button></h2><div id="collapsethirteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingthirteen" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            If you wish to stay in Indonesia longer than your Visitor Visa permits, you must apply for a
+                                                            residence permit extension at the Immigration Office.
+                                                            <br /><br />
+                                                            Please note that an Visitor Visa is granted only for Tourism, Government visits, Business
+                                                            Meetings, Goods Purchasing, or Transit purposes. Request for other visa types is required
+                                                            to submit an e-VISA Application.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingfourteen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefourteen" aria-expanded="false" aria-controls="collapsefourteen">
+                                                            Overstay
+                                                        </button></h2><div id="collapsefourteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingfourteen" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            If you overstay your visa, you might be asked to pay fines of IDR 1,000,000 per day, detained, deported, or banned future travel to Indonesia for a specific period.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingsixteen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesixteen" aria-expanded="false" aria-controls="collapsesixteen">
+                                                            I have realized that some of the information that I provided in the Visitor Visa request requires correction.<br/>What should I do?
+                                                        </button></h2><div id="collapsesixteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingsixteen" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            You must create a new Visitor Visa request.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingseventeen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseventeen" aria-expanded="false" aria-controls="collapseseventeen">
+                                                            I have completed my request. When will I obtain my Visitor Visa?
+                                                        </button></h2><div id="collapseseventeen" class="accordion-collapse border-0 collapse" aria-labelledby="headingseventeen" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            You can download your Visitor Visa via “Application” tab
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingnineteen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenineteen" aria-expanded="false" aria-controls="collapsenineteen">
+                                                            How long before my travel date should I apply for Visitor Visa?
+                                                        </button></h2><div id="collapsenineteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingnineteen" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            You can apply for Visitor Visa 14 days before your travel. However, you are advised to create an Visitor Visa request at least 48 hours before your departure.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwenty"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwenty" aria-expanded="false" aria-controls="collapsetwenty">
+                                                            I have realized that some information on my Visitor Visa does not match the information on my travel document. I know that my Visitor Visa is invalid. Can I get a refund?
+                                                        </button></h2><div id="collapsetwenty" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwenty" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No. The applicant assumes responsibility for any mistakes made in their request.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentyone"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentyone" aria-expanded="false" aria-controls="collapsetwentyone">
+                                                            I do not want to apply for an Visitor Visa. Can I get a visa on arrival?
+                                                        </button></h2><div id="collapsetwentyone" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentyone" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Yes. If you are a citizen of one of the countries listed below and you meet the required criteria, you can obtain a visa on arrival at the port of entry. Kindly visit www.imigrasi.go.id to learn more about these requirements.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentyfour"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentyfour" aria-expanded="false" aria-controls="collapsetwentyfour">
+                                                            Do I need an Visitor Visa if I am on a cruise ship?
+                                                        </button></h2><div id="collapsetwentyfour" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentyfour" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            For now, Visitor Visa is only available at Soekarno-Hatta Airport and Ngurah Rai Airport. If you land not at that port of entry, you can apply for another type of visa (e-VISA Application, visa on arrival at the port of entry, visa at Indonesian Embassy/Consulate).
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentyfive"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentyfive" aria-expanded="false" aria-controls="collapsetwentyfive">
+                                                            My child is included in my passport. Do I need to make a separate Visitor Visa request for them?
+                                                        </button></h2><div id="collapsetwentyfive" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentyfive" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Yes. If your child is issued a passport under their name, please make a separate Visitor Visa request.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentysix"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentysix" aria-expanded="false" aria-controls="collapsetwentysix">
+                                                            Can the citizens of all the countries eligible for Visitor Visa obtain a visa on arrival at the port of entry?
+                                                        </button></h2><div id="collapsetwentysix" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentysix" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Yes. Further information regarding the countries eligible for visa on arrival at the port of entry Please visit www.imigrasi.go.id.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentyseven"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentyseven" aria-expanded="false" aria-controls="collapsetwentyseven">
+                                                            How much is an Visitor Visa fee?
+                                                        </button></h2><div id="collapsetwentyseven" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentyseven" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Visitor Visa fee is IDR 500,000.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentyeight"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentyeight" aria-expanded="false" aria-controls="collapsetwentyeight">
+                                                            How long will my Visitor Visa be valid for?
+                                                        </button></h2><div id="collapsetwentyeight" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentyeight" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Visitor Visa is valid for 90 days. The validity period of your Visitor Visa is different than the duration of your stay. The stay of Visitor Visa holder is 30 days from the arrival date.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingtwentynine"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwentynine" aria-expanded="false" aria-controls="collapsetwentynine">
+                                                            Do I have to obtain a visa if I do not leave the international transit area?
+                                                        </button></h2><div id="collapsetwentynine" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwentynine" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No. You do not have to get a visa if you are not going to leave the international transit area.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingthirty"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirty" aria-expanded="false" aria-controls="collapsethirty">
+                                                            Why is there a service fee?
+                                                        </button></h2><div id="collapsethirty" class="accordion-collapse border-0 collapse" aria-labelledby="headingthirty" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            A service fee is charged to cover the cost of international operations.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingthirtyone"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirtyone" aria-expanded="false" aria-controls="collapsethirtyone">
+                                                            May I apply for a new Visitor Visa while I am in Indonesia?
+                                                        </button></h2><div id="collapsethirtyone" class="accordion-collapse border-0 collapse" aria-labelledby="headingthirtyone" data-bs-parent="#generalquestion"><div class="accordion-body"><p>When your Visitor Visa expires, you are not allowed to apply for a new Visitor Visa without departing from Indonesia still, you are advised to apply at Immigration Office for a residence permit extension.</p><p>Please visit www.imigrasi.go.id to get more detailed information regarding the request for a residence permit and other types of visa (work visa, student visa, etc.).</p><p>If you overstay your visa, you might be asked to pay fines of IDR 1,000,000 per day, detained, deported, and/or banned future travel to Indonesia for a specific period.</p><p>If you overstay your visa for more than 60 days, you might be detained, deported, and/or banned from future traveling to Indonesia for a specific period.</p></div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingthirtytwo"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirtytwo" aria-expanded="false" aria-controls="collapsethirtytwo">
+                                                            I have further question. What should I do?
+                                                        </button></h2><div id="collapsethirtytwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingthirtytwo" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            Don’t hesitate to contact the Visitor Visa Support Desk (Live Chat www.imigrasi.go.id and e-mail visa@imigrasi.go.id or evoa@imigrasi.go.id).
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingthirtythree"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetihrtythree" aria-expanded="false" aria-controls="collapsetihrtythree">
+                                                            I have applied for a visa at an Indonesian Embassy/ Consulate and wish to be updated on my request. Can I send a request for an update from the Visitor Visa Support Desk?
+                                                        </button></h2><div id="collapsetihrtythree" class="accordion-collapse border-0 collapse" aria-labelledby="headingthirtythree" data-bs-parent="#generalquestion"><div class="accordion-body">
+                                                            No. You should contact the respective Indonesian Embassy/Consulate to get information about your request.
+                                                        </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingPayment"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePayment" aria-expanded="false" aria-controls="collapsePayment">
+                                                            PAYMENT
+                                                        </button></h2><div id="collapsePayment" class="accordion-collapse border-0 collapse" aria-labelledby="headingPayment" data-bs-parent="#generalquestion"><div class="accordion-body"><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingeightteen"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeightteen" aria-expanded="false" aria-controls="collapseeightteen">
+                                                                        If my Visitor Visa request is denied, will my payment be refunded?
+                                                                    </button></h2><div id="collapseeightteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingeightteen" data-bs-parent="#headingPayment"><div class="accordion-body">
+                                                                        No. We cannot refund payments for any Visitor Visa request
+                                                                    </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingPaymentZero"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePaymentZero" aria-expanded="false" aria-controls="collapsePaymentZero">
+                                                                        Can I get a refund if I do not use my Visitor Visa?
+                                                                    </button></h2><div id="collapsePaymentZero" class="accordion-collapse border-0 collapse" aria-labelledby="headingPaymentZero" data-bs-parent="#headingPayment"><div class="accordion-body">
+                                                                        No. We cannot refund payments for unused Visitor Visa.
+                                                                    </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingPaymentOne"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePaymentObe" aria-expanded="false" aria-controls="collapsePaymentObe">
+                                                                        Are credit card payments made on the Visitor Visa web page secure?
+                                                                    </button></h2><div id="collapsePaymentObe" class="accordion-collapse border-0 collapse" aria-labelledby="headingPaymentOne" data-bs-parent="#headingPayment"><div class="accordion-body">
+                                                                        Our website maintains a high level of security standards. We are not responsible for any harm resulting from the security vulnerabilities of your bank, computer, or internet connection.
+                                                                    </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingPaymentTwo"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePaymentTwo" aria-expanded="false" aria-controls="collapsePaymentTwo">
+                                                                        I do not have a credit card. Is there any other way of Visitor Visa fee payment?
+                                                                    </button></h2><div id="collapsePaymentTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingPaymentTwo" data-bs-parent="#headingPayment"><div class="accordion-body">
+                                                                        No. You can only make a payment with a credit card (only Mastercard, Visa, or JCB). On the other hand, please note that the card does not have to be under your name.
+                                                                    </div></div></div><div class="accordion-item rounded mt-2"><h2 class="accordion-header" id="headingPaymentThree"><button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePaymentThree" aria-expanded="false" aria-controls="collapsePaymentThree">
+                                                                        What does the CVV / CVC / CVC2 number mean?
+
+                                                                    </button></h2><div id="collapsePaymentThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingPaymentThree" data-bs-parent="#headingPayment"><div class="accordion-body">
+                                                                        CVV / CVC / CVC2 for Master Card and Visa is the final three digits of the number printed on the signature strip on the back of your card.
+                                                                    </div></div></div></div></div></div></div></div><!--end col--></div><!--end row--></div></div></div><br /><br /><div class="section-title mb-4" id="moreask"><h4>Still have questions ?</h4></div><img src="/assets/images/line.png" class="img-fluid d-block" alt=""><br /><div class="row"><div class="col-lg-6 col-md-6 col-12"><div class="d-flex align-items-center features feature-primary feature-clean shadow rounded p-4" style="box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;"><div class="icons text-center"><i class="uil uil-chat d-block rounded h3 mb-0"></i></div><div class="flex-1 content ms-4"><h5 class="mb-1"><a class="text-dark" href="javascript:void(0)">Indonesian VISA Issuance Support Desk</a></h5><p class="text-muted mb-0">livechat at <a href="https://www.imigrasi.go.id" target="_blank">www.imigrasi.go.id</a><br />&nbsp;</p></div></div></div><!--end col--><div class="col-lg-6 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"><div class="d-flex align-items-center features feature-primary feature-clean shadow rounded p-4" style="box-shadow: 0 0 3px rgb(60 72 88 / 15%) !important;"><div class="icons text-center"><i class="uil uil-envelope d-block rounded h3 mb-0"></i></div><div class="flex-1 content ms-4"><h5 class="mb-1"><a class="text-dark" href="javascript:void(0)">Indonesian VISA Issuance E-mail</a></h5><p class="text-muted mb-0"><a href="mailto:visa@imigrasi.go.id">visa@imigrasi.go.id</a><br /><a href="mailto:evoa@imigrasi.go.id">evoa@imigrasi.go.id</a></p></div></div></div><!--end col--></div></div><!--end col--></div></div><!--end container--></section><!-- End -->
+        <style>
+.footer {
+    font-family: 'Inter';
+}
+.social-icon li a img {
+    height: 23px;
+}
+</style>
+<footer class="footer">
+    <div class="container">
+
+
+
+
+        <div class="footer-py-10 footer-bar" style="border-top: none;">
+            <div class="">
+                <div class="row align-items-center">
+                    <div class="col-sm-4">
+                        <p class="my-auto copyright-text">© Indonesian Immigration</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <p class="my-auto copyright-text">HR. Rasuna Said Blok X-6, Kav 8, Kuningan, South Jakarta.</p>
+                    </div>
+                    <div class="col-1 hidden-xs">&nbsp;</div>
+                    <div class="col-sm-3 d-flex justify-content-center justify-content-md-end">
+                        <p class="footer-head my-auto me-2 me-sm-4" style="font-size: 14px;">Contact Us</p>
+                        <ul class="list-unstyled social-icon foot-social-icon pt-2 pt-sm-3">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/DitjenImigrasi" target="_blank" class="rounded"><img src="/assets/images/facebook.png"></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/ditjen_imigrasi/" target="_blank" class="rounded"><img src="/assets/images/instagram.png"></a></li>
+                            <li class="list-inline-item "><a href="https://twitter.com/ditjen_imigrasi" target="_blank" class="rounded"><img src="/assets/images/twitter.png"></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCgBMrLLtuI2ULWvWQ4CTYOw" target="_blank" class="rounded"><img src="/assets/images/youtube.png"></a></li>
+                        </ul>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+        </div>
+    </div><!--end container-->
+</footer>
+
+        
+                    <div class="modal modal-xl fade" id="maintenanceInformationModal" tabindex="-1" aria-labelledby="maintenanceInformationModal-title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content rounded shadow border-0">
+                        <div class="modal-header border-bottom bg-warning p-4">
+                            <h5 class="modal-title" id="maintenanceInformationModal-title">Information</h5>
+                            <button type="button" class="btn btn-icon btn-close" data-bs-dismiss="modal" id="close-modal"><i class="uil uil-times fs-4 text-dark"></i></button>
+                        </div>
+                        <div class="modal-body p-4 container">
+                            <p><strong>Announcement:</strong></p>
+
+<p>We kindly invite you to participate in our survey via the link below. Your feedback is greatly appreciated and will help us continuously improve our services. Please rest assured that all data you provide will be kept strictly confidential.</p>
+
+<p>For Foreigner : <a href="https://forms.gle/KmvWWTS98n9xTxeP7"><strong>click here</strong></a><br />
+For Guarantor : <strong><a href="https://forms.gle/XFrBrWnL45E8b8uJ8">click here</a></strong></p>
+
+<p>Thank you for your participation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- JAVASCRIPT -->
+        <script src="/assets/js/jquery-3.6.1.min.js"></script>
+        <script src="/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Main Js -->
+        <script src="/assets/js/app.js?x=1"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+
+        <!-- Custom JS -->
+        <script src="/assets/libs/sweetalert2/sweetalert2.min.js"></script>
+
+                    <script src="/assets/js/jquery-3.6.1.min.js"></script><script src="/assets/libs/select2/js/select2.min.js"></script><script>
+        $(document).ready(function () {
+            $("[href^='#']").click(function() {
+                id=$(this).attr("href")
+                $('html, body').animate({
+                    scrollTop: $(id).offset().top-100
+                }, 100);
+            });
+
+            $('#navmenu-nav > .navbar-item').on('click', function () {
+                $('.navbar-item').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            // $('#navmenu-nav > .navbar-item > .navbar-link').on('click', function () {
+            //     let href = $(this).attr('href');
+            //     $('.accordion-button').removeClass('collapsed');
+            //     $('.accordion-collapse').removeClass('show').hide();
+            //     $('.'+href).addClass('collapsed');
+            //     $('.'+href+'-collapse').addClass('show').show();
+            // });
+            $('#navmenu-nav>li>a').on('click', function(){
+                let id_collapse = $(this).attr('href');
+
+                if(id_collapse == '#moreask')
+                {
+                    if($('.navbar-link').getAttribute('href') == "#generalquestions")
+                    {
+                        $(this).parent().removeClass('active')
+                    }
+
+                    if($('.navbar-link').getAttribute('href') == "#generalinfo")
+                    {
+                        $(this).parent().removeClass('active')
+                    }
+                }
+
+
+                // make show accordion selected menu
+                //
+                $(id_collapse).children().children().last().addClass('show');
+                $(id_collapse).children().children().children().attr('aria-expanded', true).removeClass('collapsed');
+                $(this).parent().addClass('active')
+
+
+
+                // close other accordion
+                //
+                Array.prototype.forEach.call($('.accordion'), el => {
+                    if('#' +el.getAttribute('id') != id_collapse)
+                    {
+                        $(el).children().children().last().removeClass('show');
+                        $(el).children().children().children().attr('aria-expanded', false).addClass('collapsed');
+                    }
+                });
+
+            });
+
+            // $('.accordion').on('hidden.bs.collapse', function () {
+            //     let accordion_id = $(this).attr('id');
+            //     Array.prototype.forEach.call($('.navbar-link'), el => {
+            //         if(el.getAttribute('href') === '#'+accordion_id)
+            //         {
+            //             $(el).parent().removeClass('active');
+            //         }
+            //     });
+            // })
+            //
+            // $('.accordion').on('shown.bs.collapse', function () {
+            //   let accordion_id = $(this).attr('id');
+            //     Array.prototype.forEach.call($('.navbar-link'), el => {
+            //         if(el.getAttribute('href') === '#'+accordion_id)
+            //         {
+            //             $(el).parent().addClass('active');
+            //         }
+            //     });
+            // })
+        });
+    </script>        
+
+        <script src="/assets/libs/jquery-countdown/js/jquery.plugin.min.js"></script>
+        <script src="/assets/libs/jquery-countdown/js/jquery.countdown.min.js"></script>
+
+        <script src="/plugins/pace-progress/pace.js"></script>
+
+        <script src="/assets/js/iconify-icon.min.js"></script>
+        <script>
+                            console.log = function () {};
+                                    let marginTop = 0;
+                    </script>
+        <script src="/js/main.js"></script>
+                    <script src="https://molina-botview.imigrasi.go.id/widget-chat-sdk"></script>
+        
+        <script>
+                        $(document).ready(function () {
+                                    let cookieMaintenance = getCookie('maintenance-info');
+                    if(!cookieMaintenance) {
+                        $('#maintenanceInformationModal').modal('show');
+                        $('#maintenanceInformationModal-title').html('Information');
+
+                        const myModalEl = document.getElementById('maintenanceInformationModal')
+                        myModalEl.addEventListener('hidden.bs.modal', event => {
+                            // do something...
+                            createCookie('maintenance-info', 1, 2);
+                        });
+                    }
+                                
+                var untilDate = new Date('2026-09-27 05:00:00');
+                // untilDate = new Date(untilDate.getFullYear() + 1, 1 - 1, 1);
+                $('#maintenanceCountdown').countdown({
+                    until: untilDate,
+                    compact: true,
+                    layout: '{hnn}h {mnn}m {snn}s</b> {desc}',
+                    // description: 'to wait',
+                    onExpiry: reload
+                });
+
+                $('#reset-mandiri').on('click', function (){
+                    
+                });
+
+                
+                
+                $('#language').on('click', function (){
+                    let val = $(this).is(':checked');
+                    let lang = (val ? 'id' : 'en');
+                    createCookie('lang' , lang);
+
+                    reload();
+                });
+            });
+            
+            function reload() {
+                window.location.reload();
+            }
+
+            (function ($) {
+                $.fn.synxchroLoader = function (opt) {
+                    let $element = this;
+
+                    let loader = new Loader($element, opt); //initialize loader
+                    //initialize custom handler to the elements
+                    let handler = {
+                        'destroy.synxchro.loader': $.proxy(function () {
+                            let self = this;
+                            loader.destroy();
+                        }, this)
+                    };
+                    $element.on(handler);
+
+                    return $element;
+                };
+
+                // default settings
+                let settings = {
+                                        className: 'preloader-content',
+                    containerName: 'loader-container',
+                    minHeight: 200,
+                    fixedLoader: false,
+                    afterDestroy: function () {
+                        //after loader destroyed, what you will do, put it here
+                    },
+                    html: '<div class="preloader-content">\n' +
+                        '        <div class="ldio-zv83n075w0g">\n' +
+                        '            <div><div></div><div></div><div></div><div></div><div></div><div></div></div>\n' +
+                        '        </div>\n' +
+                        '    </div>'
+                };
+
+                let Loader = function (target, opt) {
+                    if (target.length < 1) {
+                        return;
+                    }
+
+                    this.$target = target;
+                    this.$obj = {};
+                    this.settings = $.extend(settings, opt);
+
+                    this._htmlInit();
+                };
+
+                Loader.prototype._htmlInit = function () {
+                    let self = this;
+                    let $obj = $('<div/>', {
+                        'class': self.settings.className + (self.settings.fixedLoader ? ' fixed-container' : ''),
+                        // 'style': 'background-image:url(' + self.settings.loader_img + ')'
+                    });
+                    self.$target.addClass(self.settings.containerName);
+                    self.$target.get(0).style.minHeight = self.settings.minHeight + 'px';
+                    if(self.settings.html){
+                        self.$target.prepend(self.settings.html);
+                    } else {
+                        self.$target.append($obj);
+                    }
+                    self.$obj = self.$target.find('.' + self.settings.className);
+                };
+
+                Loader.prototype.destroy = function () {
+                    let self = this;
+                    self.$obj.fadeOut(500).promise().done(function () {
+                        self.$obj.remove();
+                        if (self.settings.afterDestroy)
+                            self.settings.afterDestroy();
+                        //self.$target.removeClass(self.settings.containerName);
+                        self.$target.get(0).style.minHeight = '';
+                    });
+                };
+            }(jQuery));
+
+            function createCookie(name, value, hours = null, domain = null) {
+                var expires;
+
+                if (hours != null) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (hours * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toGMTString();
+                } else {
+                    expires = "";
+                }
+                let cookieDomain = '';
+                if(domain != null) {
+                    cookieDomain = 'domain='+ domain +';';
+                }
+                document.cookie = encodeURIComponent(name) + "=" + value + expires + "; "+ cookieDomain +" path=/";
+            }
+            function getCookie(cname) { // cname is nothing but the cookie value which contains
+                // the value
+                var name = cname + "=";
+                var decodedCookie = decodeURIComponent(document.cookie);
+                var ca = decodedCookie.split(';');
+                for(var i = 0; i <ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+
+            function number_format(x) {
+                x = parseInt(x);
+                return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, '\\$&');
+                let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'), results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            //Menu
+            // Toggle menu
+            function toggleMenu() {
+                document.getElementById('isToggle').classList.toggle('open');
+                var isOpen = document.getElementById('navigation')
+                if (isOpen.style.display === "block") {
+                    isOpen.style.display = "none";
+                } else {
+                    isOpen.style.display = "block";
+                }
+            }/**
+             * Convert a base64 string in a Blob according to the data and contentType.
+             *
+             * @param base64Data {String} Pure base64 string without contentType
+             * @param contentType {String} the content type of the file i.e (image/jpeg - image/png - text/plain)
+             * @param sliceSize {Int} SliceSize to process the byteCharacters
+             * @see http://stackoverflow.com/questions/16245767/creating-a-blob-from-a-base64-string-in-javascript
+             * @return Blob
+             */
+            function base64toBlob(base64Data, contentType, sliceSize) {
+                contentType = contentType || '';
+                sliceSize = sliceSize || 512;
+
+                var byteCharacters = atob(base64Data);
+                var byteArrays = [];
+
+                for (var offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+                    var slice = byteCharacters.slice(offset, offset + sliceSize);
+
+                    var byteNumbers = new Array(slice.length);
+                    for (var i = 0; i < slice.length; i++) {
+                        byteNumbers[i] = slice.charCodeAt(i);
+                    }
+
+                    var byteArray = new Uint8Array(byteNumbers);
+
+                    byteArrays.push(byteArray);
+                }
+
+                var blob = new Blob(byteArrays, {type: contentType});
+                return blob;
+            }
+
+            function dataURLtoFile(dataurl, filename) {
+
+                var arr = dataurl.split(','),
+                    mime = arr[0].match(/:(.*?);/)[1],
+                    bstr = atob(arr[1]),
+                    n = bstr.length,
+                    u8arr = new Uint8Array(n);
+
+                while(n--){
+                    u8arr[n] = bstr.charCodeAt(n);
+                }
+
+                return new File([u8arr], filename, {type:mime});
+            }
+        </script>
+
+            </body>
+</html>

@@ -73,6 +73,97 @@
       "expected_section": "Penjamin (Sponsor)"
     },
     {
+      "id": "r11",
+      "kind": "relevant",
+      "query": "Apakah warga negara Indonesia perlu visa untuk masuk Singapura?",
+      "expected_source": "Check if You Need an Entry Visa",
+      "expected_section": null
+    },
+    {
+      "id": "r12",
+      "kind": "relevant",
+      "query": "Apa itu Visa Free Transit Facility Singapura?",
+      "expected_source": "Visa Free Transit Facility",
+      "expected_section": null
+    },
+    {
+      "id": "r13",
+      "kind": "relevant",
+      "query": "Apa syarat pas lawatan sosial jangka panjang di Malaysia?",
+      "expected_source": "Pas Lawatan Sosial Jangka Panjang",
+      "expected_section": null
+    },
+    {
+      "id": "r14",
+      "kind": "relevant",
+      "query": "Apa itu visa E33G untuk pekerja jarak jauh?",
+      "expected_source": "E33G",
+      "expected_section": null
+    },
+    {
+      "id": "r15",
+      "kind": "relevant",
+      "query": "Apa itu bebas visa wisata A1?",
+      "expected_source": "A1 Bebas Visa Wisata",
+      "expected_section": null
+    },
+    {
+      "id": "r16",
+      "kind": "relevant",
+      "query": "Berapa biaya paspor biasa elektronik dengan masa berlaku 10 tahun?",
+      "expected_source": null,
+      "expected_section": "Biaya"
+    },
+    {
+      "id": "r17",
+      "kind": "relevant",
+      "query": "Bagaimana tata cara penggunaan aplikasi M-Paspor untuk pendaftaran paspor?",
+      "expected_source": "Tata Cara Penggunaan M-Paspor",
+      "expected_section": null
+    },
+    {
+      "id": "r18",
+      "kind": "relevant",
+      "query": "Negara mana saja yang termasuk subjek Visa on Arrival?",
+      "expected_source": "Daftar Subjek VoA",
+      "expected_section": null
+    },
+    {
+      "id": "r19",
+      "kind": "relevant",
+      "query": "Apa saja syarat permohonan paspor baru untuk masyarakat umum?",
+      "expected_source": "Paspor Republik Indonesia",
+      "expected_section": null
+    },
+    {
+      "id": "r20",
+      "kind": "relevant",
+      "query": "Apa dasar hukum visa kunjungan di Indonesia?",
+      "expected_source": null,
+      "expected_section": "Dasar hukum"
+    },
+    {
+      "id": "r21",
+      "kind": "relevant",
+      "query": "Bisakah saya mengajukan visa kunjungan secara online lewat portal e-Visa?",
+      "expected_source": "eVisa",
+      "expected_section": null
+    },
+    {
+      "id": "r22",
+      "kind": "relevant",
+      "query": "Apa yang harus dilakukan jika pembayaran e-VOA bermasalah atau gagal?",
+      "expected_source": null,
+      "expected_section": "Apa yang harus dilakukan apabila pembayaran E-VOA bermasalah/gagal?"
+    },
+    {
+      "id": "r23",
+      "kind": "relevant",
+      "query": "Apa saja jenis visa menurut UU Keimigrasian?",
+      "expected_source": "UU Keimigrasian",
+      "expected_section": null
+    },
+    {
       "id": "o01",
       "kind": "off_topic",
       "query": "Bagaimana cara membuat kue bolu coklat?",
