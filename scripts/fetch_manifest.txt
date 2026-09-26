@@ -1,0 +1,55 @@
+# New source documents to vendor into data/raw_docs/.
+# Format: <output_filename><TAB><url>
+#
+# Already present in the corpus and therefore NOT listed here:
+#
+# 1. Paspor baru
+# ditjen_imigrasi_paspor_baru.html	https://www.imigrasi.go.id/wni/paspor-baru
+# 2. Syarat dan prosedur lengkap pengurusan paspor 2026
+# imigrasi_malang_prosedur_paspor_2026.html	https://malang.imigrasi.go.id/info-publik/syarat-dan-prosedur-lengkap-pengurusan-paspor-2026
+# 3. Daftar visa Indonesia
+# imigrasi_daftar_visa_indonesia.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia
+# 4. Beda visa kunjungan wisata dan visa on arrival
+# imigrasi_voa_vs_visa_kunjungan_wisata.html	https://www.imigrasi.go.id/berita/jangan-salah-pilih-ini-beda-visa-kunjungan-wisata-dan-visa-on-arrival
+# 5. A1 bebas visa wisata
+# imigrasi_visa_a1_bebas_visa_wisata.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/A1
+# 6. B1 visa kunjungan wisata
+# imigrasi_visa_b1_saat_kedatangan.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/B1
+# 7. C1 visa kunjungan wisata
+# imigrasi_visa_c1_kunjungan_wisata.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/C1
+# 8. C2 visa kunjungan bisnis
+# imigrasi_visa_c2_kunjungan_bisnis.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/C2
+# 9. D1 visa kunjungan wisata
+# imigrasi_visa_d1_kunjungan_wisata.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/D1
+# 10. F1 visa kunjungan wisata
+# imigrasi_visa_f1_kunjungan_wisata.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/F1
+# 11. E31A visa keluarga suami/istri WNI
+# imigrasi_visa_e31a_keluarga_suami_istri_wni.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E31A
+# 12. E33G visa rumah kedua pekerja jarak jauh
+# imigrasi_visa_e33g_pekerja_jarak_jauh.html	https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G
+# 13. Permohonan paspor baru - masyarakat umum
+# imigrasi_paspor_masyarakat_umum.html	https://www.imigrasi.go.id/layanan-wni/paspor-republik-indonesia/permohonan-baru/masyarakat-umum
+# 14. Biaya keimigrasian (PNBP)
+# imigrasi_biaya_keimigrasian.html	https://www.imigrasi.go.id/biaya_imigrasi/index
+# 15. Tata cara penggunaan M-Paspor
+# imigrasi_batam_tata_cara_m_paspor.html	https://batam.imigrasi.go.id/page//info-publik/tata-cara-penggunaan-m-paspor
+# 16. Informasi e-Visa dan e-VOA
+# imigrasi_evisa_info_evoa.html	https://evisa.imigrasi.go.id/front/info/evoa
+# 17. FAQ visa
+# imigrasi_faq_visa.html	https://www.imigrasi.go.id/faq/visa
+# 18. Daftar negara subjek VoA, BVK dan calling visa
+# imigrasi_daftar_negara_voa_bvk_calling_visa.html	https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa
+# 19. FAQ negara yang dapat mengajukan e-VOA
+# imigrasi_faq_negara_e_voa.html	https://www.imigrasi.go.id/faq/visa/negara-mana-saja-yang-terdaftar-dalam-daftar-electronic-visa-on-arrival-e-voa
+# 20. UU keimigrasian - Bab IV dan V
+# imigrasi_uu_keimigrasian_bab_4_5.html	https://depok.imigrasi.go.id/uu-keimigrasian/
+# 21. Daftar 52 kantor imigrasi penerbit paspor elektronik
+# imigrasi_daftar_52_kantor_paspor_elektronik.html	https://www.imigrasi.go.id/berita/2022/01/24/ini-daftar-52-kantor-imigrasi-yang-bisa-terbitkan-paspor-elektronik
+# 22. Singapura - check if you need an entry visa
+# sg_ica_visa_requirements.html	https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements
+# 23. Singapura - visa free transit facility
+# sg_ica_visa_free_transit_facility.html	https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility
+# 24. Malaysia - pas lawatan sosial jangka panjang
+# my_pas_lawatan_sosial_jangka_panjang.html	https://www.imi.gov.my/index.php/perkhidmatan-utama/pas/pas-lawatan/pas-lawatan-sosial/pas-lawatan-sosial-jangka-panjang/
+# 25. Daftar 52 kantor imigrasi dengan alamat
+# imigrasi_daftar_52_kantor_paspor_lengkap.html	https://imigrasi.go.id/hubungi/lokasi-kami

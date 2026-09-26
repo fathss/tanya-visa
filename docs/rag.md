@@ -63,13 +63,6 @@ Properti `locator_label` menghasilkan label lokasi berbahasa Indonesia:
 `"Halaman N"` untuk PDF, `"Bagian: X"` untuk section, dan `""` untuk document.
 `to_dict()` dipakai saat menyimpan chunk ke `metadata.json`.
 
-`source` adalah **judul dokumen, bukan nama file**, dan judul tidak dijamin unik:
-`imigrasi_faq_visa.html` dan `imigrasi_faq_negara_e_voa.html` sama-sama berjudul
-`"Pertanyaan Paling Sering Diajukan"`, sehingga `metadata.json.sources` (sebuah
-himpunan) hanya menyimpan satu entri untuk keduanya. Karena itu `source` **tidak
-bisa** dipakai untuk menyimpulkan "dokumen ini sudah terindeks" — itulah sebabnya
-`build_index.py --add` meminta daftar file eksplisit.
-
 ### Fungsi publik
 
 - **`load_file(path) -> list[Chunk]`** — memuat satu file.
@@ -137,10 +130,6 @@ Membungkus `google-genai` untuk menghasilkan vektor.
 kuota free tier, `429` justru hal biasa; `_retry_wait()` memakai petunjuk
 `retry in Ns` dari server (dibatasi 90 s) dan `_RETRY_ATTEMPTS = 6`.
 
-Penantian itu bisa berjalan menit-menitan, jadi `_embed_all()` mencetak progres
-tiap batch dan setiap penantian `429`. Tanpa itu, rebuild terlihat seperti hang
-padahal hanya menunggu (DECISIONS §15).
-
 ---
 
 ## `rag/retriever.py`
@@ -192,20 +181,15 @@ tanpa membaca ulang `data/raw_docs/`.
 
 ## `rag/prompt_builder.py`
 
-Menyusun system prompt yang dikirim ke LLM. Isinya adalah prompt PRD §6 dengan
-**satu amendemen pada aturan 3** (DECISIONS §8): aturan yang meminta blok
-`[Sumber: …]` diganti dengan larangan menulis daftar sumber atau penanda kutipan.
-Konteks disuntik sebagai blok berlabel **tanpa nomor**, sehingga tidak ada nomor
-yang bisa dikutip model, dan jawaban tampil sebagai prosa murni. Aturan §6 lain
-dipertahankan apa adanya.
+Menyusun system prompt yang dikirim ke LLM.
 
-| Fungsi / konstanta                                  | Isi                                                                                            |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `SYSTEM_PROMPT`                                     | Teks §6 dengan placeholder `{retrieved_context}` dan `{conversation_history}`                   |
-| `format_context(hits)`                              | Blok `nama_dokumen — Bagian: X` + teks chunk (tanpa nomor); `"(Tidak ada konteks relevan yang ditemukan.)"` bila kosong |
-| `window_history(history, budget=MEMORY_TOKEN_BUDGET)` | Menyimpan pesan terbaru sampai anggaran token habis, membuang yang tertua lebih dulu          |
-| `format_history(history)`                           | Menulis riwayat sebagai `Pengguna:` / `Asisten:`                                               |
-| `build_system_instruction(hits, history)`           | Menggabungkan konteks + riwayat menjadi system instruction                                     |
+| Fungsi / konstanta                                    | Isi                                                                                                                     |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `SYSTEM_PROMPT`                                       | Teks dengan placeholder `{retrieved_context}` dan `{conversation_history}`                                              |
+| `format_context(hits)`                                | Blok `nama_dokumen — Bagian: X` + teks chunk (tanpa nomor); `"(Tidak ada konteks relevan yang ditemukan.)"` bila kosong |
+| `window_history(history, budget=MEMORY_TOKEN_BUDGET)` | Menyimpan pesan terbaru sampai anggaran token habis, membuang yang tertua lebih dulu                                    |
+| `format_history(history)`                             | Menulis riwayat sebagai `Pengguna:` / `Asisten:`                                                                        |
+| `build_system_instruction(hits, history)`             | Menggabungkan konteks + riwayat menjadi system instruction                                                              |
 
 Placeholder diganti dengan `str.replace`, bukan `str.format`, supaya kurung
 kurawal lain di prompt tidak perlu di-escape.
@@ -221,11 +205,10 @@ Dua panggilan `gemini-3.5-flash-lite`:
   pertanyaan lanjutan menjadi pertanyaan mandiri memakai riwayat, dengan
   `CONDENSE_TEMPERATURE = 0.0`. **Dilewati bila riwayat kosong** (giliran
   pertama) dan mengembalikan pesan asli apa adanya. Hasilnya hanya dipakai untuk
-  retrieval; LLM tetap menjawab **pesan asli** (DECISIONS §6).
+  retrieval; LLM tetap menjawab **pesan asli**.
 - **`generate_answer(hits, history, user_message, client=None)`** — menyusun
   system instruction lewat `build_system_instruction()`, lalu meminta jawaban
-  dengan `LLM_TEMPERATURE = 0.2`. Bila `hits` kosong, konteks yang disuntik juga
-  kosong sehingga aturan §6 nomor 2 menghasilkan penolakan jujur (DECISIONS §7).
+  dengan `LLM_TEMPERATURE = 0.2`.
 
 Keduanya melewati `_generate()` internal yang me-retry error `429`/`5xx` memakai
 kebijakan yang sama dengan `embedder.py` (menghormati petunjuk `retry in Ns`).

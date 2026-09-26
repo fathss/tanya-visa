@@ -7,6 +7,8 @@ Gunakan interpreter di venv proyek (`.venv/bin/python`).
 ```
 scripts/
   build_index.py       build ulang index FAISS dari data/raw_docs/
+  fetch_docs.py        ambil dokumen sumber ke data/raw_docs/
+  fetch_manifest.txt   daftar filename dan URL dokumen sumber
   test_retrieval.py    jalankan eval set dan cetak metrik relevansi
   probe.py             coba query manual (retrieval saja, tanpa LLM)
 ```
@@ -49,6 +51,33 @@ dan setiap penantian `429`, jadi backoff itu terlihat, bukan tampak hang.
 Tanpa de-duplikasi: `--add` pada file yang sudah ada menyimpan chunk kembar.
 Identitas dokumen tidak bisa dipakai untuk mendeteksi itu — lihat catatan
 `source` di [`rag.md`](rag.md).
+
+---
+
+## `fetch_docs.py` dan `fetch_manifest.txt`
+
+`fetch_docs.py` mengambil dokumen sumber dari URL ke `data/raw_docs/` berdasarkan
+manifest. Baris kosong dan baris yang diawali `#` diabaikan. Setiap target aktif
+memakai format dua kolom:
+
+```text
+<output_filename>\t<url>
+```
+
+Sebelum mengambil URL, script memeriksa `robots.txt` per host dan melewati path
+yang tidak diizinkan. Antar-request diberi jeda 1,5 detik secara default. Gunakan
+`--dry-run` untuk memeriksa robots.txt tanpa mengunduh, atau `--delay` untuk
+mengubah jeda:
+
+```bash
+.venv/bin/python scripts/fetch_docs.py scripts/fetch_manifest.txt --dry-run
+.venv/bin/python scripts/fetch_docs.py scripts/fetch_manifest.txt
+.venv/bin/python scripts/fetch_docs.py scripts/fetch_manifest.txt --delay 2
+```
+
+Setelah dokumen baru berhasil diunduh, tambahkan hanya file tersebut ke index
+dengan `scripts/build_index.py --add`. Jangan menjalankan rebuild penuh hanya
+untuk satu dokumen karena seluruh chunk akan di-embed ulang.
 
 ---
 
