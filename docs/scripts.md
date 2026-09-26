@@ -15,23 +15,40 @@ scripts/
 
 ## `build_index.py`
 
-Membangun ulang seluruh index dari `data/raw_docs/`.
+Mengelola index di `data/index/`. Dua mode:
 
 ```bash
-.venv/bin/python scripts/build_index.py
+.venv/bin/python scripts/build_index.py                                # rebuild penuh
+.venv/bin/python scripts/build_index.py --add data/raw_docs/baru.html  # tambah file
 ```
 
-Alur:
+**Rebuild penuh** (tanpa argumen):
 
 1. `load_documents()` memuat semua dokumen jadi `Chunk`.
 2. `embed_documents()` meng-embed tiap chunk dengan `EMBEDDING_MODEL`.
-3. `Retriever.build()` menyusun index, lalu `save()` menulis `index.faiss` dan
-   `metadata.json` ke `data/index/`.
+3. `Retriever.build()` menyusun index dari nol, lalu `save()` menulis
+   `index.faiss` dan `metadata.json` ke `data/index/`.
 
-Melempar `SystemExit` bila tidak ada dokumen yang didukung. Jalankan hanya saat
-korpus, chunking, atau model embedding berubah — index yang ada sudah di-commit.
-Perhatikan bahwa 1 chunk = 1 request embedding, jadi rebuild korpus penuh akan
-memakan waktu dan kuota (embedder sudah menangani retry `429`).
+Melempar `SystemExit` bila tidak ada dokumen yang didukung.
+
+**`--add FILE...`** membangun ulang hanya file yang disebut:
+
+1. `Retriever.load()` memuat index yang ada — sekaligus menjalankan staleness
+   guard, sehingga append tidak mungkin mencampur dua model embedding.
+2. `load_file()` meng-chunk tiap file; file tanpa teks dilaporkan lalu dilewati.
+3. `embed_documents()` meng-embed **hanya chunk baru**.
+4. `Retriever.add()` menambahkan vektor ke index dan chunk ke daftar, lalu
+   `save()`. Vektor lama tidak disentuh dan tidak dihitung ulang.
+
+Ini jalur normal setelah `fetch_docs.py` mengambil dokumen baru.
+Satu dokumen ≈ 20-an chunk, sedangkan rebuild penuh 226 chunk — dan karena 1
+chunk = 1 request embedding terhadap kuota 100/menit, rebuild penuh **pasti**
+kena `429` dan masuk backoff panjang. `embedder.py` mencetak progres per batch
+dan setiap penantian `429`, jadi backoff itu terlihat, bukan tampak hang.
+
+Tanpa de-duplikasi: `--add` pada file yang sudah ada menyimpan chunk kembar.
+Identitas dokumen tidak bisa dipakai untuk mendeteksi itu — lihat catatan
+`source` di [`rag.md`](rag.md).
 
 ---
 

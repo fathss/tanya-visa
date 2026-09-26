@@ -1,7 +1,10 @@
 # `rag/` — Paket Retrieval
 
 Berisi seluruh logika pipeline RAG: memuat dokumen, memecahnya jadi chunk,
-membuat embedding, membangun/menyimpan index FAISS, dan mencari.
+membuat embedding, membangun/menyimpan index FAISS, mencari, menyusun prompt,
+dan memanggil LLM.
+
+## Alur Retrieval
 
 ```
 ┌──────────────────────────────────────────────┐
@@ -46,7 +49,7 @@ Mengubah file di `data/raw_docs/` menjadi daftar objek `Chunk`. Mendukung PDF
 
 ### `Chunk` (dataclass, frozen)
 
-Unit terkecil yang di-embed dan disitasi.
+Unit terkecil yang di-embed dan diberi metadata lokasi.
 
 | Field           | Isi                                                           |
 | --------------- | ------------------------------------------------------------- |
@@ -56,9 +59,16 @@ Unit terkecil yang di-embed dan disitasi.
 | `locator_value` | Nomor halaman, nama heading, atau nama dokumen                |
 | `title`         | Judul gabungan untuk prefix embedding: `"{source} — {label}"` |
 
-Properti `locator_label` menghasilkan label sitasi berbahasa Indonesia:
+Properti `locator_label` menghasilkan label lokasi berbahasa Indonesia:
 `"Halaman N"` untuk PDF, `"Bagian: X"` untuk section, dan `""` untuk document.
 `to_dict()` dipakai saat menyimpan chunk ke `metadata.json`.
+
+`source` adalah **judul dokumen, bukan nama file**, dan judul tidak dijamin unik:
+`imigrasi_faq_visa.html` dan `imigrasi_faq_negara_e_voa.html` sama-sama berjudul
+`"Pertanyaan Paling Sering Diajukan"`, sehingga `metadata.json.sources` (sebuah
+himpunan) hanya menyimpan satu entri untuk keduanya. Karena itu `source` **tidak
+bisa** dipakai untuk menyimpulkan "dokumen ini sudah terindeks" — itulah sebabnya
+`build_index.py --add` meminta daftar file eksplisit.
 
 ### Fungsi publik
 
@@ -113,10 +123,23 @@ Membungkus `google-genai` untuk menghasilkan vektor.
 ### Fungsi publik
 
 - **`make_client(api_key=None) -> genai.Client`** — memakai `GEMINI_API_KEY` bila
-  tidak diberikan.
+  tidak diberikan. Timeout HTTP di-set dari `HTTP_TIMEOUT_MS`; default SDK adalah
+  `None`, yang berarti httpx **tanpa timeout sama sekali** sehingga koneksi yang
+  macet menggantung selamanya alih-alih masuk ke jalur retry.
 - **`embed_documents(chunks, client=None) -> list[list[float]]`**
 - **`embed_queries(queries, client=None) -> list[list[float]]`**
 - **`embed_query(query, client=None) -> list[float]`** — kenyamanan untuk satu query.
+
+### Retry & progres
+
+`_embed_all()` memanggil `embed_content` satu kali per batch berisi
+`EMBEDDING_BATCH_SIZE` chunk. Karena satu chunk dihitung satu request terhadap
+kuota free tier, `429` justru hal biasa; `_retry_wait()` memakai petunjuk
+`retry in Ns` dari server (dibatasi 90 s) dan `_RETRY_ATTEMPTS = 6`.
+
+Penantian itu bisa berjalan menit-menitan, jadi `_embed_all()` mencetak progres
+tiap batch dan setiap penantian `429`. Tanpa itu, rebuild terlihat seperti hang
+padahal hanya menunggu (DECISIONS §15).
 
 ---
 
@@ -136,6 +159,11 @@ Membangun index, menyimpan/memuatnya, dan mencari.
 - **`build_index(vectors) -> faiss.Index`** — `IndexFlatIP`; dimensi diambil dari
   panjang vektor. Melempar error bila list vektor kosong.
 - **`Retriever.build(chunks, vectors)`** — konstruktor kelas untuk index baru.
+- **`Retriever.add(chunks, vectors)`** — menambahkan vektor ke index yang sudah
+  ada (`index.add`) dan chunk ke daftar internal. Hanya sah selama konfigurasi
+  chunking/embedding tidak berubah — `load()` sudah menegakkannya lewat staleness
+  guard. Melempar `ValueError` bila jumlah vektor ≠ jumlah chunk atau dimensinya
+  tidak cocok dengan `index.d`. Tidak ada de-duplikasi.
 - **`Retriever.search(query_vector, top_k=config.TOP_K_RETRIEVAL, threshold=config.SIMILARITY_THRESHOLD)`**
   — mencari `top_k` terdekat. Bila `threshold` di-set (bukan `None`) **dan** skor
   top-1 di bawah threshold, kembalikan list kosong (query ditolak). `threshold=None`
@@ -159,3 +187,51 @@ ulang index lewat guard ini, jangan memuat `index.faiss` secara mentah.
 `metadata.json` juga menyimpan `chunk_count`, `built_at`, `sources` (daftar unik),
 dan seluruh `chunks`, sehingga `Retriever.load()` bisa merekonstruksi objek `Chunk`
 tanpa membaca ulang `data/raw_docs/`.
+
+---
+
+## `rag/prompt_builder.py`
+
+Menyusun system prompt yang dikirim ke LLM. Isinya adalah prompt PRD §6 dengan
+**satu amendemen pada aturan 3** (DECISIONS §8): aturan yang meminta blok
+`[Sumber: …]` diganti dengan larangan menulis daftar sumber atau penanda kutipan.
+Konteks disuntik sebagai blok berlabel **tanpa nomor**, sehingga tidak ada nomor
+yang bisa dikutip model, dan jawaban tampil sebagai prosa murni. Aturan §6 lain
+dipertahankan apa adanya.
+
+| Fungsi / konstanta                                  | Isi                                                                                            |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `SYSTEM_PROMPT`                                     | Teks §6 dengan placeholder `{retrieved_context}` dan `{conversation_history}`                   |
+| `format_context(hits)`                              | Blok `nama_dokumen — Bagian: X` + teks chunk (tanpa nomor); `"(Tidak ada konteks relevan yang ditemukan.)"` bila kosong |
+| `window_history(history, budget=MEMORY_TOKEN_BUDGET)` | Menyimpan pesan terbaru sampai anggaran token habis, membuang yang tertua lebih dulu          |
+| `format_history(history)`                           | Menulis riwayat sebagai `Pengguna:` / `Asisten:`                                               |
+| `build_system_instruction(hits, history)`           | Menggabungkan konteks + riwayat menjadi system instruction                                     |
+
+Placeholder diganti dengan `str.replace`, bukan `str.format`, supaya kurung
+kurawal lain di prompt tidak perlu di-escape.
+
+Token dihitung dengan `tiktoken` (`cl100k_base`), proksi lokal yang sama seperti
+`loader.py`; model Gemini tidak memakai tokenizer tersebut.
+
+## `rag/generator.py`
+
+Dua panggilan `gemini-3.5-flash-lite`:
+
+- **`condense_query(history, user_message, client=None)`** — menulis ulang
+  pertanyaan lanjutan menjadi pertanyaan mandiri memakai riwayat, dengan
+  `CONDENSE_TEMPERATURE = 0.0`. **Dilewati bila riwayat kosong** (giliran
+  pertama) dan mengembalikan pesan asli apa adanya. Hasilnya hanya dipakai untuk
+  retrieval; LLM tetap menjawab **pesan asli** (DECISIONS §6).
+- **`generate_answer(hits, history, user_message, client=None)`** — menyusun
+  system instruction lewat `build_system_instruction()`, lalu meminta jawaban
+  dengan `LLM_TEMPERATURE = 0.2`. Bila `hits` kosong, konteks yang disuntik juga
+  kosong sehingga aturan §6 nomor 2 menghasilkan penolakan jujur (DECISIONS §7).
+
+Keduanya melewati `_generate()` internal yang me-retry error `429`/`5xx` memakai
+kebijakan yang sama dengan `embedder.py` (menghormati petunjuk `retry in Ns`).
+Automatic function calling dimatikan karena tidak ada tool yang dipakai.
+
+## Alur Generasi
+
+Diagram alur runtime lengkap (UI → condensation → retrieval → generation) ada di
+[`app.md`](app.md).
