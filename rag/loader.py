@@ -62,36 +62,52 @@ def _splitter() -> RecursiveCharacterTextSplitter:
 
 
 _CONTENT_HINTS = ("content", "article", "post", "entry", "main")
+_MIN_CONTENT_CHARS = 200
 
 
 def _document_name(soup: BeautifulSoup, path: Path) -> str:
-    if soup.find("h1") is not None:
-        heading = _clean(soup.find("h1").get_text(" ", strip=True))
+    headings = soup.find_all("h1")
+    if len(headings) == 1:
+        heading = _clean(headings[0].get_text(" ", strip=True))
         if heading:
             return heading
 
     if soup.title is not None:
         title = _clean(soup.title.get_text())
         if title:
-            return title.split(" – ")[0].strip()
+            return re.split(r"\s+[–—|]\s+|\s+-\s+", title)[0].strip()
 
     return path.stem
 
 
 def _content_root(soup: BeautifulSoup):
+    candidates = []
+
     main = soup.find("main")
     if main is not None:
-        return main
+        candidates.append(main)
 
-    candidates = []
     for element in soup.find_all(["div", "section", "article"]):
+        if element.name == "section":
+            candidates.append(element)
+            continue
         marker = " ".join(element.get("class") or []) + " " + (element.get("id") or "")
         if any(hint in marker.lower() for hint in _CONTENT_HINTS):
-            candidates.append((len(element.get_text(" ", strip=True)), element))
+            candidates.append(element)
 
     if candidates:
-        candidates.sort(key=lambda pair: pair[0], reverse=True)
-        return candidates[0][1]
+        best = max(candidates, key=lambda element: len(element.get_text(" ", strip=True)))
+        best_text = best.get_text(" ", strip=True)
+        if len(best_text) >= _MIN_CONTENT_CHARS:
+            parent = best.parent
+            if (
+                best.name == "section"
+                and parent is not None
+                and parent.name != "body"
+                and len(parent.get_text(" ", strip=True)) > len(best_text)
+            ):
+                return parent
+            return best
 
     return soup.body or soup
 
