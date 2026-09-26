@@ -1,7 +1,4 @@
 """Central configuration for the RAG travel & visa chatbot.
-
-SIMILARITY_THRESHOLD is intentionally None: it is calibrated against
-data/eval/queries.json during task 1.6 and must not be guessed.
 """
 
 import os
@@ -30,6 +27,7 @@ LLM_TEMPERATURE = 0.2
 
 EMBEDDING_MODEL = "gemini-embedding-2"
 EMBEDDING_DIMENSIONS = 3072
+EMBEDDING_BATCH_SIZE = 100
 
 DOCUMENT_TITLE_FALLBACK = "none"
 
@@ -39,16 +37,20 @@ CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 
 TOP_K_RETRIEVAL = 4
-SIMILARITY_THRESHOLD = None
+SIMILARITY_THRESHOLD = 0.65
 
 MEMORY_TOKEN_BUDGET = 2000
 
 SOURCES_EXPANDER_LABEL = "Sumber"
 
 
+QUERY_TEMPLATE = "task: question answering | query: {text}"
+DOCUMENT_TEMPLATE = "title: {title} | text: {text}"
+
+
 def query_embedding_text(text: str) -> str:
-    return f"task: question answering | query: {text}"
+    return QUERY_TEMPLATE.format(text=text)
 
 
 def document_embedding_text(title: str | None, text: str) -> str:
-    return f"title: {title or DOCUMENT_TITLE_FALLBACK} | text: {text}"
+    return DOCUMENT_TEMPLATE.format(title=title or DOCUMENT_TITLE_FALLBACK, text=text)

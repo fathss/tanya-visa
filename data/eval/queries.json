@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "description": "Retrieval eval set. relevant queries must surface the expected document/section; off_topic queries must be refused once SIMILARITY_THRESHOLD is set.",
+  "queries": [
+    {
+      "id": "r01",
+      "kind": "relevant",
+      "query": "Apa saja syarat membuat paspor baru?",
+      "expected_source": null,
+      "expected_section": "Persyaratan"
+    },
+    {
+      "id": "r02",
+      "kind": "relevant",
+      "query": "Berapa biaya pembuatan paspor?",
+      "expected_source": null,
+      "expected_section": "Biaya"
+    },
+    {
+      "id": "r03",
+      "kind": "relevant",
+      "query": "Bagaimana cara mendaftar paspor lewat aplikasi M-Paspor?",
+      "expected_source": null,
+      "expected_section": "Prosedur Pendaftaran Melalui Aplikasi M-Paspor"
+    },
+    {
+      "id": "r04",
+      "kind": "relevant",
+      "query": "Berapa lama proses penyelesaian pembuatan paspor?",
+      "expected_source": null,
+      "expected_section": "Jenis Layanan Paspor"
+    },
+    {
+      "id": "r05",
+      "kind": "relevant",
+      "query": "Bagaimana syarat penggantian paspor keluaran tahun 2009?",
+      "expected_source": null,
+      "expected_section": "Penggantian Paspor"
+    },
+    {
+      "id": "r06",
+      "kind": "relevant",
+      "query": "Bagaimana cara membuat paspor untuk anak di bawah umur?",
+      "expected_source": null,
+      "expected_section": "Anak di Bawah Umur"
+    },
+    {
+      "id": "r07",
+      "kind": "relevant",
+      "query": "Apa perbedaan visa on arrival dan visa kunjungan wisata?",
+      "expected_source": "Jangan Salah Pilih",
+      "expected_section": null
+    },
+    {
+      "id": "r08",
+      "kind": "relevant",
+      "query": "Berapa lama masa tinggal dengan visa B1?",
+      "expected_source": "B1 Visa Kunjungan Wisata",
+      "expected_section": "Masa tinggal"
+    },
+    {
+      "id": "r09",
+      "kind": "relevant",
+      "query": "Berapa biaya visa B1?",
+      "expected_source": "B1 Visa Kunjungan Wisata",
+      "expected_section": "Biaya (PNBP)"
+    },
+    {
+      "id": "r10",
+      "kind": "relevant",
+      "query": "Siapa yang bisa menjadi penjamin atau sponsor untuk pengajuan visa B1?",
+      "expected_source": "B1 Visa Kunjungan Wisata",
+      "expected_section": "Penjamin (Sponsor)"
+    },
+    {
+      "id": "o01",
+      "kind": "off_topic",
+      "query": "Bagaimana cara membuat kue bolu coklat?",
+      "expected_source": null,
+      "expected_section": null
+    },
+    {
+      "id": "o02",
+      "kind": "off_topic",
+      "query": "Bagaimana cara mengganti oli mobil sendiri?",
+      "expected_source": null,
+      "expected_section": null
+    },
+    {
+      "id": "o03",
+      "kind": "off_topic",
+      "query": "Siapa pemenang piala dunia sepak bola 2022?",
+      "expected_source": null,
+      "expected_section": null
+    },
+    {
+      "id": "o04",
+      "kind": "off_topic",
+      "query": "Bagaimana resep soto ayam tradisional?",
+      "expected_source": null,
+      "expected_section": null
+    },
+    {
+      "id": "o05",
+      "kind": "off_topic",
+      "query": "Bagaimana cara memperbaiki laptop yang mati total?",
+      "expected_source": null,
+      "expected_section": null
+    }
+  ]
+}

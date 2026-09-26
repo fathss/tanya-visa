@@ -1,0 +1,214 @@
+{
+  "embedding_model": "gemini-embedding-2",
+  "embedding_dimensions": 3072,
+  "query_template": "task: question answering | query: {text}",
+  "document_template": "title: {title} | text: {text}",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "chunk_count": 28,
+  "built_at": "2026-09-26T06:13:54+00:00",
+  "sources": [
+    "B1 Visa Kunjungan Wisata",
+    "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+    "Paspor Baru",
+    "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026"
+  ],
+  "chunks": [
+    {
+      "text": "Permohonan paspor biasa dapat diajukan oleh warga negara Indonesia, baik di dalam maupun luar wilayah Indonesia.\nPaspor biasa terdiri atas paspor biasa elektronik (e-paspor) dan paspor biasa nonelektronik.\nPaspor biasa diterbitkan dengan menggunakan Sistem Informasi Manajemen Keimigrasian.\nPermohonan paspor biasa dapat diajukan secara manual atau elektronik dengan melampirkan dokumen kelengkapan persyaratan.",
+      "source": "Paspor Baru",
+      "locator_type": "section",
+      "locator_value": "Informasi Umum",
+      "title": "Paspor Baru — Informasi Umum"
+    },
+    {
+      "text": "Kartu tanda penduduk (KTP) yang masih berlaku atau surat keterangan pindah ke luar negeri\nKartu keluarga (KK)\nDokumen berupa akta kelahiran, akta perkawinan, buku nikah, ijazah, atau surat baptis*\nSurat pewarganegaraan Indonesia bagi Orang Asing yang memperoleh kewarganegaraan Indonesia atau penyampaian pernyataan untuk memilih kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan\nSurat penetapan ganti nama (bagi yang telah mengganti nama) dari pejabat yang berwenang\nCatatan: *Nama, tempat dan tanggal lahir, serta nama orang tua harus tercantum dalam dokumen. Jika tidak, Anda dapat melampirkan surat keterangan dari instansi yang berwenang.",
+      "source": "Paspor Baru",
+      "locator_type": "section",
+      "locator_value": "Persyaratan",
+      "title": "Paspor Baru — Persyaratan"
+    },
+    {
+      "text": "Lakukan pendaftaran melalui aplikasi M-Paspor yang dapat diunduh melalui App Store atau Google Play. Permohonan manual dapat Anda lakukan dengan cara berikut.\nIsi data di aplikasi yang disediakan pada loket permohonan dan lampirkan dokumen kelengkapan persyaratan.\nTunggu Pejabat Imigrasi memeriksa dokumen kelengkapan persyaratan.\nDapatkan tanda terima permohonan dan kode pembayaran dari Pejabat Imigrasi setelah dokumen persyaratan dinyatakan lengkap.\nJika dokumen persyaratan dinyatakan belum lengkap, terima dokumen permohonan yang dikembalikan Pejabat Imigrasi. Permohonan dianggap ditarik kembali.",
+      "source": "Paspor Baru",
+      "locator_type": "section",
+      "locator_value": "Prosedur",
+      "title": "Paspor Baru — Prosedur"
+    },
+    {
+      "text": "Pemeriksaan kelengkapan dan keabsahan persyaratan\nPembayaran biaya paspor\nPengambilan foto dan sidik jari\nWawancara\nVerifikasi\nAdjudikasi",
+      "source": "Paspor Baru",
+      "locator_type": "section",
+      "locator_value": "Mekanisme Penerbitan",
+      "title": "Paspor Baru — Mekanisme Penerbitan"
+    },
+    {
+      "text": "1\nLayanan Percepatan Paspor Selesai Pada Hari yang Sama\nRp 1.000.000,-\n2\nPaspor Biasa Non Elektronik (Masa Berlaku 5 Tahun)\nRp 350.000,-\n3\nPaspor biasa Non Elektronik (Masa Berlaku 10 Tahun)\nRp 650.000,-\n4\nPaspor biasa Elektronik (Masa Berlaku 5 Tahun)\nRp 650.000,-\n5\nPaspor biasa Elektronik (Masa Berlaku 10 Tahun)\nRp 950.000,-\nPenggantian paspor karena hilang atau rusak dikenakan denda sebagai berikut.\nBiaya beban paspor hilang: Rp1.000.000,\nBiaya beban paspor rusak: Rp500.000,\nBiaya beban paspor hilang/rusak karena keadaan kahar: Rp0.",
+      "source": "Paspor Baru",
+      "locator_type": "section",
+      "locator_value": "Biaya",
+      "title": "Paspor Baru — Biaya"
+    },
+    {
+      "text": "Paspor merupakan dokumen perjalanan yang diterbitkan oleh negara kepada warga negaranya yang akan melakukan perjalanan ke luar negeri.\nKantor Imigrasi Kelas I TPI Malang berkomitmen memberikan layanan yang transparan dan akuntabel. Artikel ini akan membahas secara mendalam mengenai persyaratan dokumen, rincian biaya, hingga langkah-langkah menggunakan aplikasi M-Paspor.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "document",
+      "locator_value": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026"
+    },
+    {
+      "text": "Sebelum menyiapkan berkas, Anda perlu menentukan jenis paspor dan layanan yang dibutuhkan:\nPaspor Baru: Bagi warga negara yang belum pernah memiliki paspor.\nPenggantian Paspor: Karena habis masa berlaku (expired), halaman penuh, hilang, atau rusak.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Jenis Permohonan Paspor",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Jenis Permohonan Paspor"
+    },
+    {
+      "text": "Layanan Reguler: Paspor selesai 4 hari kerja.\nLayanan Percepatan: Paspor selesai pada hari yang sama.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Jenis Layanan Paspor (Waktu Penyelesaian)",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Jenis Layanan Paspor (Waktu Penyelesaian)"
+    },
+    {
+      "text": "Persyaratan dokumen dibedakan berdasarkan kategori pemohon. Pastikan Anda membawa dokumen asli dan fotokopi dalam ukuran kertas A4 .",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Syarat Dokumen Pengurusan Paspor",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Syarat Dokumen Pengurusan Paspor"
+    },
+    {
+      "text": "Bagi Anda yang baru pertama kali membuat paspor, siapkan dokumen berikut:\nKartu Tanda Penduduk (KTP) yang masih berlaku atau surat keterangan pindah ke luar negeri.\nKartu Keluarga (KK) terbaru.\nAkta Kelahiran, Buku Nikah, atau Ijazah . (Pilih salah satu dokumen yang mencantumkan nama, tempat lahir, tanggal lahir, dan nama orang tua).\nSurat penetapan ganti nama dari pejabat berwenang (bagi yang telah mengganti nama).",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "1. Pemohon Paspor Baru",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — 1. Pemohon Paspor Baru"
+    },
+    {
+      "text": "Jika paspor anda diterbitkan setelah tahun 2009 di dalam negeri dan tidak hilang/rusak, syaratnya:\nKTP Elektronik .\nPaspor Lama .\nCatatan: Jika paspor lama diterbitkan oleh KBRI di luar negeri atau paspor keluaran sebelum 2009, maka wajib melampirkan persyaratan lengkap seperti permohonan baru.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "2. Penggantian Paspor (Keluaran Tahun 2009 ke Atas)",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — 2. Penggantian Paspor (Keluaran Tahun 2009 ke Atas)"
+    },
+    {
+      "text": "Untuk pemohon anak, orang tua wajib mendampingi dan menyiapkan berkas:\nKTP Elektronik kedua orang tua.\nKartu Keluarga (nama anak sudah tercantum).\nAkta Kelahiran anak.\nBuku Nikah atau Akta Perkawinan orang tua.\nPaspor lama anak (jika sudah punya).\nPaspor kedua orang tua (jika ada).",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "3. Pemohon Anak di Bawah Umur (Di bawah 17 Tahun)",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — 3. Pemohon Anak di Bawah Umur (Di bawah 17 Tahun)"
+    },
+    {
+      "text": "Jenis Layanan\nMasa Berlaku\nBiaya Resmi\nPaspor Biasa Elektronik (E-Paspor)\n5 Tahun\nRp650.000\nPaspor Biasa Elektronik (E-Paspor)\n10 Tahun\nRp950.000\nLayanan Percepatan (Selesai Hari Sama)\n-\n+ Rp1.000.000\nDenda Paspor Hilang\n-\nRp1.000.000\nDenda Paspor Rusak\n-\nRp500.000",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Rincian Biaya Paspor",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Rincian Biaya Paspor"
+    },
+    {
+      "text": "Saat ini, pendaftaran antrean paspor melalui aplikasi M-Paspor yang dapat diunduh di Google Play Store atau App Store.\nRegistrasi Akun: Daftarkan email dan nomor ponsel Anda.\nPengajuan Permohonan: Pilih jenis permohonan (Reguler).\nUnggah Dokumen: Foto dan unggah dokumen asli yang diminta. Pastikan gambar jelas.\nPilih Kantor & Jadwal: Pilih Kantor Imigrasi Kelas I TPI Malang atau Unit Layanan Paspor (ULP) yang tersedia, lalu tentukan hari dan jam kedatangan.\nPembayaran: Lakukan pembayaran melalui Bank, Kantor Pos, atau marketplace dalam waktu maksimal 2 jam setelah pendaftaran.\nDatang Ke Kantor: Hadir sesuai jadwal dengan membawa kode booking dan berkas persyaratan.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Prosedur Pendaftaran Melalui Aplikasi M-Paspor",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Prosedur Pendaftaran Melalui Aplikasi M-Paspor"
+    },
+    {
+      "text": "Pakaian: Gunakan pakaian rapi berkerah. Hindari menggunakan pakaian berwarna putih karena latar belakang foto berwarna putih.\nKesesuaian Data: Pastikan data di KTP, KK, dan Akta Lahir sinkron (nama, tempat lahir, dan tanggal lahir harus sama persis). Jika ada perbedaan, lampirkan surat keterangan dari instansi terkait.\nKehadiran: Datanglah 15 menit sebelum jam jadwal yang anda pilih di M-Paspor.\nLayanan Percepatan: Untuk layanan satu hari jadi, anda bisa datang langsung ke Kantor Imigrasi Malang pada pukul 08.00 - 10.00 WIB dengan kuota terbatas setiap harinya.",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Tips Penting Agar Proses Berjalan Lancar",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Tips Penting Agar Proses Berjalan Lancar"
+    },
+    {
+      "text": "Apakah bisa mengurus paspor tanpa M-Paspor?\nUntuk kategori umum (reguler), wajib melalui M-Paspor. Namun, untuk kategori prioritas seperti lansia (di atas 60 tahun), penyandang disabilitas, balita, dan ibu hamil, dapat datang langsung (walk-in) tanpa antrean online.\nBerapa lama proses pembuatan paspor?\nPaspor akan selesai dalam waktu 4 hari kerja setelah dilakukan foto dan wawancara, dan tidak ada kekurangan berkas.\nBagaimana jika paspor saya hilang?\nAnda wajib melaporkan kehilangan ke Kepolisian terlebih dahulu untuk mendapatkan surat keterangan hilang. Setelah itu, datang ke Kantor Imigrasi untuk menempuh prosedur Berita Acara Pemeriksaan (BAP).",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "FAQ (Pertanyaan yang Sering Diajukan)",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — FAQ (Pertanyaan yang Sering Diajukan)"
+    },
+    {
+      "text": "Jl. Raden Panji Suroso No. 4, Polowijen, Kec. Blimbing, Kota Malang.\nUntuk informasi lebih lanjut, silakan hubungi layanan informasi dan pengaduan kami di:\nWhatsApp: 0811-3595-000\nEmail: This email address is being protected from spambots. You need JavaScript enabled to view it.\nInstagram: @imigrasi_malang\nKantor Imigrasi Kelas I TPI Malang Kantor Wilayah Ditjenim Jawa Timur\nJl. Raden Panji Suroso No.4, Polowijen, Kec. Blimbing, Kota Malang, Jawa Timur 65126\n08113595000\nEmail Kehumasan\nmalang@imigrasi.go.id\nEmail Pengaduan\nmalang@imigrasi.go.id\nKemenimipas RI\nDitjen Imigrasi\nTugas Pokok dan Fungsi\nVisi, Misi dan Tata Nilai\nStruktur Organisasi\nKontak Kami",
+      "source": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026",
+      "locator_type": "section",
+      "locator_value": "Lokasi Pelayanan Kantor Imigrasi Malang",
+      "title": "Syarat dan Prosedur Lengkap Pengurusan Paspor 2026 — Lokasi Pelayanan Kantor Imigrasi Malang"
+    },
+    {
+      "text": "berwisata\nmengunjungi keluarga\nmenghadiri : pertemuan, insentif, konvensi, dan pameran atau acara sejenis lainnya\nserta transit di Indonesia untuk ke negara lain.",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dengan visa B1, anda dapat",
+      "title": "B1 Visa Kunjungan Wisata — Dengan visa B1, anda dapat"
+    },
+    {
+      "text": "Visa B1 merupakan Visa Kunjungan Saat Kedatangan ( Visa on Arrival ) bagi negara subjek visa kunjungan saat kedatangan untuk satu kali masuk ke Indonesia dengan izin tinggal pertama kali maksimal 30 hari, dihitung sejak tanggal kedatangan. Izin Tinggal ini dapat diperpanjang satu kali dan dapat dialihkan menjadi izin tinggal lain melalui mekanisme bridging visa .",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Jenis visa",
+      "title": "B1 Visa Kunjungan Wisata — Jenis visa"
+    },
+    {
+      "text": "Anda dapat tinggal di Indonesia maksimal 30 hari, dihitung sejak tanggal kedatangan.\nAnda dapat memperpanjang izin tinggal ini satu kali hingga (keseluruhan masa tinggal) maksimal 60 hari.\nBagi pemegang e-VoA (visa kunjungan saat kedatangan elektronik), perpanjangan izin tinggal dapat dilakukan secara online melalui evisa.imigrasi.go.id atau dapat melalui indonesiavoa.vfsevisa.id\nBagi pemegang VoA nonelektronik, perpanjangan izin tinggal dapat dilakukan di kantor imigrasi terdekat dari domisili anda.",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Masa tinggal",
+      "title": "B1 Visa Kunjungan Wisata — Masa tinggal"
+    },
+    {
+      "text": "Biaya visa B1 Rp 500.000 (untuk 30 hari)\nBiaya Verifikasi I/II Rp 0\nPembayaran Visa Kunjungan Saat Kedatangan elektronik (e-VoA): pembayaran digital dengan kartu debit/kredit\nPembayaran Visa Kunjungan Saat Kedatangan nonelektronik: Konter bank yang ditunjuk pada area pemeriksaan imigrasi",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Biaya (PNBP)",
+      "title": "B1 Visa Kunjungan Wisata — Biaya (PNBP)"
+    },
+    {
+      "text": "Anda tidak membutuhkan penjamin/sponsor untuk mengajukan visa ini.",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Penjamin (Sponsor)",
+      "title": "B1 Visa Kunjungan Wisata — Penjamin (Sponsor)"
+    },
+    {
+      "text": "Permohonan dan Pembayaran Pra Kedatangan\nOrang asing dari negara subjek visa kunjungan saat kedatangan harus:\nmengajukan permohonan melalui evisa.imigrasi.go.id atau dapat melalui indonesiavoa.vfsevisa.id\nmengisi formulir dan mengunggah berkas secara elektronik, antara lain:\na. halaman biodata paspor yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis (untuk pemegang dokumen perjalanan selain paspor kebangsaan seperti paspor darurat (emergency passport) atau paspor sementara (temporary passport) dll harus berlaku selama 12 bulan)\nb. pasfoto berwarna terbaru (setahun terakhir). Detail\nc. tiket kembali atau tiket terusan ke negara lain, kecuali bagi awak alat angkut yang akan singgah untuk bergabung dengan kapalnya dan melanjutkan perjalanan ke negara lain\nmembayar menggunakan metode pembayaran digital melalui kartu debit/kredit\nmengecek dalam akun evisa dan email, karena visa kunjungan saat kedatangan elektronik akan dikirimkan oleh sistem dalam waktu 1x24 jam.\nPermohonan Pra Kedatangan dan Pembayaran Saat Kedatangan\nOrang asing dari negara subjek visa kunjungan saat kedatangan harus:\nmengajukan permohonan melalui evisa.imigrasi.go.id\nmengisi formulir dan mengunggah berkas secara elektronik, antara lain:\na. halaman biodata paspor yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis\n(untuk pemegang dokumen perjalanan selain paspor kebangsaan seperti paspor darurat (emergency passport) atau paspor sementara (temporary passport) dll harus berlaku selama 12 bulan)\nb. pasfoto berwarna terbaru (setahun terakhir). Detail",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "B1 Visa Kunjungan Wisata — Pengajuan visa"
+    },
+    {
+      "text": "b. pasfoto berwarna terbaru (setahun terakhir). Detail\nc. tiket kembali atau tiket terusan ke negara lain, kecuali bagi awak alat angkut yang akan singgah untuk bergabung dengan kapalnya dan melanjutkan perjalanan ke negara lain\nmembayar menggunakan metode pembayaran digital melalui kartu debit/kredit\nmengambil visa kunjungan saat kedatangan elektronik di konter visa.\nPermohonan dan Pembayaran Saat Kedatangan\nOrang asing dari negara subjek visa kunjungan saat kedatangan akan:\nmelakukan pembayaran Visa Kunjungan Saat Kedatangan di konter Bank yang ditunjuk pada area imigrasi bandar udara/pelabuhan dengan menunjukkan paspor yang sah dan masih berlaku paling singkat 6 bulan sebelum masa berlakunya habis kepada petugas (untuk pemegang dokumen perjalanan selain paspor kebangsaan seperti paspor darurat (emergency passport) atau paspor sementara (temporary passport) dll harus berlaku selama 12 bulan)\nmemperoleh Vaucer Visa, kertas sekuriti sebagai tanda bukti pembayaran Visa kunjungan saat kedatangan\nmenunjukkan Vaucer Visa kepada petugas imigrasi pada konter Visa Kunjungan Saat Kedatangan\nmemperoleh stiker Visa Kunjungan Saat Kedatangan yang ditempelkan pada paspor serta tanda masuk elektronik.",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Pengajuan visa",
+      "title": "B1 Visa Kunjungan Wisata — Pengajuan visa"
+    },
+    {
+      "text": "Orang Asing pemegang dokumen perjalanan bukan paspor kebangsaan berupa paspor sementara (temporary passport) dan paspor darurat (emergency passport) diizinkan mengajukan visa kunjungan saat kedatangan\nOrang Asing tanpa kewarganegaraan dan Orang Asing pemegang dokumen perjalanan (bukan paspor kebangsaan) berupa titre du voyage, certificate of identity, laissez passer , atau dokumen sejenis lainnya tidak diizinkan mengajukan visa kunjungan saat kedatangan.\nMasa berlaku visa kunjungan saat kedatangan elektronik (e-voa) adalah 90 hari sejak diterbitkan. Jika tidak digunakan dalam jangka waktu tersebut, Orang Asing harus mengajukan visa baru untuk dapat masuk ke Indonesia.\nVisa kunjungan saat kedatangan nonelektronik langsung digunakan setelah terbit\nHarap diperhatikan bahwa masa berlaku visa berbeda dengan masa tinggal, silakan periksa visa Anda untuk informasi tentang lama izin tinggal.\nOrang Asing dengan izin tinggal dari Visa B1 dilarang menjual barang atau jasa atau menerima imbalan, upah, atau sejenisnya atas kerja/usahanya dari perorangan atau korporasi di Indonesia.",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Ketentuan lain",
+      "title": "B1 Visa Kunjungan Wisata — Ketentuan lain"
+    },
+    {
+      "text": "Peraturan Pemerintah Nomor 45 tahun 2024 tentang Tarif PNBP di Lingkungan Kementerian Hukum dan HAM RI\nPeraturan Menteri Hukum dan HAM RI Nomor 11 Tahun 2024 tentang Visa dan Izin Tinggal\nPeraturan Menteri Hukum dan HAM RI Nomor 22 tahun 2023 tentang Visa dan Izin Tinggal\nKeputusan Menteri Imigrasi dan Pemasyarakatan Nomor M.IP-08.GR.01.01 tahun 2025 tentang Klasifikasi Visa\nPeraturan Menteri Keuangan RI Nomor 9/PMK.02/2022 tentang Jenis dan Tarif PNBP Kebutuhan Mendesak atas Pelayanan Keimigrasian yang berlaku pada Kemenkumham RI\nPeraturan Menteri Keuangan RI Nomor 82 Tahun 2023 tentang Jenis dan Tarif atas Jenis PNBP Kebutuhan Mendesak atas Pelayanan Golden Visa yang berlaku pada Kemenkumham RI",
+      "source": "B1 Visa Kunjungan Wisata",
+      "locator_type": "section",
+      "locator_value": "Dasar hukum",
+      "title": "B1 Visa Kunjungan Wisata — Dasar hukum"
+    },
+    {
+      "text": "19 Apr 2024\nJAKARTA – Orang asing yang akan berwisata atau kunjungan keluarga tidak jarang mengalami kesulitan dalam memilih antara Visa on Arrival (VoA) dengan Visa Kunjungan Wisata (VKW). Merujuk pada Keputusan Menteri Hukum dan HAM Nomor M.HH-02.GR.01.04 tahun 2023 tentang Klasifikasi Visa, VoA dan VKW memang sama-sama diperuntukkan untuk kegiatan wisata, kunjungan keluarga atau transit. Hanya saja ada sejumlah hal yang membedakan kedua jenis visa tersebut.\n“VoA dan VKW sekilas memang mirip dalam hal peruntukkan kegiatannya. Sisanya berbeda sama sekali,” jelas Direktur Lalu Lintas Keimigrasian, Felucia Sengky.\nLebih lanjut Sengky menjelaskan bahwa ada tujuh perbedaan mendasar di antara VoA dan VKW.\nBerikut di antaranya:\n1. Indeks Visa\nVisa on Arrival menggunakan indeks B1 sedangkan Visa Kunjungan Wisata berindeks C1.\n2. Peruntukkan negara\nTidak semua negara bisa mengajukan visa on arrival. Hanya 97 negara yang bisa memperoleh VKSK sedangkan VKW bisa diajukan oleh negara mana saja.\n3. Lama Tinggal\nUntuk pemberian pertama, pemegang VoA diizinkan untuk tinggal selama 30 hari di Indonesia, sementara itu pemegang VKW bisa tinggal hingga 60 hari.\n4. Biaya\nJika VoA bisa diperoleh dengan biaya Rp. 500.000,-, orang asing yang akan mengajukan VKW harus mengeluarkan biaya tiga kali lipatnya atau sejumlah Rp 1.500.000,- dengan masa tinggal yang dua kali lebih lama dibanding orang asing pemegang VoA\n5. Pengajuan",
+      "source": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+      "locator_type": "document",
+      "locator_value": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+      "title": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival"
+    },
+    {
+      "text": "5. Pengajuan\nVoA dapat diperoleh secara langsung di Tempat Pemeriksaan Imigrasi di Bandara atau Pelabuhan pada saat kedatangan, atau diajukan sebelumnya secara daring melalui evisa.imigrasi.go.id. Sementara itu, orang asing yang akan mengajukan VKW secara daring harus memiliki akun terlebih dahulu di evisa.imigrasi.go.id.\n6. Persetujuan\nJika VoA bisa langsung diberikan kepada orang asing yang mengajukan baik secara langsung maupun via daring tanpa memiliki akun atau penjamin, tidak demikian halnya untuk VKW.\nOrang asing harus memiliki akun dan/atau penjamin terlebih dahulu, serta menunggu selama maksimal lima hari kerja untuk proses verifikasi visa. Jika disetujui, visa elektronik akan dikirimkan kepada email milik penjamin maupun orang asing yang telah didaftarkan.\n7. Perpanjangan\nVoA hanya dapat diperpanjang satu kali untuk 30 hari berikutnya. Perpanjangan pun dapat dilakukan secara daring pada evisa.imigrasi.go.id. (khusus e-voa) atau datang langsung ke kantor imigrasi mana saja di seluruh Indonesia.\nBerbeda dengan VoA, VKW dapat diperpanjang hingga total masa tinggal 180 hari. Perpanjangan juga bisa dilakukan secara daring melalui evisa.imigrasi.go.id ataupun datang langsung ke kantor imigrasi mana saja di seluruh Indonesia\n\"Silakan dipilih visa mana yang paling sesuai. Kalau masih bingung seputar informasi keimigrasian lainnya, masyarakat bisa memanfaatkan livechat Ditjen Imigrasi di www.imigrasi.go.id pada Senin-Jumat pukul 09.00 sampai dengan 15.00 WIB,\" tutup Sengky.\n1 Mei 2026\n21 Apr 2026\n4 Feb 2026",
+      "source": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+      "locator_type": "document",
+      "locator_value": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival",
+      "title": "Jangan Salah Pilih, Ini Beda Visa Kunjungan Wisata dan Visa on Arrival"
+    }
+  ]
+}
