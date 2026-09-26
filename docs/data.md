@@ -19,7 +19,7 @@ data/
 Korpus dokumen sumber. `rag.loader` memuat semua file `.html`/`.htm`/`.pdf` di sini
 (mengabaikan file lain), terurut berdasarkan nama file.
 
-- Total: **23 dokumen, 198 chunk** (index terakhir di-build 2026-09-26).
+- Total: **24 dokumen, 203 chunk** (index terakhir di-build 2026-09-26).
 - Dominan berbahasa Indonesia, dengan 2 dokumen resmi Singapura (EN) dan 1 dokumen
   resmi Malaysia (MS).
 - Daftar lengkap dokumen beserta bahasa, topik, URL sumber, dan tanggal undang ada

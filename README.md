@@ -102,11 +102,12 @@ Semua dokumen bersifat publik dan berasal dari situs resmi pemerintah/kedutaan. 
 | `imigrasi_daftar_negara_voa_bvk_calling_visa.html` | ID     | Daftar Negara Subjek VoA, BVK & Calling Visa       | https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa                                                         | 2026-09-26    |
 | `imigrasi_faq_negara_e_voa.html`                   | ID     | FAQ: Negara yang Dapat Mengajukan e-VOA            | https://www.imigrasi.go.id/faq/visa/negara-mana-saja-yang-terdaftar-dalam-daftar-electronic-visa-on-arrival-e-voa        | 2026-09-26    |
 | `imigrasi_uu_keimigrasian_bab_4_5.html`            | ID     | UU Keimigrasian — Bab IV (Dokumen Perjalanan) & V (Visa/Izin Tinggal) | https://depok.imigrasi.go.id/uu-keimigrasian/ (dipangkas)                                             | 2026-09-26    |
+| `imigrasi_daftar_52_kantor_paspor_elektronik.html` | ID     | Daftar 52 Kantor Imigrasi Penerbit Paspor Elektronik | https://www.imigrasi.go.id/berita/2022/01/24/ini-daftar-52-kantor-imigrasi-yang-bisa-terbitkan-paspor-elektronik | 2026-09-26    |
 | `sg_ica_visa_requirements.html`                    | EN     | Singapura — Check if You Need an Entry Visa        | https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements                                          | 2026-09-26    |
 | `sg_ica_visa_free_transit_facility.html`           | EN     | Singapura — Visa Free Transit Facility             | https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility                                 | 2026-09-26    |
 | `my_pas_lawatan_sosial_jangka_panjang.html`        | MS     | Malaysia — Pas Lawatan Sosial Jangka Panjang       | https://www.imi.gov.my/index.php/perkhidmatan-utama/pas/pas-lawatan/pas-lawatan-sosial/pas-lawatan-sosial-jangka-panjang/ | 2026-09-26    |
 
-Sembilan belas dokumen berbahasa Indonesia, ditambah tiga dokumen berbahasa Inggris (dua dari Singapura, satu portal e-Visa Indonesia) dan satu berbahasa Melayu (Malaysia), karena tidak selalu ada sumber resmi berbahasa Indonesia yang dapat diambil otomatis.
+Dua puluh dokumen berbahasa Indonesia, ditambah tiga dokumen berbahasa Inggris (dua dari Singapura, satu portal e-Visa Indonesia) dan satu berbahasa Melayu (Malaysia), karena tidak selalu ada sumber resmi berbahasa Indonesia yang dapat diambil otomatis.
 
 ### Catatan Freshness
 
