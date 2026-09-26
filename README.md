@@ -67,23 +67,7 @@ Buka `http://localhost:8501`. Jawaban tampil sebagai prosa tanpa daftar sumber.
 Sidebar bisa dipakai untuk menambah dokumen PDF/HTML, mengembalikan korpus ke
 bawaan, dan mengosongkan riwayat percakapan.
 
-## Deploy
-
-Deploy ke Streamlit Community Cloud (opsional — menjalankan lokal juga cukup):
-
-1. Push repo ke GitHub. Index di `data/index/` sudah ikut di-commit, jadi tidak
-   ada proses build embedding saat deploy.
-2. Di [share.streamlit.io](https://share.streamlit.io), buat app baru yang
-   menunjuk ke `app.py`.
-3. Buka **Settings → Secrets**, lalu isi:
-
-   ```toml
-   GEMINI_API_KEY = "kunci-anda"
-   ```
-
-   `app.py` membaca kunci dari `.env` bila ada, atau dari `st.secrets` bila tidak.
-
-4. Deploy.
+Versi online: [tanya-visa.streamlit.app](https://tanya-visa-ga2q28c2mwus7yyagzv9fw.streamlit.app/)
 
 ## Struktur Folder
 
