@@ -1,4 +1,4 @@
-"""Load source documents into chunks carrying citation metadata.
+"""Load source documents into chunks carrying locator metadata.
 """
 
 from __future__ import annotations

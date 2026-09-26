@@ -42,7 +42,7 @@ def _retry_wait(exc: Exception, attempt: int) -> float:
     return min(5.0 * (2**attempt), _RETRY_MAX_WAIT)
 
 
-def _embed(client: genai.Client, texts: list[str]) -> list[list[float]]:
+def _embed(client: genai.Client, texts: list[str], label: str) -> list[list[float]]:
     contents = [types.Content(parts=[types.Part.from_text(text=text)]) for text in texts]
 
     result = None
@@ -57,7 +57,13 @@ def _embed(client: genai.Client, texts: list[str]) -> list[list[float]]:
         except genai_errors.APIError as exc:
             if attempt == _RETRY_ATTEMPTS - 1 or not _is_retryable(exc):
                 raise
-            time.sleep(_retry_wait(exc, attempt))
+            wait = _retry_wait(exc, attempt)
+            print(
+                f"{label}rate limited; waiting {wait:.0f}s "
+                f"(attempt {attempt + 1}/{_RETRY_ATTEMPTS})",
+                flush=True,
+            )
+            time.sleep(wait)
 
     vectors = [list(embedding.values) for embedding in result.embeddings]
     if len(vectors) != len(texts):
@@ -71,9 +77,17 @@ def _embed(client: genai.Client, texts: list[str]) -> list[list[float]]:
 
 
 def _embed_all(client: genai.Client, texts: list[str]) -> list[list[float]]:
+    total = len(texts)
+    batch_size = config.EMBEDDING_BATCH_SIZE
+    batch_count = max(1, -(-total // batch_size))
     vectors: list[list[float]] = []
-    for start in range(0, len(texts), config.EMBEDDING_BATCH_SIZE):
-        vectors.extend(_embed(client, texts[start : start + config.EMBEDDING_BATCH_SIZE]))
+
+    for number, start in enumerate(range(0, total, batch_size), start=1):
+        stop = min(start + batch_size, total)
+        label = f"  [embed {number}/{batch_count}] "
+        print(f"{label}{stop - start} chunks ({start + 1}-{stop} of {total})…", flush=True)
+        vectors.extend(_embed(client, texts[start:stop], label))
+
     return vectors
 
 

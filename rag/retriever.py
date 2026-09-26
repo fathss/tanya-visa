@@ -47,6 +47,24 @@ class Retriever:
     def build(cls, chunks: list[Chunk], vectors: list[list[float]]) -> "Retriever":
         return cls(build_index(vectors), list(chunks))
 
+    def add(self, chunks: list[Chunk], vectors: list[list[float]]) -> None:
+        """Append chunks to this index.
+        """
+        if not chunks:
+            return
+        if len(chunks) != len(vectors):
+            raise ValueError(f"Got {len(vectors)} vectors for {len(chunks)} chunks.")
+
+        matrix = np.asarray(vectors, dtype=np.float32)
+        if matrix.shape[1] != self.index.d:
+            raise ValueError(
+                f"Vector dimension {matrix.shape[1]} does not match "
+                f"index dimension {self.index.d}."
+            )
+
+        self.index.add(matrix)
+        self.chunks.extend(chunks)
+
     def search(
         self,
         query_vector: list[float],
